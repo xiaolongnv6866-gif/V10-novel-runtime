@@ -19,7 +19,8 @@
 - Stage 1.6: complete / validated
 - Stage 2: complete / validated
 - Stage 3: complete / validated
-- Stage 4–5: not started
+- Stage 4: complete / fallback self-test pass
+- Stage 5: not started
 - verified canonical units: 20
 - promoted independent Skills: 7
 - router capability cards: 13
