@@ -36,7 +36,7 @@
 
 语言信号：寻租、资源升值、拆权、腐化、rent-seeking、power rebalance、resource allocation.
 
-与相邻能力的初步区分：power-contract 定义初始岗位权力；本能力处理**环境变化后旧权力合同为何需要再拆**。success-constraints 处理更广泛的成功后二阶约束。
+与相邻能力的区分（定稿）：power-contract 定义初始岗位权力；本能力处理**环境变化后旧权力合同为何需要再拆**。success-constraints 处理更广泛的成功后二阶约束。
 
 ## E — Execution
 
@@ -69,3 +69,10 @@
 不要看到集中权力就机械拆分；早期环境可能确实需要效率。
 不要只加监督而不改变利益结构。
 若岗位本身从未定义清楚，先用 power-contract；若是整体扩张导致层级失效，用 scale-restructure。
+
+
+## 相关能力
+
+- `power-contract` — 组合：先用 power-contract 确认原始职责与权限，再判断哪些权力因资源升值需要拆分。
+- `success-constraints` — 组合：资源升值与寻租风险是组织成功后的典型二阶约束。
+- `structural-conflict` — 组合：拆权会改变既得利益，由此生成新的结构性阻力。
