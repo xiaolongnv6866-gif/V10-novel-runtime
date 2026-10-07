@@ -36,7 +36,7 @@
 
 语言信号：职责、权限、资源、问责、岗位设计、authority、accountability、role contract。
 
-与相邻能力的初步区分：本能力定义**一个职位/部门的权力合同**；scale-restructure 决定整体结构是否要改，resource-power-rebalance 处理成功后权力因资源升值需要再拆。
+与相邻能力的区分（定稿）：本能力定义**一个职位/部门的权力合同**；scale-restructure 决定整体结构是否要改，resource-power-rebalance 处理成功后权力因资源升值需要再拆。
 
 ## E — Execution
 
@@ -71,3 +71,10 @@
 不要把职责写得无限宽。
 不要假设制度一公布就会自动执行；原书同章就出现站队、抢权限和扯皮。
 如果问题来自整体规模失效，用 scale-restructure；如果是资源价值变化后的腐化风险，用 resource-power-rebalance。
+
+
+## 相关能力
+
+- `scale-restructure` — 组合：组织重构确定新岗位后，本卡把岗位落成真实权力契约。
+- `resource-power-rebalance` — 组合：环境成功、资源升值后，用它检查原权力合同是否需要拆分。
+- `delegated-execution` — 组合：专业执行必须建立在明确的职责、资源、边界与问责上。
