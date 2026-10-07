@@ -10,9 +10,9 @@
 
 - Stage 0 Adler whole-book understanding: **COMPLETE / USER CONFIRMED**
 - Stage 1 five extractors: **COMPLETE**
-- Stage 1.5 triple verification: **COMPLETE / WAITING USER LIGHT CONFIRMATION**
-- Stage 1.6 promotion gate: NOT STARTED
-- Stage 2 RIA++ capability cards: NOT STARTED
+- Stage 1.5 triple verification: **COMPLETE / USER CONFIRMED**
+- Stage 1.6 promotion gate: **COMPLETE / VALIDATED**
+- Stage 2 RIA++ capability cards: **READY / NOT STARTED**
 - Stage 3 Zettelkasten links: NOT STARTED
 - Stage 4 pressure tests: NOT STARTED
 - Stage 5 compile/delivery: NOT STARTED
@@ -35,10 +35,40 @@
 - outright rejected for missing/false source: 0
 - coverage: all Stage 0 tasks have a recorded destination; WM-T14 remains partial because exposition-load control lacks a source-complete executable rule
 
+## Stage 1.6 result
+
+- gate-reviewed verified units: 20
+- five-gate minimum eligible: 20
+- promoted independent Skills: 7
+- router capability cards: 13
+- source router entries: 1
+- total discoverable entries: 8
+- promotion budget: 8
+- budget status: PASS
+- active destination mappings: 20 / 20
+- duplicate capability IDs: 0
+- duplicate slugs: 0
+- destination integrity errors: 0
+- review: `STAGE1_6_PROMOTION_REVIEW.md`
+- bundle: `.cangjie/capabilities/verified.yaml`
+- destinations: `.cangjie/capabilities/destinations.json`
+
+### Promoted
+
+1. `cap.wanming.adaptive-opponents`
+2. `cap.wanming.micro-life-dashboard`
+3. `cap.wanming.limited-info-multipov`
+4. `cap.wanming.scale-restructure`
+5. `cap.wanming.aftermath-settlement`
+6. `cap.wanming.institution-transfer-pilot`
+7. `cap.wanming.source-conflict-canon`
+
+All other verified units remain active and reachable through `wanming-router`; none were moved to rejected.
+
 ## Environment note
 
 The container has no direct GitHub DNS/network access, so `git clone` of the Cangjie repo failed. The GitHub connector was used to read the original v2.5 source files. The current environment has no independent sub-agent primitive; Stage 1 therefore used the SKILL-prescribed serial fallback with the same five extractor duties. Local chunk/index generation uses the already-read v2.5 interface reproduced in this isolated candidate workspace. These deviations remain audit-visible.
 
-## Next gate
+## Next step
 
-Per Cangjie Stage 1.5 invariant, do **not** run Stage 1.6 until the user confirms or corrects the four-way split: verified / reference / needs_review / rejected.
+Run Cangjie Stage 2 using the original `methodology/04-stage2-ria-plus.md`: build one complete R/I/A1/A2/E/B capability card for each of the 20 active verified units and update the same Bundle metadata. Do not modify V10 Runtime or Canon.
