@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "suite_id": "wanming-institution-transfer-pilot",
+  "target": "institution-transfer-pilot",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "it-pos-01",
+      "prompt": "穿越者只记得一个现代制度的大概名字，不懂完整程序。我不想让他凭空装懂，帮我设计最小试点。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "it-pos-02",
+      "prompt": "新制度第一次运行就混乱了，帮我区分是制度本身问题、配套缺失还是人物其实不知道怎么运作。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "it-pos-03",
+      "prompt": "请把这项现代做法拆成已知、未知、必要配套、试点范围、失败信号和继续/暂停标准。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "it-neg-01",
+      "prompt": "两份史料对某官员去职日期冲突，我要确定小说到底采用哪个时间线。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "it-sib-01",
+      "prompt": "远端地区行政反应太慢，我已经知道问题是中央直管距离太远，想做地方分权的小范围试点。",
+      "expected": "sibling",
+      "sibling_target": "wanming-router",
+      "runs": 1
+    },
+    {
+      "case_id": "it-edge-01",
+      "prompt": "人物只记得现代制度的一个关键词，但作者本人知道完整现实制度，可以直接把作者知识塞给人物补齐吗？",
+      "expected": "edge_case",
+      "runs": 1
+    }
+  ],
+  "output_cases": []
+}
