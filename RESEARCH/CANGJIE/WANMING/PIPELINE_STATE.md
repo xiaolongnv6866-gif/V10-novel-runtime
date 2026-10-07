@@ -12,7 +12,7 @@
 - Stage 1 five extractors: **COMPLETE**
 - Stage 1.5 triple verification: **COMPLETE / USER CONFIRMED**
 - Stage 1.6 promotion gate: **COMPLETE / VALIDATED**
-- Stage 2 RIA++ capability cards: **READY / NOT STARTED**
+- Stage 2 RIA++ capability cards: **IN PROGRESS — 5 / 20**
 - Stage 3 Zettelkasten links: NOT STARTED
 - Stage 4 pressure tests: NOT STARTED
 - Stage 5 compile/delivery: NOT STARTED
@@ -69,6 +69,12 @@ All other verified units remain active and reachable through `wanming-router`; n
 
 The container has no direct GitHub DNS/network access, so `git clone` of the Cangjie repo failed. The GitHub connector was used to read the original v2.5 source files. The current environment has no independent sub-agent primitive; Stage 1 therefore used the SKILL-prescribed serial fallback with the same five extractor duties. Local chunk/index generation uses the already-read v2.5 interface reproduced in this isolated candidate workspace. These deviations remain audit-visible.
 
+## Stage 2 progress
+
+- completed cards: 5 / 20
+- batch 1: actionability-ladder, learning-loop, scale-restructure, information-triage, power-contract
+- each completed card has R / I / A1 / A2 / E / B and corresponding Bundle frontmatter.description
+
 ## Next step
 
-Run Cangjie Stage 2 using the original `methodology/04-stage2-ria-plus.md`: build one complete R/I/A1/A2/E/B capability card for each of the 20 active verified units and update the same Bundle metadata. Do not modify V10 Runtime or Canon.
+Continue Cangjie Stage 2 using the original `methodology/04-stage2-ria-plus.md`: build one complete R/I/A1/A2/E/B capability card for each of the 20 active verified units and update the same Bundle metadata. Do not modify V10 Runtime or Canon.
