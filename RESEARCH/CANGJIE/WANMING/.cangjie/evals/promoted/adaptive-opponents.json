@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "suite_id": "wanming-adaptive-opponents",
+  "target": "adaptive-opponents",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "ao-pos-01",
+      "prompt": "主角刚靠新的组织方式赢了一次，但我不想让敌人下一章还像没见过一样。帮我设计敌方之后会怎么重新判断。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "ao-pos-02",
+      "prompt": "这几个对手打了三次还是一个套路，太像木桩了。只按他们能知道的情报，让他们学习、也允许误判。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "ao-pos-03",
+      "prompt": "我想让朝廷、商人和敌对势力都因为这场胜利重新估价主角，但不要开上帝视角。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "ao-neg-01",
+      "prompt": "帮我把这个人物第一次升官需要哪些合法身份和资源桥梁补齐。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "ao-sib-01",
+      "prompt": "同一场城内危机我想切地方官、商人、难民三个视角，分别限制他们知道的信息。",
+      "expected": "sibling",
+      "sibling_target": "limited-info-multipov",
+      "runs": 1
+    },
+    {
+      "case_id": "ao-edge-01",
+      "prompt": "敌人听到了一条未经证实的传闻，我需要判断他会不会因此改变行为；证据很弱。",
+      "expected": "edge_case",
+      "runs": 1
+    }
+  ],
+  "output_cases": []
+}
