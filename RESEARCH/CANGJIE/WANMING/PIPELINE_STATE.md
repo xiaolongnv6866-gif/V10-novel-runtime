@@ -12,8 +12,8 @@
 - Stage 1 five extractors: **COMPLETE**
 - Stage 1.5 triple verification: **COMPLETE / USER CONFIRMED**
 - Stage 1.6 promotion gate: **COMPLETE / VALIDATED**
-- Stage 2 RIA++ capability cards: **IN PROGRESS — 20 / 20 — VALIDATING**
-- Stage 3 Zettelkasten links: NOT STARTED
+- Stage 2 RIA++ capability cards: **COMPLETE / VALIDATED — 20 / 20**
+- Stage 3 Zettelkasten links: **READY / NOT STARTED**
 - Stage 4 pressure tests: NOT STARTED
 - Stage 5 compile/delivery: NOT STARTED
 - V10 candidate promotion review: NOT STARTED
@@ -78,6 +78,15 @@ The container has no direct GitHub DNS/network access, so `git clone` of the Can
 - batch 4: public-memory-recoding, relationship-multiaxis, source-conflict-canon, resource-power-rebalance, structural-conflict
 - each completed card has R / I / A1 / A2 / E / B and corresponding Bundle frontmatter.description
 
+## Stage 2 validation
+
+- cards present: 20 / 20
+- R/I/A1/A2/E/B complete: 20 / 20
+- Bundle trigger descriptions present: 20 / 20
+- trigger descriptions <= 300 chars: 20 / 20
+- accidental card frontmatter: 0
+- summary: `STAGE2_SUMMARY.md`
+
 ## Next step
 
-Continue Cangjie Stage 2 using the original `methodology/04-stage2-ria-plus.md`: build one complete R/I/A1/A2/E/B capability card for each of the 20 active verified units and update the same Bundle metadata. Do not modify V10 Runtime or Canon.
+Run Cangjie Stage 3 using the original `methodology/04-stage2-ria-plus.md`: build one complete R/I/A1/A2/E/B capability card for each of the 20 active verified units and update the same Bundle metadata. Do not modify V10 Runtime or Canon.
