@@ -14,8 +14,8 @@
 - Stage 1.6 promotion gate: **COMPLETE / VALIDATED**
 - Stage 2 RIA++ capability cards: **COMPLETE / VALIDATED — 20 / 20**
 - Stage 3 Zettelkasten links: **COMPLETE / VALIDATED**
-- Stage 4 pressure tests: **IN PROGRESS — 4B COMPLETE / 4C READY**
-- Stage 5 compile/delivery: NOT STARTED
+- Stage 4 pressure tests: **COMPLETE — FALLBACK SELF-TEST PASS**
+- Stage 5 compile/delivery: **READY / NOT STARTED**
 - V10 candidate promotion review: NOT STARTED
 
 ## Stage 1 counts
@@ -115,5 +115,21 @@ Run Cangjie Stage 4 pressure tests using the original `methodology/06-stage4-pre
 - promoted trigger suites: 7 / 7 — SELF-TEST PASS
 - router reachability suites: 13 / 13 — 26 / 26 cases PASS
 - output cases designed: 40 / 40 — FROZEN
-- actual outputs completed: 0 / 40
+- actual outputs completed: 40 / 40 — FINAL ASSERTIONS PASS
 - environment: fallback_self_test (no independent sub-agent)
+
+
+## Stage 4 conclusion
+
+- promoted trigger: 42 / 42 route-consistency pass
+- router reachability: 26 / 26 pass
+- actual output tasks: 40 / 40 completed
+- final audited output assertions: 40 / 40 pass
+- cross-capability stress: 2 / 2 pass
+- environment: fallback_self_test
+- independent blind sub-agent retest: not available / recommended
+- result: `STAGE4_RESULTS.md`
+
+## Next step
+
+Run Cangjie Stage 5 using the original `methodology/07-stage5-deliver.md`: generate DIGEST, validate/compile from the Bundle, keep V10 Runtime/Canon unchanged, then create the final versioned research snapshot.
