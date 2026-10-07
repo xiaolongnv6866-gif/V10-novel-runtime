@@ -1,0 +1,45 @@
+name: Wanming Cangjie Auto Decision
+
+on:
+  push:
+    paths:
+      - ".github/workflows/wanming-cangjie-auto.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  decide:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout V10
+        uses: actions/checkout@v4
+
+      - name: Checkout original Cangjie
+        uses: actions/checkout@v4
+        with:
+          repository: kangarooking/cangjie-skill
+          path: cangjie
+
+      - name: Install dependency
+        run: python3 -m pip install pyyaml
+
+      - name: Run original Cangjie auto decision
+        shell: bash
+        run: |
+          set +e
+          python3 cangjie/scripts/cangjie.py compile \
+            --bundle RESEARCH/CANGJIE/WANMING/.cangjie/capabilities \
+            --out /tmp/wanming-dist \
+            --output auto
+          rc=$?
+          echo "cangjie_rc=$rc"
+          if [ "$rc" -ne 2 ]; then
+            echo "Expected rc=2 for auto mode pending user confirmation."
+            exit "$rc"
+          fi
+          report="$(find RESEARCH/CANGJIE/WANMING/.cangjie/runs -name output-decision.md -type f | sort | tail -n 1)"
+          echo "REPORT_PATH=$report"
+          echo "===== OUTPUT DECISION REPORT ====="
+          cat "$report"
+          echo "===== END OUTPUT DECISION REPORT ====="
