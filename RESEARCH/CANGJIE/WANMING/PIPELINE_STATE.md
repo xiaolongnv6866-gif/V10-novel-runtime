@@ -112,7 +112,7 @@ Run Cangjie Stage 4 pressure tests using the original `methodology/06-stage4-pre
 ## Stage 4 progress
 
 - 4A plan: COMPLETE (`STAGE4_PLAN.md`)
-- promoted trigger suites: 0 / 7
+- promoted trigger suites: 7 / 7
 - router reachability suites: 0 / 13 capabilities
 - output cases designed: 0 / 40
 - actual outputs completed: 0 / 40
