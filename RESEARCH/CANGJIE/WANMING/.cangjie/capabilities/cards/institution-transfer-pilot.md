@@ -37,7 +37,7 @@
 
 语言信号：制度移植、试点、现代知识边界、institution transfer、pilot program、unknown prerequisites。
 
-与相邻能力的初步区分：本能力处理**知识/制度跨环境移植**；decentralized-pilot 专门处理地域分权，learning-loop 处理任何行动后的组织反馈。
+与相邻能力的区分（定稿）：本能力处理**知识/制度跨环境移植**；decentralized-pilot 专门处理地域分权，learning-loop 处理任何行动后的组织反馈。
 
 ## E — Execution
 
@@ -72,3 +72,9 @@
 不要因第一次失败就直接证明制度错误。
 不要把书中角色的具体政治或司法观点晋升为普遍真理；本卡只保留试点学习机制。
 当来源不足以说明制度本身时，应停止在“未知”，而不是补造。
+
+
+## 相关能力
+
+- `learning-loop` — 组合：试点暴露的问题要通过反馈—筛选—规则修改进入下一轮。
+- `decentralized-pilot` — 组合：地方分权本身可作为一种有限制度试点。
