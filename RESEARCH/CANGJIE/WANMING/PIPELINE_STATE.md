@@ -15,7 +15,7 @@
 - Stage 2 RIA++ capability cards: **COMPLETE / VALIDATED — 20 / 20**
 - Stage 3 Zettelkasten links: **COMPLETE / VALIDATED**
 - Stage 4 pressure tests: **COMPLETE — FALLBACK SELF-TEST PASS**
-- Stage 5 compile/delivery: **READY / NOT STARTED**
+- Stage 5 compile/delivery: **AUTO DECISION COMPLETE / WAITING USER OUTPUT CONFIRMATION**
 - V10 candidate promotion review: NOT STARTED
 
 ## Stage 1 counts
@@ -133,3 +133,22 @@ Run Cangjie Stage 4 pressure tests using the original `methodology/06-stage4-pre
 ## Next step
 
 Run Cangjie Stage 5 using the original `methodology/07-stage5-deliver.md`: generate DIGEST, validate/compile from the Bundle, keep V10 Runtime/Canon unchanged, then create the final versioned research snapshot.
+
+
+## Stage 5 auto decision
+
+- execution: original Cangjie v2.5.0 via GitHub Actions
+- Cangjie commit: `a28de55ba881b9928956a55048f743f7a9e3b23e`
+- workflow run: `37654897376`
+- auto command return: expected rc=2 (pending user confirmation)
+- recommended output: **single**
+- single output: 1 discoverable Skill + 20 internal capability cards + references
+- alternative: compact pack = 1 router + 7 promoted Skills (8 discoverable entries)
+- decision report: `STAGE5_OUTPUT_DECISION.md`
+- formal compile / validate: NOT RUN until user light confirmation
+
+## Required user response
+
+- 按推荐
+- 改成 single
+- 改成 pack
