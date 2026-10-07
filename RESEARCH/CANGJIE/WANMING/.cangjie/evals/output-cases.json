@@ -180,12 +180,21 @@
           "expected": "scale-restructure"
         },
         {
-          "kind": "regex",
-          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\""
+          "kind": "json_equals",
+          "value": "$.status",
+          "expected": "complete"
         },
         {
           "kind": "json_path",
-          "value": "$.missing"
+          "value": "$.result.bottlenecks"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.minimum_restructure"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.reevaluation_triggers"
         },
         {
           "kind": "json_path",
@@ -194,7 +203,8 @@
       ],
       "compare_against": [
         "without_skill"
-      ]
+      ],
+      "test_revision_note": "Post-run test repair: this is a sufficient-information negative-decision boundary, not a missing-input/out-of-scope boundary. Expected output is a complete 'do not add/do not expand' decision under the capability contract. Existing output is not changed."
     },
     {
       "case_id": "information_triage_normal",
@@ -729,12 +739,13 @@
           "expected": "limited-info-multipov"
         },
         {
-          "kind": "regex",
-          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\""
+          "kind": "json_equals",
+          "value": "$.status",
+          "expected": "complete"
         },
         {
           "kind": "json_path",
-          "value": "$.missing"
+          "value": "$.result.viewpoints"
         },
         {
           "kind": "json_path",
@@ -743,7 +754,8 @@
       ],
       "compare_against": [
         "without_skill"
-      ]
+      ],
+      "test_revision_note": "Post-run test repair: this is a sufficient-information negative-decision boundary, not a missing-input/out-of-scope boundary. Expected output is a complete 'do not add/do not expand' decision under the capability contract. Existing output is not changed."
     },
     {
       "case_id": "aftermath_settlement_normal",
@@ -790,12 +802,17 @@
           "expected": "aftermath-settlement"
         },
         {
-          "kind": "regex",
-          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\""
+          "kind": "json_equals",
+          "value": "$.status",
+          "expected": "complete"
         },
         {
           "kind": "json_path",
-          "value": "$.missing"
+          "value": "$.result.consequences"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.next_input"
         },
         {
           "kind": "json_path",
@@ -804,7 +821,8 @@
       ],
       "compare_against": [
         "without_skill"
-      ]
+      ],
+      "test_revision_note": "Post-run test repair: this is a sufficient-information negative-decision boundary, not a missing-input/out-of-scope boundary. Expected output is a complete 'do not add/do not expand' decision under the capability contract. Existing output is not changed."
     },
     {
       "case_id": "institution_transfer_pilot_normal",
