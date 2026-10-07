@@ -36,7 +36,7 @@
 
 语言信号：后世、公共记忆、传说、评书、历史神话、public memory、myth-making、epilogue.
 
-与相邻能力的初步区分：本能力只处理**终局后的记忆层**；aftermath-settlement 处理事件刚结束的现实后果，relationship-multiaxis 处理仍在场人物的长期关系。
+与相邻能力的区分（定稿）：本能力只处理**终局后的记忆层**；aftermath-settlement 处理事件刚结束的现实后果，relationship-multiaxis 处理仍在场人物的长期关系。
 
 ## E — Execution
 
@@ -69,3 +69,9 @@
 不要把“历史会神话化”写成一句概括，必须有具体传播者和受众。
 不要把考据角色自动当成绝对正确；他也只能掌握自己的证据。
 本能力适用频率低，不应抢占普通结尾、普通余波或关系结算请求。
+
+
+## 相关能力
+
+- `relationship-multiaxis` — 组合：后世公共叙述可与老关系当事人的私人记忆形成反差。
+- `source-conflict-canon` — 对比：本卡呈现传播如何变形事实；source-conflict-canon 则负责作者侧事实一致。
