@@ -36,7 +36,7 @@
 
 语言信号：生活细节、普通人、社会变化、民生、show through daily life、social impact、human-scale indicator。
 
-与相邻能力的初步区分：本能力负责**把宏观结果转换成生活指标**；macro-micro-rhythm 负责这些生活场景在长篇中的节奏位置，aftermath-settlement 负责事件后的完整结算。
+与相邻能力的区分（定稿）：本能力负责**把宏观结果转换成生活指标**；macro-micro-rhythm 负责这些生活场景在长篇中的节奏位置，aftermath-settlement 负责事件后的完整结算。
 
 ## E — Execution
 
@@ -68,3 +68,9 @@
 不要只挑支持主角立场的指标。
 不要把统计数字全部塞进人物口中。
 如果问题是如何在连续宏观章节之间安排生活场景，用 macro-micro-rhythm；如果是事件后全面结算，用 aftermath-settlement。
+
+
+## 相关能力
+
+- `macro-micro-rhythm` — 组合：本卡提供生活层内容，宏观—微观节奏决定它何时进入正文。
+- `aftermath-settlement` — 组合：事件后果可通过家庭、教育、劳动等生活指标落地。
