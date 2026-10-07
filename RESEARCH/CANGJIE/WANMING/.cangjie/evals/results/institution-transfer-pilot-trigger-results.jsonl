@@ -1,0 +1,6 @@
+{"case_id":"it-pos-01","run":1,"selected_skill":"institution-transfer-pilot","mode":"fallback_self_test"}
+{"case_id":"it-pos-02","run":1,"selected_skill":"institution-transfer-pilot","mode":"fallback_self_test"}
+{"case_id":"it-pos-03","run":1,"selected_skill":"institution-transfer-pilot","mode":"fallback_self_test"}
+{"case_id":"it-neg-01","run":1,"selected_skill":"source-conflict-canon","mode":"fallback_self_test"}
+{"case_id":"it-sib-01","run":1,"selected_skill":"wanming-router","mode":"fallback_self_test"}
+{"case_id":"it-boundary-01","run":1,"selected_skill":"institution-transfer-pilot","mode":"fallback_self_test"}
