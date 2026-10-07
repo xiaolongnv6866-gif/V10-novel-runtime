@@ -37,10 +37,11 @@
       "runs": 1
     },
     {
-      "case_id": "sc-edge-01",
+      "case_id": "sc-boundary-01",
       "prompt": "两个来源冲突，但目前证据谁也压不过谁。我必须今天选一个版本才能继续写吗？",
-      "expected": "edge_case",
-      "runs": 1
+      "expected": "should_trigger",
+      "runs": 1,
+      "note": "Pre-run correction: this boundary scenario should trigger the capability so it can execute its B/E boundary handling. The upstream scorer treats edge_case as non-trigger, so expected was changed before any run."
     }
   ],
   "output_cases": []
