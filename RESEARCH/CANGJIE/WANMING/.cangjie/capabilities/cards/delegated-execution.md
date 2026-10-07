@@ -37,7 +37,7 @@
 
 语言信号：授权、专业执行、主角缺席、delegation、distributed execution、professional staff。
 
-与相邻能力的初步区分：本能力负责**决策之后如何由专业岗位执行**；information-triage 负责信息进入决策层，scale-restructure 负责整体结构是否需要改变。
+与相邻能力的区分（定稿）：本能力负责**决策之后如何由专业岗位执行**；information-triage 负责信息进入决策层，scale-restructure 负责整体结构是否需要改变。
 
 ## E — Execution
 
@@ -69,3 +69,10 @@
 不要把授权写成无监督；审批与问责仍需存在。
 不要让专业角色只复述主角答案，否则仍是单中心因果。
 如果问题是组织规模已经压垮旧结构，应先用 scale-restructure。
+
+
+## 相关能力
+
+- `scale-restructure` — 组合：结构重构之后需要真实授权，才能摆脱单中心执行。
+- `information-triage` — 组合：信息先分流到正确决策层，再进入专业执行。
+- `power-contract` — 组合：每项授权都要有可调用资源、边界与问责。
