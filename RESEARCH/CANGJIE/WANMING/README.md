@@ -15,9 +15,13 @@
 - Cangjie: RIA-TV++ v2.5.0
 - Stage 0: complete / user confirmed
 - Stage 1: complete
-- Stage 1.5: complete / waiting user light confirmation
-- Stage 1.6–5: not started
+- Stage 1.5: complete / user confirmed
+- Stage 1.6: complete / validated
+- Stage 2–5: not started
 - verified canonical units: 20
+- promoted independent Skills: 7
+- router capability cards: 13
+- discoverable entry budget: 8 / 8
 - V10 Runtime modified: false
 
 ## 来源
