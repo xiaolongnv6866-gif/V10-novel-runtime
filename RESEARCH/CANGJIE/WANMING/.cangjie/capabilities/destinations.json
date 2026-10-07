@@ -1,0 +1,65 @@
+{
+  "bundle_id": "bundle.wanming",
+  "destinations": {
+    "cap.wanming.actionability-ladder": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.learning-loop": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.scale-restructure": {
+      "promoted_to": "scale-restructure"
+    },
+    "cap.wanming.information-triage": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.power-contract": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.delegated-execution": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.decentralized-pilot": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.adaptive-opponents": {
+      "promoted_to": "adaptive-opponents"
+    },
+    "cap.wanming.success-constraints": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.micro-life-dashboard": {
+      "promoted_to": "micro-life-dashboard"
+    },
+    "cap.wanming.macro-micro-rhythm": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.limited-info-multipov": {
+      "promoted_to": "limited-info-multipov"
+    },
+    "cap.wanming.aftermath-settlement": {
+      "promoted_to": "aftermath-settlement"
+    },
+    "cap.wanming.institution-transfer-pilot": {
+      "promoted_to": "institution-transfer-pilot"
+    },
+    "cap.wanming.repeat-by-delta": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.public-memory-recoding": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.relationship-multiaxis": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.source-conflict-canon": {
+      "promoted_to": "source-conflict-canon"
+    },
+    "cap.wanming.resource-power-rebalance": {
+      "served_by": "wanming-router"
+    },
+    "cap.wanming.structural-conflict": {
+      "served_by": "wanming-router"
+    }
+  }
+}
