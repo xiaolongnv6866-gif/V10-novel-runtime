@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "suite_id": "wanming-source-conflict-canon",
+  "target": "source-conflict-canon",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "sc-pos-01",
+      "prompt": "两份史料对同一官员去职日期不一致，帮我逐条对照并决定小说 Canon，证据不足就保留未知。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "sc-pos-02",
+      "prompt": "我前文混用了两个版本的历史时间线，需要固定一个采用版本并列出受影响章节。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "sc-pos-03",
+      "prompt": "史料甲和乙对事件先后因果冲突，我需要记录采用、弃用和以后新证据出现时怎么修订。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "sc-neg-01",
+      "prompt": "我只有模型记忆，没有任何史料文本。你直接告诉我应该选哪个版本写进小说。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "sc-sib-01",
+      "prompt": "我不是问哪个史料版本正确。我想知道正文到底放几段考据说明才不会显得资料堆砌。",
+      "expected": "sibling",
+      "sibling_target": "wanming-router",
+      "runs": 1
+    },
+    {
+      "case_id": "sc-edge-01",
+      "prompt": "两个来源冲突，但目前证据谁也压不过谁。我必须今天选一个版本才能继续写吗？",
+      "expected": "edge_case",
+      "runs": 1
+    }
+  ],
+  "output_cases": []
+}
