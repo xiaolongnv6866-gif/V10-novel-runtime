@@ -40,3 +40,21 @@ This is a scorer-semantics correction, not a post-result expectation change.
 The initial `sc-neg-01` asked the capability to decide a source conflict without source text. That is actually a valid boundary invocation of `source-conflict-canon`: the capability should activate and stop rather than silently use model memory.
 
 Before any trigger execution, the case was replaced with a genuinely unrelated prose-writing request. The separate boundary case still covers unresolved source conflict behavior.
+
+
+## Post-run test repair — three sufficient-information boundary cases
+
+The first 40-case run scored 37/40. The three failures were:
+
+- `scale_restructure_boundary`
+- `limited_info_multipov_boundary`
+- `aftermath_settlement_boundary`
+
+All three outputs contained a valid capability-level negative decision with sufficient input:
+- no observed scale bottleneck → do **not** add management layers;
+- redundant POVs with identical information/action → merge/remove them;
+- no persistent aftermath state change → do **not** force a multi-chapter aftermath.
+
+The frozen assertion incorrectly required every boundary case to return only `needs_input|out_of_scope`. That contradicts the Stage 2 E/B contracts, where a capability may validly activate and return a completed “no change / compress / remove” decision.
+
+Per Cangjie Stage 4 “fix skill vs fix test”, this is a **test defect**, not a capability defect. Assertions were repaired to require `status=complete` plus the capability-specific negative-decision fields. The already-produced outputs were not changed before rescoring.
