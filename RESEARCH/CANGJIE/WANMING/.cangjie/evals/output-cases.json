@@ -15,7 +15,7 @@
   "output_cases": [
     {
       "case_id": "actionability_ladder_normal",
-      "prompt": "一个虚构的低身份商号伙计刚意外得到800两银子，认识一个地方书吏，但没有正式官身，也没有长期供养人手的渠道。他想下一步取得可以合法组织20名护卫的行动资格。只做叙事因果设计，不给现实危险活动指导。请按能力卡执行，并只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为actionability-ladder，result中必须包含字段current_qualification。",
+      "prompt": "一个虚构的低身份商号伙计刚意外得到800两银子，认识一个地方书吏，但没有正式官身，也没有长期供养人手的渠道。他想下一步取得可以合法组织20名护卫的行动资格。只做叙事因果设计，不给现实危险活动指导。请按能力卡执行，并只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -30,6 +30,18 @@
         {
           "kind": "json_path",
           "value": "$.result.current_qualification"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.target_gaps"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.next_action"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.costs"
         }
       ],
       "compare_against": [
@@ -38,7 +50,7 @@
     },
     {
       "case_id": "actionability_ladder_boundary",
-      "prompt": "角色说自己‘忽然很有钱，也有人脉’，但没有给金额、身份、关系对象、目标规模或合法约束。请按能力卡处理缺输入，并只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为actionability-ladder。",
+      "prompt": "角色说自己‘忽然很有钱，也有人脉’，但没有给金额、身份、关系对象、目标规模或合法约束。请按能力卡处理缺输入，并只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -51,6 +63,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -60,7 +76,7 @@
     },
     {
       "case_id": "learning_loop_normal",
-      "prompt": "虚构商队完成一次跨城运输后出现三类问题：两次迟到、一次货单重复、两名成员因分工争执。基层给出8条意见，其中3条重复。请把这次经验转成组织学习闭环，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为learning-loop，result中必须包含字段rule_changes。",
+      "prompt": "虚构商队完成一次跨城运输后出现三类问题：两次迟到、一次货单重复、两名成员因分工争执。基层给出8条意见，其中3条重复。请把这次经验转成组织学习闭环，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -74,7 +90,19 @@
         },
         {
           "kind": "json_path",
+          "value": "$.result.raw_feedback"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.filtered_issues"
+        },
+        {
+          "kind": "json_path",
           "value": "$.result.rule_changes"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.recheck"
         }
       ],
       "compare_against": [
@@ -83,7 +111,7 @@
     },
     {
       "case_id": "learning_loop_boundary",
-      "prompt": "只知道‘任务失败了，大家都很不满’，没有具体事实、参与层级或现行规则。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为learning-loop。",
+      "prompt": "只知道‘任务失败了，大家都很不满’，没有具体事实、参与层级或现行规则。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -96,6 +124,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -105,7 +137,7 @@
     },
     {
       "case_id": "scale_restructure_normal",
-      "prompt": "一个虚构组织从1个据点50人扩到6个据点800人。当前仍由3名核心人物审批全部采购、人事和外联，最近出现审批排队、远端回复慢、职责重复。请做最小组织重构，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为scale-restructure，result中必须包含字段bottlenecks。",
+      "prompt": "一个虚构组织从1个据点50人扩到6个据点800人。当前仍由3名核心人物审批全部采购、人事和外联，最近出现审批排队、远端回复慢、职责重复。请做最小组织重构，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -120,6 +152,18 @@
         {
           "kind": "json_path",
           "value": "$.result.bottlenecks"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.minimum_restructure"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.new_costs"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.reevaluation_triggers"
         }
       ],
       "compare_against": [
@@ -128,7 +172,7 @@
     },
     {
       "case_id": "scale_restructure_boundary",
-      "prompt": "一个组织人数从50增到90，但目前没有审批堆积、职责冲突、跨区迟缓或信息过载。用户要求立刻新增三层管理。请按能力卡判断，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为scale-restructure。",
+      "prompt": "一个组织人数从50增到90，但目前没有审批堆积、职责冲突、跨区迟缓或信息过载。用户要求立刻新增三层管理。请按能力卡判断，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -141,6 +185,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -150,7 +198,7 @@
     },
     {
       "case_id": "information_triage_normal",
-      "prompt": "虚构组织同日收到8条消息：仓库漏雨、下月预算、远端客户投诉、员工请假、明日审计、季度培训、供应商涨价传闻、一个未核实的安全传闻。请按紧急/重要与处理路径分流，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为information-triage，result中必须包含字段triage_table。",
+      "prompt": "虚构组织同日收到8条消息：仓库漏雨、下月预算、远端客户投诉、员工请假、明日审计、季度培训、供应商涨价传闻、一个未核实的安全传闻。请按紧急/重要与处理路径分流，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -165,6 +213,18 @@
         {
           "kind": "json_path",
           "value": "$.result.triage_table"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.decision_queue"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.delegated"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.structural_backlog"
         }
       ],
       "compare_against": [
@@ -173,7 +233,7 @@
     },
     {
       "case_id": "information_triage_boundary",
-      "prompt": "用户只说‘今天消息很多，帮我排优先级’，没有任何消息内容、来源、时效或影响范围。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为information-triage。",
+      "prompt": "用户只说‘今天消息很多，帮我排优先级’，没有任何消息内容、来源、时效或影响范围。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -186,6 +246,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -195,7 +259,7 @@
     },
     {
       "case_id": "power_contract_normal",
-      "prompt": "为虚构小说里的‘地方建设主管’设计真实权力契约：目标是半年内完成三处公共仓库修缮，上级为民事负责人，可调用固定工程队和核定预算，但土地征用与司法无权决定。请执行能力卡，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为power-contract，result中必须包含字段responsibilities。",
+      "prompt": "为虚构小说里的‘地方建设主管’设计真实权力契约：目标是半年内完成三处公共仓库修缮，上级为民事负责人，可调用固定工程队和核定预算，但土地征用与司法无权决定。请执行能力卡，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -210,6 +274,18 @@
         {
           "kind": "json_path",
           "value": "$.result.responsibilities"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.resources"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.boundaries"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.accountability"
         }
       ],
       "compare_against": [
@@ -218,7 +294,7 @@
     },
     {
       "case_id": "power_contract_boundary",
-      "prompt": "只有官名‘巡检总管’，不知道小说中的制度、上下级、资源或职责。用户问‘这个人到底多大权’。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为power-contract。",
+      "prompt": "只有官名‘巡检总管’，不知道小说中的制度、上下级、资源或职责。用户问‘这个人到底多大权’。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -231,6 +307,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -240,7 +320,7 @@
     },
     {
       "case_id": "delegated_execution_normal",
-      "prompt": "虚构组织已经有采购、工程、财务三个成熟岗位。上层要求30天内把仓库迁到新址，预算上限明确，不能影响日常发货，超预算必须审批。请设计方向上收、专业执行下放，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为delegated-execution，result中必须包含字段professional_assignments。",
+      "prompt": "虚构组织已经有采购、工程、财务三个成熟岗位。上层要求30天内把仓库迁到新址，预算上限明确，不能影响日常发货，超预算必须审批。请设计方向上收、专业执行下放，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -254,7 +334,19 @@
         },
         {
           "kind": "json_path",
+          "value": "$.result.leadership_direction"
+        },
+        {
+          "kind": "json_path",
           "value": "$.result.professional_assignments"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.approval_points"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.absence_test"
         }
       ],
       "compare_against": [
@@ -263,7 +355,7 @@
     },
     {
       "case_id": "delegated_execution_boundary",
-      "prompt": "用户说‘让下面的人自己办’，但没有任何已建立岗位、资源、目标、期限或审批规则。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为delegated-execution。",
+      "prompt": "用户说‘让下面的人自己办’，但没有任何已建立岗位、资源、目标、期限或审批规则。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -273,6 +365,10 @@
         {
           "kind": "regex",
           "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\""
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing"
         },
         {
           "kind": "json_path",
@@ -285,7 +381,7 @@
     },
     {
       "case_id": "decentralized_pilot_normal",
-      "prompt": "虚构组织有总部和3个远端据点。普通维修和临时用工都要总部批，平均等待5天；总部希望先在一个据点试行地方授权。请设计最小分权试点，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为decentralized-pilot，result中必须包含字段local_authority。",
+      "prompt": "虚构组织有总部和3个远端据点。普通维修和临时用工都要总部批，平均等待5天；总部希望先在一个据点试行地方授权。请设计最小分权试点，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -299,7 +395,19 @@
         },
         {
           "kind": "json_path",
+          "value": "$.result.bottlenecks"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.authority_layers"
+        },
+        {
+          "kind": "json_path",
           "value": "$.result.local_authority"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.pilot_metrics"
         }
       ],
       "compare_against": [
@@ -308,7 +416,7 @@
     },
     {
       "case_id": "decentralized_pilot_boundary",
-      "prompt": "用户想‘提前分权显得现代’，但没有任何响应迟缓、地域负荷或中央瓶颈证据。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为decentralized-pilot。",
+      "prompt": "用户想‘提前分权显得现代’，但没有任何响应迟缓、地域负荷或中央瓶颈证据。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -321,6 +429,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -330,7 +442,7 @@
     },
     {
       "case_id": "adaptive_opponents_normal",
-      "prompt": "虚构政治小说中，主角阵营第一次公开完成了一项原本被认为做不到的跨城筹款。对手只知道结果、参与商号名单和公开公告，不知道内部账目。请设计对手和第三方如何重新判断，并保留合理误判，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为adaptive-opponents，result中必须包含字段actors。",
+      "prompt": "虚构政治小说中，主角阵营第一次公开完成了一项原本被认为做不到的跨城筹款。对手只知道结果、参与商号名单和公开公告，不知道内部账目。请设计对手和第三方如何重新判断，并保留合理误判，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -345,6 +457,18 @@
         {
           "kind": "json_path",
           "value": "$.result.actors"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.old_to_new_judgments"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.misjudgments"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.next_conditions"
         }
       ],
       "compare_against": [
@@ -353,7 +477,7 @@
     },
     {
       "case_id": "adaptive_opponents_boundary",
-      "prompt": "用户要求‘让敌人精准破解主角所有下一步’，但没有说明敌人掌握什么信息、目标或传播渠道。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为adaptive-opponents。",
+      "prompt": "用户要求‘让敌人精准破解主角所有下一步’，但没有说明敌人掌握什么信息、目标或传播渠道。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -366,6 +490,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -375,7 +503,7 @@
     },
     {
       "case_id": "success_constraints_normal",
-      "prompt": "虚构主角因解决城市粮价危机获得很高声望，并得到一处仓库和更多商人信任。请同时生成直接收益、重新估价者、新责任、暴露面和下一层约束，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为success-constraints，result中必须包含字段new_constraints。",
+      "prompt": "虚构主角因解决城市粮价危机获得很高声望，并得到一处仓库和更多商人信任。请同时生成直接收益、重新估价者、新责任、暴露面和下一层约束，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -389,6 +517,18 @@
         },
         {
           "kind": "json_path",
+          "value": "$.result.direct_benefits"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.repricers"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.new_responsibilities"
+        },
+        {
+          "kind": "json_path",
           "value": "$.result.new_constraints"
         }
       ],
@@ -398,7 +538,7 @@
     },
     {
       "case_id": "success_constraints_boundary",
-      "prompt": "用户只说‘主角成功了’，没有说明成功是什么、谁看见、获得了什么或组织承载能力。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为success-constraints。",
+      "prompt": "用户只说‘主角成功了’，没有说明成功是什么、谁看见、获得了什么或组织承载能力。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -411,6 +551,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -420,7 +564,7 @@
     },
     {
       "case_id": "micro_life_dashboard_normal",
-      "prompt": "虚构城市改革让粮食供应更稳定、夜间治安改善，但每户新增两天公共劳役。请用普通家庭生活指标表现收益和成本，不写‘民心提升’结论，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为micro-life-dashboard，result中必须包含字段life_indicators。",
+      "prompt": "虚构城市改革让粮食供应更稳定、夜间治安改善，但每户新增两天公共劳役。请用普通家庭生活指标表现收益和成本，不写‘民心提升’结论，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -435,6 +579,18 @@
         {
           "kind": "json_path",
           "value": "$.result.life_indicators"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.benefits"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.costs"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.scene_slice"
         }
       ],
       "compare_against": [
@@ -443,7 +599,7 @@
     },
     {
       "case_id": "micro_life_dashboard_boundary",
-      "prompt": "用户只说‘这个政策让社会更好了’，没有给任何具体制度、受影响人群或可观察变化。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为micro-life-dashboard。",
+      "prompt": "用户只说‘这个政策让社会更好了’，没有给任何具体制度、受影响人群或可观察变化。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -456,6 +612,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -465,7 +625,7 @@
     },
     {
       "case_id": "macro_micro_rhythm_normal",
-      "prompt": "一部长篇最近连续6个场景都是官员会议、预算讨论和工程推进。配角阿宁的父亲因工程征调长期不在家，她必须决定是否退学帮母亲。请设计一个会影响后续主线判断的生活场景，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为macro-micro-rhythm，result中必须包含字段life_scene。",
+      "prompt": "一部长篇最近连续6个场景都是官员会议、预算讨论和工程推进。配角阿宁的父亲因工程征调长期不在家，她必须决定是否退学帮母亲。请设计一个会影响后续主线判断的生活场景，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -479,7 +639,19 @@
         },
         {
           "kind": "json_path",
+          "value": "$.result.task_fatigue"
+        },
+        {
+          "kind": "json_path",
           "value": "$.result.life_scene"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.state_change"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.mainline_effect"
         }
       ],
       "compare_against": [
@@ -488,7 +660,7 @@
     },
     {
       "case_id": "macro_micro_rhythm_boundary",
-      "prompt": "用户只说‘剧情太干，随便插一章吃饭聊天调节一下’，没有任何与主线相连的私人需求或后续影响。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为macro-micro-rhythm。",
+      "prompt": "用户只说‘剧情太干，随便插一章吃饭聊天调节一下’，没有任何与主线相连的私人需求或后续影响。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -501,6 +673,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -510,7 +686,7 @@
     },
     {
       "case_id": "limited_info_multipov_normal",
-      "prompt": "虚构城市发生一次政治危机，涉及城门官、商会代表、普通家庭和竞争阵营。事实时间轴已知：上午封门、午后谣言扩散、傍晚官方公告。请设计有限信息多视角矩阵和切换顺序，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为limited-info-multipov，result中必须包含字段viewpoints。",
+      "prompt": "虚构城市发生一次政治危机，涉及城门官、商会代表、普通家庭和竞争阵营。事实时间轴已知：上午封门、午后谣言扩散、傍晚官方公告。请设计有限信息多视角矩阵和切换顺序，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -525,6 +701,18 @@
         {
           "kind": "json_path",
           "value": "$.result.viewpoints"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.timeline"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.switching_order"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.information_gaps"
         }
       ],
       "compare_against": [
@@ -533,7 +721,7 @@
     },
     {
       "case_id": "limited_info_multipov_boundary",
-      "prompt": "用户要加入5个视角，但其中4个角色都在同一房间、获得同一消息、做同一决定，没有独立行动价值。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为limited-info-multipov。",
+      "prompt": "用户要加入5个视角，但其中4个角色都在同一房间、获得同一消息、做同一决定，没有独立行动价值。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -546,6 +734,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -555,7 +747,7 @@
     },
     {
       "case_id": "aftermath_settlement_normal",
-      "prompt": "虚构城市的一次大规模罢市已经和平结束。结果：市场重新开放，两名核心协调者退出，一笔公共基金被耗掉三成，官府态度变谨慎，数十商户延迟交货。请做多类余波结算并指出下一场景输入，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为aftermath-settlement，result中必须包含字段consequences。",
+      "prompt": "虚构城市的一次大规模罢市已经和平结束。结果：市场重新开放，两名核心协调者退出，一笔公共基金被耗掉三成，官府态度变谨慎，数十商户延迟交货。请做多类余波结算并指出下一场景输入，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -570,6 +762,18 @@
         {
           "kind": "json_path",
           "value": "$.result.consequences"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.immediate_delayed"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.scenes"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.next_input"
         }
       ],
       "compare_against": [
@@ -578,7 +782,7 @@
     },
     {
       "case_id": "aftermath_settlement_boundary",
-      "prompt": "一次很小的内部争执当天和解，没有人员、资源、政治、关系或生活状态的持续变化。用户要求硬写三章善后。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为aftermath-settlement。",
+      "prompt": "一次很小的内部争执当天和解，没有人员、资源、政治、关系或生活状态的持续变化。用户要求硬写三章善后。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -591,6 +795,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -600,7 +808,7 @@
     },
     {
       "case_id": "institution_transfer_pilot_normal",
-      "prompt": "历史小说中的现代人只记得‘公开听证’大概是让利益相关者公开表达意见，但不知道完整程序。当地已有县衙、里甲和行会。请严格区分已知/未知，设计最小试点和失败信号，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为institution-transfer-pilot，result中必须包含字段known_unknown_guess。",
+      "prompt": "历史小说中的现代人只记得‘公开听证’大概是让利益相关者公开表达意见，但不知道完整程序。当地已有县衙、里甲和行会。请严格区分已知/未知，设计最小试点和失败信号，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -615,6 +823,22 @@
         {
           "kind": "json_path",
           "value": "$.result.known_unknown_guess"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.prerequisites"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.pilot"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.failure_signals"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.decision"
         }
       ],
       "compare_against": [
@@ -623,7 +847,7 @@
     },
     {
       "case_id": "institution_transfer_pilot_boundary",
-      "prompt": "用户要求把现代完整制度直接搬进古代，并说‘缺的流程你按常识补齐’，但人物只记得名称。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为institution-transfer-pilot。",
+      "prompt": "用户要求把现代完整制度直接搬进古代，并说‘缺的流程你按常识补齐’，但人物只记得名称。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -636,6 +860,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -645,7 +873,7 @@
     },
     {
       "case_id": "repeat_by_delta_normal",
-      "prompt": "小说去年已经完整写过一次商会年会：50人、主角主持、第一次制定账目规则。今年再开年会：120人、副手主持、账目规则已常态化，但新增地区代表并出现派系分歧。请只展开差值，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为repeat-by-delta，result中必须包含字段delta_table。",
+      "prompt": "小说去年已经完整写过一次商会年会：50人、主角主持、第一次制定账目规则。今年再开年会：120人、副手主持、账目规则已常态化，但新增地区代表并出现派系分歧。请只展开差值，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -659,7 +887,19 @@
         },
         {
           "kind": "json_path",
+          "value": "$.result.baseline"
+        },
+        {
+          "kind": "json_path",
           "value": "$.result.delta_table"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.compress"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.expand"
         }
       ],
       "compare_against": [
@@ -668,7 +908,7 @@
     },
     {
       "case_id": "repeat_by_delta_boundary",
-      "prompt": "这是该类型会议在书中第一次出现，读者还不知道空间、规则、角色职责。用户要求‘为了节省篇幅只写差值’。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为repeat-by-delta。",
+      "prompt": "这是该类型会议在书中第一次出现，读者还不知道空间、规则、角色职责。用户要求‘为了节省篇幅只写差值’。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -678,6 +918,10 @@
         {
           "kind": "regex",
           "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\""
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing"
         },
         {
           "kind": "json_path",
@@ -690,7 +934,7 @@
     },
     {
       "case_id": "public_memory_recoding_normal",
-      "prompt": "历史长篇主线已经结束。事实层是多个部门和普通人共同完成改革，但30年后茶馆说书把功劳几乎全归给主角，因为单一英雄故事更卖座。请设计事实层、公共版本与主题回声，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为public-memory-recoding，result中必须包含字段public_version。",
+      "prompt": "历史长篇主线已经结束。事实层是多个部门和普通人共同完成改革，但30年后茶馆说书把功劳几乎全归给主角，因为单一英雄故事更卖座。请设计事实层、公共版本与主题回声，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -704,7 +948,23 @@
         },
         {
           "kind": "json_path",
+          "value": "$.result.fact_layer"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.propagator"
+        },
+        {
+          "kind": "json_path",
           "value": "$.result.public_version"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.differences"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.theme_echo"
         }
       ],
       "compare_against": [
@@ -713,7 +973,7 @@
     },
     {
       "case_id": "public_memory_recoding_boundary",
-      "prompt": "主线尚未结束，关键人物命运和现实后果都没结算，用户想直接跳50年后用传说替代当前结局。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为public-memory-recoding。",
+      "prompt": "主线尚未结束，关键人物命运和现实后果都没结算，用户想直接跳50年后用传说替代当前结局。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -726,6 +986,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -735,7 +999,7 @@
     },
     {
       "case_id": "relationship_multiaxis_normal",
-      "prompt": "两名合作十年的角色仍高度信任彼此，经济利益基本一致，但一个升为主管、另一个失去决策权；两人在是否继续扩张上价值分歧加深，私人感情仍亲近。请做多轴关系更新，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为relationship-multiaxis，result中必须包含字段axes。",
+      "prompt": "两名合作十年的角色仍高度信任彼此，经济利益基本一致，但一个升为主管、另一个失去决策权；两人在是否继续扩张上价值分歧加深，私人感情仍亲近。请做多轴关系更新，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -750,6 +1014,18 @@
         {
           "kind": "json_path",
           "value": "$.result.axes"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.changes"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.stable_parts"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.next_action"
         }
       ],
       "compare_against": [
@@ -758,7 +1034,7 @@
     },
     {
       "case_id": "relationship_multiaxis_boundary",
-      "prompt": "两个角色第一次见面，没有共同经历。用户要求直接判定他们‘多年深厚的信任值应该是多少’。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为relationship-multiaxis。",
+      "prompt": "两个角色第一次见面，没有共同经历。用户要求直接判定他们‘多年深厚的信任值应该是多少’。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -771,6 +1047,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -780,7 +1060,7 @@
     },
     {
       "case_id": "source_conflict_canon_normal",
-      "prompt": "提供两条虚构史料：来源A记‘三月初五辞官’，来源B记‘三月初八被准辞官’，两者都没有更多旁证；当前小说尚未写到该日期。请做来源对照、保留未知并决定是否能固定Canon，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为source-conflict-canon，result中必须包含字段source_comparison。",
+      "prompt": "提供两条虚构史料：来源A记‘三月初五辞官’，来源B记‘三月初八被准辞官’，两者都没有更多旁证；当前小说尚未写到该日期。请做来源对照、保留未知并决定是否能固定Canon，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -795,6 +1075,18 @@
         {
           "kind": "json_path",
           "value": "$.result.source_comparison"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.uncertainties"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.canon_decision"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.affected_chapters"
         }
       ],
       "compare_against": [
@@ -803,7 +1095,7 @@
     },
     {
       "case_id": "source_conflict_canon_boundary",
-      "prompt": "用户问‘历史小说正文到底放几段史料说明才不过载？请给一个固定数字’，但《晚明》蒸馏对此没有完整来源规则。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为source-conflict-canon。",
+      "prompt": "用户问‘历史小说正文到底放几段史料说明才不过载？请给一个固定数字’，但《晚明》蒸馏对此没有完整来源规则。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -816,6 +1108,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -825,7 +1121,7 @@
     },
     {
       "case_id": "resource_power_rebalance_normal",
-      "prompt": "虚构聚落早期由屯务负责人统一分配廉价原料和摊位，后来商业繁荣，摊位价值翻倍、原料稀缺，开始出现偏袒投诉；该负责人同时分配、审核申诉。请做权力—资源再平衡，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为resource-power-rebalance，result中必须包含字段power_resource_matrix。",
+      "prompt": "虚构聚落早期由屯务负责人统一分配廉价原料和摊位，后来商业繁荣，摊位价值翻倍、原料稀缺，开始出现偏袒投诉；该负责人同时分配、审核申诉。请做权力—资源再平衡，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -840,6 +1136,18 @@
         {
           "kind": "json_path",
           "value": "$.result.power_resource_matrix"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.rent_trigger"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.rebalance"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.new_costs"
         }
       ],
       "compare_against": [
@@ -848,7 +1156,7 @@
     },
     {
       "case_id": "resource_power_rebalance_boundary",
-      "prompt": "岗位权力从一开始就没定义清楚，资源也没有明显升值。用户要求直接判断‘应该拆哪些权’。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为resource-power-rebalance。",
+      "prompt": "岗位权力从一开始就没定义清楚，资源也没有明显升值。用户要求直接判断‘应该拆哪些权’。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -861,6 +1169,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -870,7 +1182,7 @@
     },
     {
       "case_id": "structural_conflict_normal",
-      "prompt": "虚构改革把店铺审批、税收登记和地方工程采购从旧行会转给新民事机构。请从旧群体具体失去的利益、地位和中介权生成合理阻力，并保留群体内部分化，只输出JSON。\n输出JSON必须包含：status, capability, result。status应为complete，capability应为structural-conflict，result中必须包含字段stakeholders。",
+      "prompt": "虚构改革把店铺审批、税收登记和地方工程采购从旧行会转给新民事机构。请从旧群体具体失去的利益、地位和中介权生成合理阻力，并保留群体内部分化，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名；方法内容仍按能力卡执行。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -884,7 +1196,23 @@
         },
         {
           "kind": "json_path",
+          "value": "$.result.new_power_resources"
+        },
+        {
+          "kind": "json_path",
           "value": "$.result.stakeholders"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.losses"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.resistance"
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.differentiation"
         }
       ],
       "compare_against": [
@@ -893,7 +1221,7 @@
     },
     {
       "case_id": "structural_conflict_boundary",
-      "prompt": "用户只说‘需要一个坏人反对改革’，没有任何权力或资源重新分配，也没有群体利益变化。请按能力卡处理，只输出JSON。\n输出JSON必须包含：status, capability, missing, boundary_reason。若信息不足用status=needs_input；若问题超出本能力来源边界用status=out_of_scope。不要静默补造。capability应为structural-conflict。",
+      "prompt": "用户只说‘需要一个坏人反对改革’，没有任何权力或资源重新分配，也没有群体利益变化。请按能力卡处理，只输出JSON。\n为便于机械评测，只输出一个 JSON 对象，使用英文 snake_case 字段名。信息不足或超出来源边界时必须明确停止，不得静默补造。",
       "assertions": [
         {
           "kind": "json_equals",
@@ -906,6 +1234,10 @@
         },
         {
           "kind": "json_path",
+          "value": "$.missing"
+        },
+        {
+          "kind": "json_path",
           "value": "$.boundary_reason"
         }
       ],
@@ -913,5 +1245,6 @@
         "without_skill"
       ]
     }
-  ]
+  ],
+  "notes": "Stage 4 evaluation convention: JSON/snake_case is a test harness convention, not claimed as a method from the source book. Assertions test the capability card E/B deliverables; prompts do not reveal capability-specific result field names."
 }
