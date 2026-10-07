@@ -23,3 +23,23 @@
 - critical/high 任务均有候选与明确去向。
 - WM-T04 保留为“系统联动参考 + 多能力组合”，未把小说内具体数值/军制包装成现实方法。
 - WM-T14 只有“史料冲突裁决”达到 verified；“资料说明量控制”明确留在 needs_review，**因此本轮不得宣称《晚明》的资料入文能力已经完整蒸馏**。
+
+
+## Stage 3 实际交付路径
+
+| 内容类别 | 实际交付位置 | 状态 |
+|---|---|---|
+| 20 个 verified 能力 | `.cangjie/capabilities/verified.yaml` + `cards/*.md` | 已交付 |
+| c01–c13 案例 | 对应能力卡 A1 / 来源证据 | 已交付 |
+| ce01–ce10 反例 | 对应能力卡 B / 失败处理 | 已交付 |
+| g01–g15 术语 | `GLOSSARY.md` + `.cangjie/capabilities/book/glossary.md` | 已交付 |
+| p16 岗位契合边界 | `BOOK_OVERVIEW.md#Stage-3-保留参考映射` | 已交付为 reference，不升 active |
+| 高效机器感批判 | `BOOK_OVERVIEW.md#Critical` + Stage 4 压力条件 | 保留 |
+| WM-T14 资料说明量阈值 | `needs-review.md#NR01` + Overview | **未解决，不伪装交付** |
+| 整书 overview | 根目录 `BOOK_OVERVIEW.md` + Bundle `book/overview.md` | 已同步 |
+| 能力关系图 | `STAGE3_RELATION_GRAPH.md` + Bundle `also_read` | 已交付 |
+
+### WM-T14 状态保持
+
+`source-conflict-canon` 已解决“冲突史料如何裁决并固定小说 Canon”；  
+**“资料该在正文放多少才不过载”仍然没有来源完整的可执行规则，因此 coverage 继续保持 partial/needs_review。**
