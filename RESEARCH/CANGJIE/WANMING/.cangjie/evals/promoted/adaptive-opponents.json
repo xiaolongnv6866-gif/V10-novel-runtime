@@ -37,10 +37,11 @@
       "runs": 1
     },
     {
-      "case_id": "ao-edge-01",
+      "case_id": "ao-boundary-01",
       "prompt": "敌人听到了一条未经证实的传闻，我需要判断他会不会因此改变行为；证据很弱。",
-      "expected": "edge_case",
-      "runs": 1
+      "expected": "should_trigger",
+      "runs": 1,
+      "note": "Pre-run correction: this boundary scenario should trigger the capability so it can execute its B/E boundary handling. The upstream scorer treats edge_case as non-trigger, so expected was changed before any run."
     }
   ],
   "output_cases": []
