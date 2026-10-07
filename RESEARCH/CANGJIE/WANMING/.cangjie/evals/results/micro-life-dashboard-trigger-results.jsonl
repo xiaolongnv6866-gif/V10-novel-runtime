@@ -1,0 +1,6 @@
+{"case_id":"ml-pos-01","run":1,"selected_skill":"micro-life-dashboard","mode":"fallback_self_test"}
+{"case_id":"ml-pos-02","run":1,"selected_skill":"micro-life-dashboard","mode":"fallback_self_test"}
+{"case_id":"ml-pos-03","run":1,"selected_skill":"micro-life-dashboard","mode":"fallback_self_test"}
+{"case_id":"ml-neg-01","run":1,"selected_skill":"wanming-router","mode":"fallback_self_test"}
+{"case_id":"ml-sib-01","run":1,"selected_skill":"wanming-router","mode":"fallback_self_test"}
+{"case_id":"ml-boundary-01","run":1,"selected_skill":"micro-life-dashboard","mode":"fallback_self_test"}
