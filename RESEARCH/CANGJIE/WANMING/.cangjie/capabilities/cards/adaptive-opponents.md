@@ -38,7 +38,7 @@
 
 语言信号：对手学习、世界反馈、二阶反应、adaptive opponent、world response、reassessment。
 
-与相邻能力的初步区分：本能力处理**别人如何根据新信息改变行为**；success-constraints 处理主角成功自身生成的责任和暴露，structural-conflict 处理权力资源变化导致的利益冲突。
+与相邻能力的区分（定稿）：本能力处理**别人如何根据新信息改变行为**；success-constraints 处理主角成功自身生成的责任和暴露，structural-conflict 处理权力资源变化导致的利益冲突。
 
 ## E — Execution
 
@@ -71,3 +71,9 @@
 不要把“会学习”写成“永远做最优决策”；偏见、延迟和错误推断必须允许存在。
 不要为制造难度让对手突然拥有超常能力。
 涉及真实危险活动时只保留叙事层面的信息与决策反应，不提供现实操作细节。
+
+
+## 相关能力
+
+- `limited-info-multipov` — 组合：有限视角规定对手知道什么，本卡据此更新其判断与行为。
+- `success-constraints` — 组合：主角成功改变外部估价，是成功后二阶约束的重要来源。
