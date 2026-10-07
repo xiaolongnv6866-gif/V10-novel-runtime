@@ -22,3 +22,13 @@
 
 - “成熟组织可能出现高效机器感”保留为压力测试边界；这是对文本的批判性判断，不冒充原书方法。
 - “技术/史料说明有时挤压现场”保留为研究边界；目前没有从原书抽出一个足够完整、可执行的‘说明量控制算法’。
+
+
+## Stage 3 去向落实
+
+- c01–c13 → `.cangjie/capabilities/cards/*.md` 的 A1 / 来源证据
+- ce01–ce10 → 相关卡 B / 失败处理
+- g01–g15 → `GLOSSARY.md` 与 Bundle `book/glossary.md`
+- p16 → `BOOK_OVERVIEW.md` 的 Stage 3 保留参考映射
+- 高效机器感 → Overview Critical + Stage 4 压力条件
+- 资料说明过载 → Overview Critical + `needs-review.md#NR01`，仍未升级为 active 能力
