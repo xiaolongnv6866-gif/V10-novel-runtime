@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "suite_id": "wanming-router-reachability",
+  "target": "wanming-router",
+  "mode": "router_capability_reachability",
+  "environment": "fallback_self_test",
+  "note": "Cangjie run_trigger_evals.py only scores entrypoint selection; router capability reachability therefore records expected capability card explicitly and is scored separately.",
+  "cases": [
+    {
+      "case_id": "rt-action-pos",
+      "prompt": "主角突然拿到一笔钱，我担心他下一章就能调几百人太跳级。帮我列当前资格、缺失桥梁和下一层能做的事。",
+      "expected_capability": "actionability-ladder"
+    },
+    {
+      "case_id": "rt-action-near",
+      "prompt": "组织已经从50人扩到800人，现在三个人管不过来了，要改层级。",
+      "expected_capability": "scale-restructure",
+      "near_neighbor_of": "actionability-ladder"
+    },
+    {
+      "case_id": "rt-learn-pos",
+      "prompt": "一次行动结束后大家提了很多意见，我要把它们筛选、讨论并真正改进训练和流程。",
+      "expected_capability": "learning-loop"
+    },
+    {
+      "case_id": "rt-learn-near",
+      "prompt": "新制度第一次试运行就乱了，我其实也不清楚完整配套，下一步怎么试？",
+      "expected_capability": "institution-transfer-pilot",
+      "near_neighbor_of": "learning-loop"
+    },
+    {
+      "case_id": "rt-info-pos",
+      "prompt": "同一天来了十几份军政和商业消息，主角不可能全亲自处理，帮我分紧急重要和去向。",
+      "expected_capability": "information-triage"
+    },
+    {
+      "case_id": "rt-info-near",
+      "prompt": "这个新任官员到底可以调什么资源、哪些事必须上报、做坏了谁负责？",
+      "expected_capability": "power-contract",
+      "near_neighbor_of": "information-triage"
+    },
+    {
+      "case_id": "rt-power-pos",
+      "prompt": "我给角色一个官名了，但读者还是不知道他到底有什么真实权力。请定义职责、资源、边界、协调和问责。",
+      "expected_capability": "power-contract"
+    },
+    {
+      "case_id": "rt-power-near",
+      "prompt": "这个岗位早期集中了店铺和原料分配权，现在这些资源很值钱，开始有人投诉偏袒。",
+      "expected_capability": "resource-power-rebalance",
+      "near_neighbor_of": "power-contract"
+    },
+    {
+      "case_id": "rt-delegate-pos",
+      "prompt": "成熟组织还是所有方案都由主角亲自写，我想让专业部门自己执行并保留必要审批点。",
+      "expected_capability": "delegated-execution"
+    },
+    {
+      "case_id": "rt-delegate-near",
+      "prompt": "现在组织规模扩大导致审批堆积，我还没决定应该加什么层级。",
+      "expected_capability": "scale-restructure",
+      "near_neighbor_of": "delegated-execution"
+    },
+    {
+      "case_id": "rt-decentral-pos",
+      "prompt": "三个远端据点连普通事务都等总部批，反应太慢。我想划出地方可决事项并先试一个区域。",
+      "expected_capability": "decentralized-pilot"
+    },
+    {
+      "case_id": "rt-decentral-near",
+      "prompt": "这个现代司法制度人物只记得名字，连关键角色怎么运作都不知道。",
+      "expected_capability": "institution-transfer-pilot",
+      "near_neighbor_of": "decentralized-pilot"
+    },
+    {
+      "case_id": "rt-success-pos",
+      "prompt": "主角刚立下大功，我不想只发奖励。请同时设计声望、责任、暴露和更高层约束。",
+      "expected_capability": "success-constraints"
+    },
+    {
+      "case_id": "rt-success-near",
+      "prompt": "这一场冲突刚结束，我要把人员、资源、政治关系和家庭余波全结算。",
+      "expected_capability": "aftermath-settlement",
+      "near_neighbor_of": "success-constraints"
+    },
+    {
+      "case_id": "rt-rhythm-pos",
+      "prompt": "连续六章都是政务和建设，像工作报告。我想插生活戏，但它必须改变后续人物选择。",
+      "expected_capability": "macro-micro-rhythm"
+    },
+    {
+      "case_id": "rt-rhythm-near",
+      "prompt": "我不是问什么时候插生活戏，我要把‘治理改善’具体落到住房、收入和孩子上学。",
+      "expected_capability": "micro-life-dashboard",
+      "near_neighbor_of": "macro-micro-rhythm"
+    },
+    {
+      "case_id": "rt-delta-pos",
+      "prompt": "第二次写年度会议了，流程和去年一样。我只想展开这次身份、规模和关系有什么新差值。",
+      "expected_capability": "repeat-by-delta"
+    },
+    {
+      "case_id": "rt-delta-near",
+      "prompt": "这是第一次大型会议，我需要完整建立职责和决策规则。",
+      "expected_capability": "power-contract",
+      "near_neighbor_of": "repeat-by-delta"
+    },
+    {
+      "case_id": "rt-memory-pos",
+      "prompt": "主线已经结束，我想跳到几十年后，用茶馆传说表现后人怎样把集体历史改成英雄传奇。",
+      "expected_capability": "public-memory-recoding"
+    },
+    {
+      "case_id": "rt-memory-near",
+      "prompt": "大战刚结束，我现在只需要写现实中的伤员、财物、政治和家庭后果。",
+      "expected_capability": "aftermath-settlement",
+      "near_neighbor_of": "public-memory-recoding"
+    },
+    {
+      "case_id": "rt-relation-pos",
+      "prompt": "两个合作十年的角色很信任，但在利益和价值观上开始分叉。我不想用一个忠诚度概括。",
+      "expected_capability": "relationship-multiaxis"
+    },
+    {
+      "case_id": "rt-relation-near",
+      "prompt": "新机构拿走旧士绅的土地审批和任命权，我要推他们为什么会合理阻挠。",
+      "expected_capability": "structural-conflict",
+      "near_neighbor_of": "relationship-multiaxis"
+    },
+    {
+      "case_id": "rt-rebalance-pos",
+      "prompt": "早期开荒时让一个基层负责人统一分配原料很高效，现在资源升值后开始出现寻租，我要重新拆权。",
+      "expected_capability": "resource-power-rebalance"
+    },
+    {
+      "case_id": "rt-rebalance-near",
+      "prompt": "这个岗位从一开始就职责、资源、边界都没定义清楚。",
+      "expected_capability": "power-contract",
+      "near_neighbor_of": "resource-power-rebalance"
+    },
+    {
+      "case_id": "rt-conflict-pos",
+      "prompt": "改革把税收和审批权交给新机构，我不想写成‘坏人反对’，请从旧群体具体失去什么来生成阻力。",
+      "expected_capability": "structural-conflict"
+    },
+    {
+      "case_id": "rt-conflict-near",
+      "prompt": "敌人不是利益被夺，而是刚看到主角一次意外胜利，需要根据新情报重新判断。",
+      "expected_capability": "adaptive-opponents",
+      "near_neighbor_of": "structural-conflict"
+    }
+  ]
+}
