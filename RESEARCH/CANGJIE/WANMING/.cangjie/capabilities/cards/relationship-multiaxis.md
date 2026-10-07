@@ -37,7 +37,7 @@
 
 语言信号：长期关系、信任、利益、价值分歧、relationship arcs、trust vs agreement、multi-axis relationship.
 
-与相邻能力的初步区分：本能力维护**人物关系状态**；structural-conflict 处理群体/机构利益冲突，macro-micro-rhythm 处理生活场景何时进入主线。
+与相邻能力的区分（定稿）：本能力维护**人物关系状态**；structural-conflict 处理群体/机构利益冲突，macro-micro-rhythm 处理生活场景何时进入主线。
 
 ## E — Execution
 
@@ -70,3 +70,9 @@
 不要因为长期亲密就消灭利益和价值冲突。
 不要用一次争吵自动制造背叛。
 如果冲突根源来自制度与群体资源重新分配，应转到 structural-conflict。
+
+
+## 相关能力
+
+- `public-memory-recoding` — 组合：终局公共记忆可以与老关系当事人的私人记忆形成主题反差。
+- `structural-conflict` — 组合：结构性利益变化通常只改变关系的部分轴，不必把关系整体清零。
