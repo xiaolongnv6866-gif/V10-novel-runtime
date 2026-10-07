@@ -82,7 +82,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当角色刚获得钱、官职、技术或胜利，用户想判断“现在到底能做到哪一步”、补齐成长/权力合法性或检查升级跳级时使用。输出当前资格、缺失桥梁与下一层兑现动作；不用于成熟组织的日常管理或规模重构。",
+        "tags": [
+          "long-form",
+          "power-progression",
+          "historical-fiction"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.learning-loop",
@@ -122,7 +131,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当一次行动结束后需要把经验真正转成组织规则，或用户写了“总结经验”却看不出后续变化时使用。按基层反馈→筛选→讨论→规则修改→回测闭环执行；不用于整体组织扩张重构或单纯余波结算。",
+        "tags": [
+          "organization",
+          "feedback-loop",
+          "long-form"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.scale-restructure",
@@ -172,7 +190,16 @@
           "independent_eval": true
         },
         "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
-      }
+      },
+      "frontmatter": {
+        "description": "当人数、地盘、业务扩大后少数核心人物开始什么都管，或用户问“什么时候该分权/组织扩大后怎么改结构”时使用。先找实际瓶颈，再做最小重构；不用于单个岗位权限定义或单纯信息分流。",
+        "tags": [
+          "organization",
+          "scale",
+          "worldbuilding"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.information-triage",
@@ -212,7 +239,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当主角同时收到大量军政、商业、民生或情报消息，用户需要设计汇报优先级、文书流或避免领导者全知时使用。区分紧急/重要并决定裁决、委派、记录、补信息；不用于职责结构本身失效。",
+        "tags": [
+          "information-flow",
+          "decision",
+          "organization"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.power-contract",
@@ -257,7 +293,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当新任命一个官、主管或部门但读者不知道其真实权力，或出现抢权、推诿、任务与资源不匹配时使用。定义职责、资源、边界、协调与问责；不用于判断整个组织是否需要重构。",
+        "tags": [
+          "power",
+          "roles",
+          "organization"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.delegated-execution",
