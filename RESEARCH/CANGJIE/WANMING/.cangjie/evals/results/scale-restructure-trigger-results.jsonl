@@ -1,0 +1,6 @@
+{"case_id":"sr-pos-01","run":1,"selected_skill":"scale-restructure","mode":"fallback_self_test"}
+{"case_id":"sr-pos-02","run":1,"selected_skill":"scale-restructure","mode":"fallback_self_test"}
+{"case_id":"sr-pos-03","run":1,"selected_skill":"scale-restructure","mode":"fallback_self_test"}
+{"case_id":"sr-neg-01","run":1,"selected_skill":"wanming-router","mode":"fallback_self_test"}
+{"case_id":"sr-sib-01","run":1,"selected_skill":"wanming-router","mode":"fallback_self_test"}
+{"case_id":"sr-boundary-01","run":1,"selected_skill":"scale-restructure","mode":"fallback_self_test"}
