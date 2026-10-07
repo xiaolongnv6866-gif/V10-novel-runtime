@@ -37,10 +37,11 @@
       "runs": 1
     },
     {
-      "case_id": "mp-edge-01",
+      "case_id": "mp-boundary-01",
       "prompt": "事件只有两个地点，其中一个视角只是重复别人已经知道的消息，还需要保留吗？",
-      "expected": "edge_case",
-      "runs": 1
+      "expected": "should_trigger",
+      "runs": 1,
+      "note": "Pre-run correction: this boundary scenario should trigger the capability so it can execute its B/E boundary handling. The upstream scorer treats edge_case as non-trigger, so expected was changed before any run."
     }
   ],
   "output_cases": []
