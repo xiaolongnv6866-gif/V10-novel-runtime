@@ -37,10 +37,11 @@
       "runs": 1
     },
     {
-      "case_id": "it-edge-01",
+      "case_id": "it-boundary-01",
       "prompt": "人物只记得现代制度的一个关键词，但作者本人知道完整现实制度，可以直接把作者知识塞给人物补齐吗？",
-      "expected": "edge_case",
-      "runs": 1
+      "expected": "should_trigger",
+      "runs": 1,
+      "note": "Pre-run correction: this boundary scenario should trigger the capability so it can execute its B/E boundary handling. The upstream scorer treats edge_case as non-trigger, so expected was changed before any run."
     }
   ],
   "output_cases": []
