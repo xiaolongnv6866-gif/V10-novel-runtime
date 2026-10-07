@@ -33,3 +33,10 @@ The upstream `run_trigger_evals.py` scores `edge_case` the same as a non-trigger
 Because **no trigger run had started**, those seven cases were changed from `edge_case` to `should_trigger` before execution. This avoids rewarding non-activation when the desired behavior is “activate and correctly refuse/limit within the capability.”
 
 This is a scorer-semantics correction, not a post-result expectation change.
+
+
+## Pre-run correction 3 — source-conflict true negative
+
+The initial `sc-neg-01` asked the capability to decide a source conflict without source text. That is actually a valid boundary invocation of `source-conflict-canon`: the capability should activate and stop rather than silently use model memory.
+
+Before any trigger execution, the case was replaced with a genuinely unrelated prose-writing request. The separate boundary case still covers unresolved source conflict behavior.
