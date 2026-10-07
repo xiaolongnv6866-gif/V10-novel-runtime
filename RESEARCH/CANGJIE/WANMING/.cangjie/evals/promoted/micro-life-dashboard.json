@@ -37,10 +37,11 @@
       "runs": 1
     },
     {
-      "case_id": "ml-edge-01",
+      "case_id": "ml-boundary-01",
       "prompt": "一个政策让多数家庭收入增加，但只有一户样本可写，我能不能用这一户代表全城？",
-      "expected": "edge_case",
-      "runs": 1
+      "expected": "should_trigger",
+      "runs": 1,
+      "note": "Pre-run correction: this boundary scenario should trigger the capability so it can execute its B/E boundary handling. The upstream scorer treats edge_case as non-trigger, so expected was changed before any run."
     }
   ],
   "output_cases": []
