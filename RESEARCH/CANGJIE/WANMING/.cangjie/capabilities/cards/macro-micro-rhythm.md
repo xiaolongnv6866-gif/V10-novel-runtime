@@ -37,7 +37,7 @@
 
 语言信号：生活线、节奏、任务链、人物生活感、macro-micro rhythm、slice of life、character grounding。
 
-与相邻能力的初步区分：本能力决定**何时切入生活线以及生活线要改变什么**；micro-life-dashboard 负责用生活指标表现社会变化，repeat-by-delta 处理同类生活场景重复出现时写什么差值。
+与相邻能力的区分（定稿）：本能力决定**何时切入生活线以及生活线要改变什么**；micro-life-dashboard 负责用生活指标表现社会变化，repeat-by-delta 处理同类生活场景重复出现时写什么差值。
 
 ## E — Execution
 
@@ -69,3 +69,9 @@
 不要把生活场景写成只提供温情或笑料、对后续毫无影响的“休息站”。
 不要让普通人只承担证明主角治理成功的功能。
 若需求是表现制度怎样改变百姓生活，用 micro-life-dashboard。
+
+
+## 相关能力
+
+- `micro-life-dashboard` — 组合：切入生活线时可用生活指标把宏观变化具体化。
+- `repeat-by-delta` — 组合：同类生活场景再次出现时，只展开与旧基线相比的新差值。
