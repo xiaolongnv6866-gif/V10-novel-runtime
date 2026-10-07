@@ -25,9 +25,10 @@
     },
     {
       "case_id": "sc-neg-01",
-      "prompt": "我只有模型记忆，没有任何史料文本。你直接告诉我应该选哪个版本写进小说。",
+      "prompt": "帮我把这段人物回家过年的场景写得更有生活气息和幽默感，不涉及史料、时间线或历史事实裁决。",
       "expected": "should_not_trigger",
-      "runs": 1
+      "runs": 1,
+      "note": "Pre-run correction: replaced an invalid boundary-as-negative case with a truly unrelated writing request. No trigger run had started."
     },
     {
       "case_id": "sc-sib-01",
