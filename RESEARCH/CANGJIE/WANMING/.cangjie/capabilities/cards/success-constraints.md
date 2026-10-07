@@ -37,7 +37,7 @@
 
 语言信号：成功后果、胜利代价、二阶约束、success creates constraints、second-order effects、escalation.
 
-与相邻能力的初步区分：本能力聚焦**成功本身产生的新约束**；aftermath-settlement 结算所有事件后果，adaptive-opponents 只处理外部角色如何学习和重新估价。
+与相邻能力的区分（定稿）：本能力聚焦**成功本身产生的新约束**；aftermath-settlement 结算所有事件后果，adaptive-opponents 只处理外部角色如何学习和重新估价。
 
 ## E — Execution
 
@@ -70,3 +70,12 @@
 不要为了平衡爽点强行惩罚角色。
 如果重点是伤员、家庭、物资、关系等全维度余波，用 aftermath-settlement。
 如果重点是对手如何改变策略，用 adaptive-opponents。
+
+
+## 相关能力
+
+- `actionability-ladder` — 组合：每次资格升级后，用本卡检查新增收益如何反过来制造下一层约束。
+- `adaptive-opponents` — 组合：成功改变外部角色的估价与行为，是二阶约束的一部分。
+- `aftermath-settlement` — 组合：把成功带来的责任、暴露和利益变化纳入完整事件余波。
+- `resource-power-rebalance` — 组合：资源因成功升值后，内部权力合同可能需要重新拆分。
+- `structural-conflict` — 组合：新增权力和资源会触发既有群体的结构性反应。
