@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "suite_id": "wanming-scale-restructure",
+  "target": "scale-restructure",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "sr-pos-01",
+      "prompt": "组织从五十人变成八百人、六个据点，还是三个人直接管理，帮我判断旧结构哪里先失效。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "sr-pos-02",
+      "prompt": "我不想为了显得复杂乱加部门。请从实际审批堆积、跨区迟缓和职责空白推最小重构。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "sr-pos-03",
+      "prompt": "地盘和业务都扩大了，主角开始什么都管。帮我做规模—瓶颈—结构调整。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "sr-neg-01",
+      "prompt": "这个新任命的民事主管到底能调哪些人、用哪些钱、越权边界在哪？",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "sr-sib-01",
+      "prompt": "三个远端据点普通事务都等总部批复，我想划出哪些权限能下放并先挑一个地方试点。",
+      "expected": "sibling",
+      "sibling_target": "wanming-router",
+      "runs": 1
+    },
+    {
+      "case_id": "sr-edge-01",
+      "prompt": "组织人数增加了一倍，但现在没有任何延误、职责冲突或信息过载，我是不是也该提前新设三层机构？",
+      "expected": "edge_case",
+      "runs": 1
+    }
+  ],
+  "output_cases": []
+}
