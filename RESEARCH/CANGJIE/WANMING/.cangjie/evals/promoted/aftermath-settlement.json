@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "suite_id": "wanming-aftermath-settlement",
+  "target": "aftermath-settlement",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "af-pos-01",
+      "prompt": "这场大冲突已经赢了，我不想下一章世界清零。帮我结算人员、资源、政治关系和普通生活的后果。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "af-pos-02",
+      "prompt": "高潮结束后该写什么？我要至少一项余波直接成为下一场景的起点。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "af-pos-03",
+      "prompt": "一次政变失败后，除了胜负，我还要追踪谁缺位、资源损耗、联盟变化和家庭影响。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "af-neg-01",
+      "prompt": "角色刚获得巨大声望，我只想设计这次成功本身新增了哪些责任、关注和暴露面。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "af-sib-01",
+      "prompt": "政策改变后，我想用一户人的住房、教育和劳动变化来表现社会成本，不做全维度善后。",
+      "expected": "sibling",
+      "sibling_target": "micro-life-dashboard",
+      "runs": 1
+    },
+    {
+      "case_id": "af-edge-01",
+      "prompt": "这是一次很小的成功，几乎没有资源损失和政治影响，还要强行写完整善后章吗？",
+      "expected": "edge_case",
+      "runs": 1
+    }
+  ],
+  "output_cases": []
+}
