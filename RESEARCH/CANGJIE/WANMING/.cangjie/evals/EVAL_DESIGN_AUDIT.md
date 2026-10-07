@@ -24,3 +24,12 @@ Prompts no longer reveal the capability-specific expected result keys.
 JSON + English `snake_case` is an evaluation-harness convention for deterministic assertions. It is **not** attributed to 《晚明》 and does not change the capability semantics.
 
 No test had been run before this correction, so there is no post-result threshold changing.
+
+
+## Pre-run correction 2 — edge_case scorer semantics
+
+The upstream `run_trigger_evals.py` scores `edge_case` the same as a non-trigger case. The initial seven promoted suites used `edge_case` for scenarios where the capability itself should activate and enforce its own B/E boundary.
+
+Because **no trigger run had started**, those seven cases were changed from `edge_case` to `should_trigger` before execution. This avoids rewarding non-activation when the desired behavior is “activate and correctly refuse/limit within the capability.”
+
+This is a scorer-semantics correction, not a post-result expectation change.
