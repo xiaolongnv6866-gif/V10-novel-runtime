@@ -14,7 +14,7 @@
 - Stage 1.6 promotion gate: **COMPLETE / VALIDATED**
 - Stage 2 RIA++ capability cards: **COMPLETE / VALIDATED — 20 / 20**
 - Stage 3 Zettelkasten links: **COMPLETE / VALIDATED**
-- Stage 4 pressure tests: **READY / NOT STARTED**
+- Stage 4 pressure tests: **IN PROGRESS — 4A PLAN COMPLETE**
 - Stage 5 compile/delivery: NOT STARTED
 - V10 candidate promotion review: NOT STARTED
 
@@ -107,3 +107,13 @@ Run Cangjie Stage 3 using the original `methodology/04-stage2-ria-plus.md`: buil
 ## Next step
 
 Run Cangjie Stage 4 pressure tests using the original `methodology/06-stage4-pressure-test.md`.
+
+
+## Stage 4 progress
+
+- 4A plan: COMPLETE (`STAGE4_PLAN.md`)
+- promoted trigger suites: 0 / 7
+- router reachability suites: 0 / 13 capabilities
+- output cases designed: 0 / 40
+- actual outputs completed: 0 / 40
+- environment: fallback_self_test (no independent sub-agent)
