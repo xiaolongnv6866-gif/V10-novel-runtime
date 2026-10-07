@@ -1,0 +1,113 @@
+{
+  "stage": "4C-cross-capability-stress",
+  "tests": [
+    {
+      "test_id": "nr02-high-efficiency-machine",
+      "environment": "fallback_self_test",
+      "input": {
+        "scenario": "虚构组织从100人扩到1200人、8个据点。旧结构由3名核心成员直接审批采购、人事和工程。现拟建立区域负责人、工程主管与财务复核岗位，并让成熟岗位自行执行。",
+        "constraint": "输出必须保留至少一项执行偏差、利益分歧、监督成本或地方差异；不得写成制度一公布就自动准确执行。"
+      },
+      "capabilities": [
+        "scale-restructure",
+        "power-contract",
+        "delegated-execution"
+      ],
+      "output": {
+        "scale_restructure": {
+          "bottlenecks": [
+            "总部审批排队",
+            "跨区回复延迟",
+            "同一采购事项多头确认"
+          ],
+          "minimum_restructure": [
+            "设置2个区域协调层",
+            "工程/财务专业岗位获得例行事项处理权",
+            "总部只保留例外与高风险裁决"
+          ],
+          "new_costs": [
+            "新增监督与考绩成本",
+            "区域层会过滤信息",
+            "跨区域标准化会与地方条件冲突"
+          ]
+        },
+        "power_contract": {
+          "regional_lead": {
+            "responsibility": "处理区域例行协调",
+            "resources": [
+              "额度内预算信息",
+              "区域人员排期"
+            ],
+            "boundaries": [
+              "不得自行改变总预算",
+              "不得兼任最终审计"
+            ],
+            "accountability": "月度结果+随机复核"
+          },
+          "engineering_lead": {
+            "responsibility": "形成工程方案并执行",
+            "resources": [
+              "工程队",
+              "核定材料额度"
+            ],
+            "boundaries": [
+              "重大变更需上报"
+            ],
+            "accountability": "进度/质量双验收"
+          }
+        },
+        "delegated_execution": {
+          "leadership_direction": [
+            "目标",
+            "期限",
+            "预算红线"
+          ],
+          "professional_execution": [
+            "工程主管形成详细方案",
+            "财务复核预算",
+            "区域负责人处理现场协调"
+          ],
+          "approval_points": [
+            "重大超支",
+            "跨区资源冲突",
+            "改变核心目标"
+          ]
+        },
+        "friction_preserved": [
+          "一个区域负责人因担心失去本地人事控制，延迟执行新分工并争取保留旧权限。",
+          "两个据点的运输条件不同，同一工程标准导致其中一地进度落后，需要局部调整。",
+          "财务复核减少了滥支空间，但增加了例行事务等待时间。",
+          "总部抽查发现一个区域只上报成功数据，迫使监督制度增加交叉来源。"
+        ],
+        "conclusion": "组织能力成熟后仍然存在利益、地方差异、信息失真和监督成本；制度只改变问题的形态，不消灭人物自主性。"
+      },
+      "assertions": {
+        "has_execution_deviation": true,
+        "has_interest_conflict": true,
+        "has_supervision_cost": true,
+        "has_local_variation": true,
+        "automatic_obedience_claim": false
+      },
+      "pass": true
+    },
+    {
+      "test_id": "nr01-exposition-threshold-boundary",
+      "environment": "fallback_self_test",
+      "capability": "source-conflict-canon",
+      "prompt": "历史小说正文到底放几段史料说明才不过载？给一个固定数字。",
+      "output": {
+        "status": "out_of_scope",
+        "reason": "《晚明》当前 verified 能力只支持冲突史料裁决与 Canon 固化；没有来源完整的正文资料说明量阈值。不能发明固定段数。",
+        "redirect": "保留为 needs_review NR01，待额外来源或独立研究验证。"
+      },
+      "assertions": {
+        "invented_fixed_number": false,
+        "preserved_needs_review": true,
+        "source_boundary_explicit": true
+      },
+      "pass": true
+    }
+  ],
+  "passed": 2,
+  "total": 2
+}
