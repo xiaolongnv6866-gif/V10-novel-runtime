@@ -1,0 +1,943 @@
+{
+  "schema_version": 1,
+  "bundle_id": "bundle.wanming",
+  "book": {
+    "title": "晚明",
+    "author": "柯山梦",
+    "source_pack": "sha256:a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+    "baseline_tag": "cangjie-stage1.6"
+  },
+  "entry": {
+    "name": "wanming",
+    "description": "基于《晚明》原始 EPUB 蒸馏的历史长篇叙事方法入口，用于组织成长、独立世界、生活层、重大事件、制度移植与史料一致性等写作任务。",
+    "core_principles": [
+      "规模扩大时让旧解法暴露瓶颈，再产生新的组织结构。",
+      "主角能力必须经由身份、资源、岗位和组织逐级转化为行动力。",
+      "世界会对主角成功作出二阶反应，对手、盟友和基层都要重新估价。",
+      "宏观变化必须穿透到普通人的生活、家庭和长期成本。",
+      "制度与现代知识只能在已知条件内试点，未知处必须保留未知。",
+      "重大事件用有限信息、多位置行动和事后结算维持真实因果。"
+    ],
+    "out_of_scope": [
+      "不把小说中的具体武器、战术、军工参数或伤害细节编译成现实操作指南。",
+      "不把人物观点自动当成作者方法，也不把缺乏来源的常识补进《晚明》能力。",
+      "不把本 Bundle 自动写入 V10 Runtime 或 Canon。"
+    ],
+    "stop_conditions": [
+      "任务要求超出《晚明》来源可支持范围时停止归因并标记来源不足。",
+      "遇到 needs_review 的 WM-T14 说明量阈值或成熟组织机器感问题时，不把它伪装成已验证能力。"
+    ]
+  },
+  "router_entry": {
+    "name": "wanming-router",
+    "description": "当用户希望应用《晚明》的整体方法、请求同时跨越多个能力，或没有命中独立晋级 Skill 时，由此入口路由到完整能力卡。"
+  },
+  "promotion_budget": 8,
+  "capabilities": [
+    {
+      "capability_id": "cap.wanming.actionability-ladder",
+      "revision": 1,
+      "status": "active",
+      "slug": "actionability-ladder",
+      "title": "行动资格逐级兑现",
+      "importance": "high",
+      "importance_rationale": "命中 Stage 0 高优先级 WM-T01，直接约束低身份成长链与资源跳级。",
+      "one_liner": "把远期目标拆成当前资格、缺失桥梁和下一步可取得资源。",
+      "intents": [
+        "检查角色成长是否跳级",
+        "设计低身份角色的下一阶段行动资格"
+      ],
+      "keywords": [
+        "成长",
+        "资源",
+        "身份",
+        "行动资格"
+      ],
+      "also_read": [],
+      "card": "cards/actionability-ladder.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第一卷第18章《白——领》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第一卷第51章《天启驾崩》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第二卷第13章《组织结构》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.learning-loop",
+      "revision": 1,
+      "status": "active",
+      "slug": "learning-loop",
+      "title": "反馈—筛选—规则修改的组织学习闭环",
+      "importance": "critical",
+      "importance_rationale": "命中 Stage 0 critical WM-T02，是个人经验转成可复制组织能力的核心路径。",
+      "one_liner": "把一次行动经验转成基层反馈、筛选、讨论、规则修改和复查点。",
+      "intents": [
+        "把一次行动复盘转成组织规则",
+        "设计组织学习闭环"
+      ],
+      "keywords": [
+        "复盘",
+        "反馈",
+        "组织学习",
+        "规则修改"
+      ],
+      "also_read": [],
+      "card": "cards/learning-loop.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第二卷第38章《总结会》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.scale-restructure",
+      "revision": 1,
+      "status": "active",
+      "slug": "scale-restructure",
+      "title": "规模触发的组织重构",
+      "importance": "critical",
+      "importance_rationale": "命中 Stage 0 critical WM-T03，并跨第五卷多处验证规模扩大后旧结构失效。",
+      "one_liner": "根据人数、地域和事务负荷识别旧结构瓶颈，并只为已出现的负荷新增层级或部门。",
+      "intents": [
+        "组织扩大后重构结构",
+        "检查现有管理结构是否已被规模压垮"
+      ],
+      "keywords": [
+        "组织规模",
+        "重构",
+        "层级",
+        "瓶颈"
+      ],
+      "also_read": [],
+      "card": "cards/scale-restructure.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第3章《钱庄总部》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第36—37章"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第153章《民事官》"
+        }
+      ],
+      "promotion": {
+        "destination": "promoted",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.information-triage",
+      "revision": 1,
+      "status": "active",
+      "slug": "information-triage",
+      "title": "信息分流与决策优先级",
+      "importance": "high",
+      "importance_rationale": "同时支撑 WM-T02/WM-T03，原文给出完整文书分类与上报机制。",
+      "one_liner": "把并发信息分成需裁决、可委派、例行记录和待补信息，并只把必要事项送入高层。",
+      "intents": [
+        "给大量并发信息分级",
+        "设计领导者的信息入口"
+      ],
+      "keywords": [
+        "信息分流",
+        "优先级",
+        "文书",
+        "决策"
+      ],
+      "also_read": [],
+      "card": "cards/information-triage.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第16章《文登军报》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.power-contract",
+      "revision": 1,
+      "status": "active",
+      "slug": "power-contract",
+      "title": "职责—资源—问责的权力契约",
+      "importance": "critical",
+      "importance_rationale": "命中 critical WM-T03，直接把官名转换为职责、资源、协调与替换后果。",
+      "one_liner": "把职位写成职责、可调用资源、边界、协调接口和失败问责的完整契约。",
+      "intents": [
+        "设计一个职位的真实权力边界",
+        "检查角色是否只有官名没有可执行权力"
+      ],
+      "keywords": [
+        "权力",
+        "职责",
+        "资源",
+        "问责"
+      ],
+      "also_read": [],
+      "card": "cards/power-contract.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第36章《军——政》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第37章《新气象》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.delegated-execution",
+      "revision": 1,
+      "status": "active",
+      "slug": "delegated-execution",
+      "title": "方向上收、专业执行下放",
+      "importance": "critical",
+      "importance_rationale": "支撑 critical WM-T02/WM-T05，能直接削弱主角中心因果链。",
+      "one_liner": "让上层只确定目标、期限与红线，专业岗位负责方案与执行，并保留必要审批点。",
+      "intents": [
+        "让成熟组织在主角缺席时仍能行动",
+        "拆分上层目标与专业执行"
+      ],
+      "keywords": [
+        "授权",
+        "专业执行",
+        "主角缺席",
+        "审批"
+      ],
+      "also_read": [],
+      "card": "cards/delegated-execution.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第145章《真正的利益》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第37章《新气象》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.decentralized-pilot",
+      "revision": 1,
+      "status": "active",
+      "slug": "decentralized-pilot",
+      "title": "中央瓶颈后的地方分权与试点",
+      "importance": "high",
+      "importance_rationale": "支撑 WM-T03/WM-T11，来源同时给出中央迟缓、新层级、权限和试点条件。",
+      "one_liner": "在中央反应变慢时划分可下放事项、中央保留项、试点范围与回收指标。",
+      "intents": [
+        "设计扩张组织的地方分权试点",
+        "判断哪些事务该从总部下放"
+      ],
+      "keywords": [
+        "分权",
+        "地方治理",
+        "试点",
+        "中央瓶颈"
+      ],
+      "also_read": [],
+      "card": "cards/decentralized-pilot.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第153章《民事官》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.adaptive-opponents",
+      "revision": 1,
+      "status": "active",
+      "slug": "adaptive-opponents",
+      "title": "适应性对手与世界反馈",
+      "importance": "critical",
+      "importance_rationale": "命中 Stage 0 第一优先级 critical WM-T05，直接维护世界独立运行。",
+      "one_liner": "根据对手实际掌握的信息，让其在新结果后更新判断、策略和可能误判。",
+      "intents": [
+        "让对手根据新结果学习",
+        "检查世界是否在主角之外独立反应"
+      ],
+      "keywords": [
+        "对手",
+        "世界反馈",
+        "学习",
+        "误判"
+      ],
+      "also_read": [],
+      "card": "cards/adaptive-opponents.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第三卷第29章《战——后》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第209章《阴——险》"
+        }
+      ],
+      "promotion": {
+        "destination": "promoted",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.success-constraints",
+      "revision": 1,
+      "status": "active",
+      "slug": "success-constraints",
+      "title": "成功同时生成收益与新约束",
+      "importance": "critical",
+      "importance_rationale": "命中 Stage 0 critical WM-T06，用同一结果同时生成奖励和更高层约束。",
+      "one_liner": "每次成功同时结算收益、被谁重新估价、新责任、暴露面和下一层约束。",
+      "intents": [
+        "为一次成功设计二阶后果",
+        "避免角色胜利后局势清零"
+      ],
+      "keywords": [
+        "成功",
+        "二阶后果",
+        "约束",
+        "声望"
+      ],
+      "also_read": [],
+      "card": "cards/success-constraints.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第145章《真正的利益》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第六卷第42章《委员会》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.micro-life-dashboard",
+      "revision": 1,
+      "status": "active",
+      "slug": "micro-life-dashboard",
+      "title": "微观生活仪表盘与社会成本穿透",
+      "importance": "high",
+      "importance_rationale": "命中 Stage 0 high WM-T07，正反样本均由住房、教育、家庭劳动力等可见指标支持。",
+      "one_liner": "把宏观制度变化翻译成住房、收入、教育、家庭负担等可观察生活结果。",
+      "intents": [
+        "用普通人生活表现制度变化",
+        "把宏观改革写成可见生活结果"
+      ],
+      "keywords": [
+        "普通人",
+        "生活细节",
+        "制度变化",
+        "社会成本"
+      ],
+      "also_read": [],
+      "card": "cards/micro-life-dashboard.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第二卷第25—26章"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第68章《畿——南》"
+        }
+      ],
+      "promotion": {
+        "destination": "promoted",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.macro-micro-rhythm",
+      "revision": 1,
+      "status": "active",
+      "slug": "macro-micro-rhythm",
+      "title": "宏观任务线与日常生活线交替",
+      "importance": "high",
+      "importance_rationale": "命中 Stage 0 high WM-T08，跨卷反复由家庭、节庆和私人欲望承接宏观压力。",
+      "one_liner": "在连续宏观任务之间插入会改变后续判断的生活场景，而不是纯休息段。",
+      "intents": [
+        "调整宏观任务与生活场景节奏",
+        "避免连续任务章吞噬人物"
+      ],
+      "keywords": [
+        "节奏",
+        "日常生活",
+        "宏观任务",
+        "人物"
+      ],
+      "also_read": [],
+      "card": "cards/macro-micro-rhythm.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第二卷第25—27章"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第三卷第20章《百——态》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第六卷第2—6章"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.limited-info-multipov",
+      "revision": 1,
+      "status": "active",
+      "slug": "limited-info-multipov",
+      "title": "多位置有限信息拼接重大事件",
+      "importance": "high",
+      "importance_rationale": "命中 Stage 0 high WM-T09，第三卷大事件连续多位置、有限信息证据充分。",
+      "one_liner": "建立多视角知道/不知道什么、能做什么、何时碰撞的事件矩阵。",
+      "intents": [
+        "设计多视角重大事件",
+        "限制战争或政治事件中的上帝视角"
+      ],
+      "keywords": [
+        "多视角",
+        "有限信息",
+        "重大事件",
+        "群像"
+      ],
+      "also_read": [],
+      "card": "cards/limited-info-multipov.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第三卷第17—21章"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第三卷己巳战争段"
+        }
+      ],
+      "promotion": {
+        "destination": "promoted",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.aftermath-settlement",
+      "revision": 1,
+      "status": "active",
+      "slug": "aftermath-settlement",
+      "title": "高潮后的后果持续结算",
+      "importance": "high",
+      "importance_rationale": "命中 Stage 0 high WM-T10，多卷重大事件后均继续结算人员、资源、政治与家庭后果。",
+      "one_liner": "高潮后结算人员、资源、关系政治和普通生活，并把至少一项后果送入下一场景。",
+      "intents": [
+        "设计高潮后的余波",
+        "让胜利或失败继续产生下一段因果"
+      ],
+      "keywords": [
+        "余波",
+        "结算",
+        "连续性",
+        "后果"
+      ],
+      "also_read": [],
+      "card": "cards/aftermath-settlement.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第三卷第29—31章"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第四卷第107章《战后登州》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第57章《静夜伤逝》"
+        }
+      ],
+      "promotion": {
+        "destination": "promoted",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.institution-transfer-pilot",
+      "revision": 1,
+      "status": "active",
+      "slug": "institution-transfer-pilot",
+      "title": "制度移植的试点—缺口—争论—修订循环",
+      "importance": "high",
+      "importance_rationale": "命中 Stage 0 high WM-T11，司法、地方治理和技术线均提供试点与失败学习证据。",
+      "one_liner": "把现代制度或知识拆成已知、未知、配套、最小试点、失败信号和继续/暂停标准。",
+      "intents": [
+        "让现代制度在历史环境中可信落地",
+        "设计制度移植试点"
+      ],
+      "keywords": [
+        "制度移植",
+        "试点",
+        "知识边界",
+        "修订"
+      ],
+      "also_read": [],
+      "card": "cards/institution-transfer-pilot.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第153章《民事官》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第六卷第31—33章"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第四卷第68章"
+        }
+      ],
+      "promotion": {
+        "destination": "promoted",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.repeat-by-delta",
+      "revision": 1,
+      "status": "active",
+      "slug": "repeat-by-delta",
+      "title": "重复场景只展开差值",
+      "importance": "high",
+      "importance_rationale": "命中 Stage 0 high WM-T12，跨卷重复会议、节庆、训练和回家场景形成稳定差值结构。",
+      "one_liner": "先确认读者已知基线，后续同类场景只展开身份、规则、规模与情绪的新差值。",
+      "intents": [
+        "避免长期重复场景写成流水账",
+        "重写第二次会议训练节庆场景"
+      ],
+      "keywords": [
+        "重复",
+        "差值",
+        "长篇时间",
+        "场景"
+      ],
+      "also_read": [],
+      "card": "cards/repeat-by-delta.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第二卷第26章《大——年》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第37章《新气象》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第六卷第3—6章"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.public-memory-recoding",
+      "revision": 1,
+      "status": "active",
+      "slug": "public-memory-recoding",
+      "title": "终局的公共记忆再编码",
+      "importance": "medium",
+      "importance_rationale": "命中 Stage 0 medium WM-T15，终章茶馆与英雄章节构成完整但低频的终局机制。",
+      "one_liner": "用当事人事实层与后世公共叙述层的差异，形成终局主题回声。",
+      "intents": [
+        "用后世传说回看主角一生",
+        "设计历史小说的公共记忆式结尾"
+      ],
+      "keywords": [
+        "终局",
+        "公共记忆",
+        "神话化",
+        "后世"
+      ],
+      "also_read": [],
+      "card": "cards/public-memory-recoding.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第六卷第82—84章"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": false,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.relationship-multiaxis",
+      "revision": 1,
+      "status": "active",
+      "slug": "relationship-multiaxis",
+      "title": "长期关系的多轴状态演化",
+      "importance": "high",
+      "importance_rationale": "命中 Stage 0 high WM-T13，跨首尾卷持续验证信任、职位、利益与价值分歧并不等价。",
+      "one_liner": "用信任、利益、职位依赖、私人感情和价值分歧多轴维护长期关系状态。",
+      "intents": [
+        "设计长期关系的变化",
+        "避免人物关系退化为单一忠诚度"
+      ],
+      "keywords": [
+        "关系",
+        "信任",
+        "利益",
+        "价值分歧"
+      ],
+      "also_read": [],
+      "card": "cards/relationship-multiaxis.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第一卷第51章《天启驾崩》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第六卷第33章《九——年》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第六卷第83章《英——雄（下）》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.source-conflict-canon",
+      "revision": 1,
+      "status": "active",
+      "slug": "source-conflict-canon",
+      "title": "冲突史料的作者侧裁决与 Canon 固化",
+      "importance": "high",
+      "importance_rationale": "命中 Stage 0 high WM-T14 的已验证部分，作品资料页直接展示多史料比较与本书采用版本。",
+      "one_liner": "比较冲突史料、保留不确定项、选择小说采用 Canon，并禁止正文继续混用被弃版本。",
+      "intents": [
+        "裁决冲突史料并固定小说设定",
+        "处理历史资料日期或因果冲突"
+      ],
+      "keywords": [
+        "史料",
+        "Canon",
+        "冲突来源",
+        "历史小说"
+      ],
+      "also_read": [],
+      "card": "cards/source-conflict-canon.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "作品相关《崔呈秀的去职过程》"
+        },
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第二卷第6—8章"
+        }
+      ],
+      "promotion": {
+        "destination": "promoted",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.resource-power-rebalance",
+      "revision": 1,
+      "status": "active",
+      "slug": "resource-power-rebalance",
+      "title": "资源升值后的基层权力再拆分",
+      "importance": "high",
+      "importance_rationale": "支撑 critical WM-T03/WM-T06，原文直接给出资源升值后寻租与拆权修正。",
+      "one_liner": "当资源价值上升时识别兼具裁决与获利空间的基层权力，并重新拆分或监督。",
+      "intents": [
+        "检查成功后出现的基层寻租",
+        "重新设计资源升值后的权力边界"
+      ],
+      "keywords": [
+        "资源升值",
+        "寻租",
+        "拆权",
+        "基层治理"
+      ],
+      "also_read": [],
+      "card": "cards/resource-power-rebalance.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第153章《民事官》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    },
+    {
+      "capability_id": "cap.wanming.structural-conflict",
+      "revision": 1,
+      "status": "active",
+      "slug": "structural-conflict",
+      "title": "用权力与资源结构碰撞生成冲突",
+      "importance": "high",
+      "importance_rationale": "同时覆盖 critical WM-T05/WM-T06 与 high WM-T13，原文直接说明新体系权力与旧结构冲突。",
+      "one_liner": "把新机构获得的权力资源映射为旧群体失去的利益，从结构上生成合理阻力。",
+      "intents": [
+        "从权力资源变化生成冲突",
+        "避免用无理由坏人反对改革"
+      ],
+      "keywords": [
+        "结构冲突",
+        "权力",
+        "资源",
+        "利益"
+      ],
+      "also_read": [],
+      "card": "cards/structural-conflict.md",
+      "source_evidence": [
+        {
+          "source_id": "src-wanming-epub",
+          "version_id": "a8f3b43dcd496822cd384ac8e9aa85f7dc374f8430f06c6f8321c26825093082",
+          "location": "第五卷第37章《新气象》"
+        }
+      ],
+      "promotion": {
+        "destination": "router",
+        "gate": {
+          "independent_intent": true,
+          "independent_contract": true,
+          "independent_run": true,
+          "independent_reuse": true,
+          "independent_eval": true
+        },
+        "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
+      }
+    }
+  ]
+}
