@@ -37,7 +37,7 @@
 
 语言信号：多视角、有限信息、群像、大事件编排、multi-POV、limited information、cross-cutting。
 
-与相邻能力的初步区分：本能力负责**同一大事件的视角与信息结构**；adaptive-opponents 负责外部角色在事件后如何学习，aftermath-settlement 负责事件结束后的持续结算。
+与相邻能力的区分（定稿）：本能力负责**同一大事件的视角与信息结构**；adaptive-opponents 负责外部角色在事件后如何学习，aftermath-settlement 负责事件结束后的持续结算。
 
 ## E — Execution
 
@@ -70,3 +70,9 @@
 不要让每次切换都重复同一信息。
 不要用全知旁白替人物补齐未知部分。
 涉及战争时保持在叙事结构、信息限制和人物压力层，不转成现实作战指导。
+
+
+## 相关能力
+
+- `adaptive-opponents` — 组合：每个对手只能依据其视角获得的信息更新判断。
+- `aftermath-settlement` — 组合：重大事件结束后可沿多个受影响位置继续结算余波。
