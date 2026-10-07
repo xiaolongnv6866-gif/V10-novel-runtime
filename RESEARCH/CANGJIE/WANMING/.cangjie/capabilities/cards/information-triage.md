@@ -36,7 +36,7 @@
 
 语言信号：信息过载、紧急重要、文书流、汇报优先级、triage、information overload、decision queue。
 
-与相邻能力的初步区分：本能力处理**信息进入决策层之前的分流**；scale-restructure 处理整个组织结构，delegated-execution 处理决策之后由谁执行。
+与相邻能力的区分（定稿）：本能力处理**信息进入决策层之前的分流**；scale-restructure 处理整个组织结构，delegated-execution 处理决策之后由谁执行。
 
 ## E — Execution
 
@@ -66,3 +66,8 @@
 不要把“紧急”自动等于“重要”。
 不要让秘书或中间层越权做掉本应由领导承担的价值判断。
 如果根本问题是职责不清，应使用 power-contract 或 scale-restructure。
+
+
+## 相关能力
+
+- `delegated-execution` — 组合：信息先被正确分流，再由对应专业岗位执行。
