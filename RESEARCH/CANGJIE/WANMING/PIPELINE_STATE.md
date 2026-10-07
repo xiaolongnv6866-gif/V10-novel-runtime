@@ -12,7 +12,7 @@
 - Stage 1 five extractors: **COMPLETE**
 - Stage 1.5 triple verification: **COMPLETE / USER CONFIRMED**
 - Stage 1.6 promotion gate: **COMPLETE / VALIDATED**
-- Stage 2 RIA++ capability cards: **IN PROGRESS — 15 / 20**
+- Stage 2 RIA++ capability cards: **IN PROGRESS — 20 / 20 — VALIDATING**
 - Stage 3 Zettelkasten links: NOT STARTED
 - Stage 4 pressure tests: NOT STARTED
 - Stage 5 compile/delivery: NOT STARTED
@@ -71,10 +71,11 @@ The container has no direct GitHub DNS/network access, so `git clone` of the Can
 
 ## Stage 2 progress
 
-- completed cards: 15 / 20
+- completed cards: 20 / 20
 - batch 1: actionability-ladder, learning-loop, scale-restructure, information-triage, power-contract
 - batch 2: delegated-execution, decentralized-pilot, adaptive-opponents, success-constraints, micro-life-dashboard
 - batch 3: macro-micro-rhythm, limited-info-multipov, aftermath-settlement, institution-transfer-pilot, repeat-by-delta
+- batch 4: public-memory-recoding, relationship-multiaxis, source-conflict-canon, resource-power-rebalance, structural-conflict
 - each completed card has R / I / A1 / A2 / E / B and corresponding Bundle frontmatter.description
 
 ## Next step
