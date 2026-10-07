@@ -37,7 +37,7 @@
 
 语言信号：重复场景、差值、时间感、第二次会议、repeat with difference、delta writing、long-form repetition。
 
-与相邻能力的初步区分：本能力处理**同类场景再次出现时写什么**；macro-micro-rhythm 处理不同类型场景的节奏交替，aftermath-settlement 处理事件后的后果。
+与相邻能力的区分（定稿）：本能力处理**同类场景再次出现时写什么**；macro-micro-rhythm 处理不同类型场景的节奏交替，aftermath-settlement 处理事件后的后果。
 
 ## E — Execution
 
@@ -69,3 +69,8 @@
 不要强行制造花样，差值必须来自真实状态变化。
 如果完全没有差值，应压缩而不是硬写一章。
 如果重点是任务线与生活线的切换，用 macro-micro-rhythm。
+
+
+## 相关能力
+
+- `macro-micro-rhythm` — 组合：生活与日常场景反复出现时，用差值而不是重复解释维持时间感。
