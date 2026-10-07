@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "suite_id": "wanming-limited-info-multipov",
+  "target": "limited-info-multipov",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "mp-pos-01",
+      "prompt": "一场政治危机同时发生在王府、城门和商会，我想用三个视角拼起来，但任何人都不能知道全局。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "mp-pos-02",
+      "prompt": "大战章节总是跟着主角，导致他像全知。帮我做每个视角知道/不知道什么的矩阵。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "mp-pos-03",
+      "prompt": "这次事件有官员、百姓、对手和情报人员，我需要安排切换顺序和信息差。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "mp-neg-01",
+      "prompt": "战斗已经结束了，我要结算伤员、政治影响、家庭和资源余波。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "mp-sib-01",
+      "prompt": "敌人经历上一次失败后应该怎样学习、调整判断，同时保留合理误判？",
+      "expected": "sibling",
+      "sibling_target": "adaptive-opponents",
+      "runs": 1
+    },
+    {
+      "case_id": "mp-edge-01",
+      "prompt": "事件只有两个地点，其中一个视角只是重复别人已经知道的消息，还需要保留吗？",
+      "expected": "edge_case",
+      "runs": 1
+    }
+  ],
+  "output_cases": []
+}
