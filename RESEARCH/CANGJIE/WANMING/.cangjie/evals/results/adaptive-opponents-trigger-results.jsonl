@@ -1,0 +1,6 @@
+{"case_id":"ao-pos-01","run":1,"selected_skill":"adaptive-opponents","mode":"fallback_self_test"}
+{"case_id":"ao-pos-02","run":1,"selected_skill":"adaptive-opponents","mode":"fallback_self_test"}
+{"case_id":"ao-pos-03","run":1,"selected_skill":"adaptive-opponents","mode":"fallback_self_test"}
+{"case_id":"ao-neg-01","run":1,"selected_skill":"wanming-router","mode":"fallback_self_test"}
+{"case_id":"ao-sib-01","run":1,"selected_skill":"limited-info-multipov","mode":"fallback_self_test"}
+{"case_id":"ao-boundary-01","run":1,"selected_skill":"adaptive-opponents","mode":"fallback_self_test"}
