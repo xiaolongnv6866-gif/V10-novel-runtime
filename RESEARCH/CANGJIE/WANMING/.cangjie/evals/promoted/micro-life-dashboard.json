@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "suite_id": "wanming-micro-life-dashboard",
+  "target": "micro-life-dashboard",
+  "split_seed": 42,
+  "train_ratio": 0.6,
+  "trigger_cases": [
+    {
+      "case_id": "ml-pos-01",
+      "prompt": "我不想旁白说‘治理变好了’，请用普通人住房、收入、孩子上学之类的变化让读者自己看出来。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "ml-pos-02",
+      "prompt": "这场长期战争我只有伤亡数字，怎么让代价真正落到家庭和社区生活里？",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "ml-pos-03",
+      "prompt": "世界观数据很多但没有生活感，帮我把这次改革转换成普通人能摸得到的变化。",
+      "expected": "should_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "ml-neg-01",
+      "prompt": "第二次写年度会议，流程和去年差不多，我只想知道这次该展开哪些变化。",
+      "expected": "should_not_trigger",
+      "runs": 1
+    },
+    {
+      "case_id": "ml-sib-01",
+      "prompt": "连续六章都在推进政务，我想插一场家庭生活戏，但必须影响下一步选择，不能只是休息。",
+      "expected": "sibling",
+      "sibling_target": "wanming-router",
+      "runs": 1
+    },
+    {
+      "case_id": "ml-edge-01",
+      "prompt": "一个政策让多数家庭收入增加，但只有一户样本可写，我能不能用这一户代表全城？",
+      "expected": "edge_case",
+      "runs": 1
+    }
+  ],
+  "output_cases": []
+}
