@@ -897,7 +897,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当历史长篇接近终局、主要人物命运已结算，用户想写“多年以后后人怎么记住这段历史”、用传说/评书/纪念反看真实经历时使用。建立事实层与公共叙述层及传播动机；不用于普通余波或尚未完成的主线。",
+        "tags": [
+          "ending",
+          "public-memory",
+          "myth-making"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.relationship-multiaxis",
@@ -947,7 +956,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当长期关系被写成固定“兄弟/忠臣/夫妻/盟友”标签，或用户想表现“很信任但不同意”“合作但利益分叉”时使用。分别维护信任、利益、职位依赖、私人感情和价值分歧；不把一次争吵自动升级成全面背叛。",
+        "tags": [
+          "relationship",
+          "long-form",
+          "character"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.source-conflict-canon",
@@ -992,7 +1010,16 @@
           "independent_eval": true
         },
         "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
-      }
+      },
+      "frontmatter": {
+        "description": "当两份史料对日期、地点、人物行动或因果顺序冲突，用户需要选择小说采用版本并保持正文一致时使用。逐条对照来源、保留未知、记录 Canon 与弃用版本；没有来源文本时不得凭记忆裁决。",
+        "tags": [
+          "historical-research",
+          "canon",
+          "source-conflict"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.resource-power-rebalance",
@@ -1032,7 +1059,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当早期集中管理有效，但店铺、土地、原料、贷款等资源升值后出现投诉、偏袒或寻租风险时使用。识别分配/裁决/监督重叠并做最小拆权；不把所有腐败归因于个人道德。",
+        "tags": [
+          "governance",
+          "rent-seeking",
+          "power"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.structural-conflict",
@@ -1072,7 +1108,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当新机构或改革获得土地、任命、税收、司法、审批等权力，用户不知道“谁会反对、为什么反对”时使用。把新权力映射为旧群体的具体损失并生成合理阻力；不使用无缘由的‘坏人反改革’。",
+        "tags": [
+          "conflict",
+          "power-structure",
+          "stakeholders"
+        ]
+      },
+      "resources": []
     }
   ]
 }
