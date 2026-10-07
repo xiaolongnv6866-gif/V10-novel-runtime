@@ -347,7 +347,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当成熟组织仍由主角逐项发现、设计、下令，用户想让配角真正承担专业执行，或检查“主角不在场组织是否还能运转”时使用。拆分上层方向、专业方案与审批点；不用于尚未建立岗位的早期组织。",
+        "tags": [
+          "delegation",
+          "organization",
+          "distributed-agency"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.decentralized-pilot",
@@ -387,7 +396,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当多个远端据点都要等总部批准普通事务，用户想判断何时设地方负责人、下放哪些权限并先做有限试点时使用。以真实响应瓶颈为前提；不用于没有地域迟缓证据的预防性分权。",
+        "tags": [
+          "decentralization",
+          "governance",
+          "pilot"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.adaptive-opponents",
@@ -432,7 +450,16 @@
           "independent_eval": true
         },
         "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
-      }
+      },
+      "frontmatter": {
+        "description": "当主角刚取得显著结果、对手却仍重复旧套路，或用户要求“世界不要围着主角转”“让对手合理学习/误判”时使用。只从对手可知信息更新判断与行为；不赋予作者全知。",
+        "tags": [
+          "world-model",
+          "opponents",
+          "historical-fiction"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.success-constraints",
@@ -477,7 +504,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当角色刚获得胜利、升官、财富或声望，用户需要让下一阶段难度由这次成功自然生长时使用。同步生成收益、重新估价、新责任、暴露面与下一层约束；不把所有成功强行写成惩罚。",
+        "tags": [
+          "second-order-effects",
+          "escalation",
+          "long-form"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.micro-life-dashboard",
@@ -522,7 +558,16 @@
           "independent_eval": true
         },
         "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
-      }
+      },
+      "frontmatter": {
+        "description": "当文本只写“百姓生活改善/恶化”、世界观充满宏观数字却缺乏生活感，或用户想用普通人表现制度和战争后果时使用。把变化落到住房、收入、教育、劳动和家庭等可见指标；不以单户代表全部社会。",
+        "tags": [
+          "daily-life",
+          "social-impact",
+          "show-dont-tell"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.macro-micro-rhythm",
