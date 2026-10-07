@@ -53,7 +53,10 @@
         "身份",
         "行动资格"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.success-constraints",
+        "cap.wanming.scale-restructure"
+      ],
       "card": "cards/actionability-ladder.md",
       "source_evidence": [
         {
@@ -112,7 +115,9 @@
         "组织学习",
         "规则修改"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.institution-transfer-pilot"
+      ],
       "card": "cards/learning-loop.md",
       "source_evidence": [
         {
@@ -161,7 +166,13 @@
         "层级",
         "瓶颈"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.actionability-ladder",
+        "cap.wanming.power-contract",
+        "cap.wanming.delegated-execution",
+        "cap.wanming.decentralized-pilot",
+        "cap.wanming.structural-conflict"
+      ],
       "card": "cards/scale-restructure.md",
       "source_evidence": [
         {
@@ -220,7 +231,9 @@
         "文书",
         "决策"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.delegated-execution"
+      ],
       "card": "cards/information-triage.md",
       "source_evidence": [
         {
@@ -269,7 +282,11 @@
         "资源",
         "问责"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.scale-restructure",
+        "cap.wanming.resource-power-rebalance",
+        "cap.wanming.delegated-execution"
+      ],
       "card": "cards/power-contract.md",
       "source_evidence": [
         {
@@ -323,7 +340,11 @@
         "主角缺席",
         "审批"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.scale-restructure",
+        "cap.wanming.information-triage",
+        "cap.wanming.power-contract"
+      ],
       "card": "cards/delegated-execution.md",
       "source_evidence": [
         {
@@ -377,7 +398,10 @@
         "试点",
         "中央瓶颈"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.scale-restructure",
+        "cap.wanming.institution-transfer-pilot"
+      ],
       "card": "cards/decentralized-pilot.md",
       "source_evidence": [
         {
@@ -426,7 +450,10 @@
         "学习",
         "误判"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.limited-info-multipov",
+        "cap.wanming.success-constraints"
+      ],
       "card": "cards/adaptive-opponents.md",
       "source_evidence": [
         {
@@ -480,7 +507,13 @@
         "约束",
         "声望"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.actionability-ladder",
+        "cap.wanming.adaptive-opponents",
+        "cap.wanming.aftermath-settlement",
+        "cap.wanming.resource-power-rebalance",
+        "cap.wanming.structural-conflict"
+      ],
       "card": "cards/success-constraints.md",
       "source_evidence": [
         {
@@ -534,7 +567,10 @@
         "制度变化",
         "社会成本"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.macro-micro-rhythm",
+        "cap.wanming.aftermath-settlement"
+      ],
       "card": "cards/micro-life-dashboard.md",
       "source_evidence": [
         {
@@ -588,7 +624,10 @@
         "宏观任务",
         "人物"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.micro-life-dashboard",
+        "cap.wanming.repeat-by-delta"
+      ],
       "card": "cards/macro-micro-rhythm.md",
       "source_evidence": [
         {
@@ -647,7 +686,10 @@
         "重大事件",
         "群像"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.adaptive-opponents",
+        "cap.wanming.aftermath-settlement"
+      ],
       "card": "cards/limited-info-multipov.md",
       "source_evidence": [
         {
@@ -701,7 +743,11 @@
         "连续性",
         "后果"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.success-constraints",
+        "cap.wanming.micro-life-dashboard",
+        "cap.wanming.limited-info-multipov"
+      ],
       "card": "cards/aftermath-settlement.md",
       "source_evidence": [
         {
@@ -760,7 +806,10 @@
         "知识边界",
         "修订"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.learning-loop",
+        "cap.wanming.decentralized-pilot"
+      ],
       "card": "cards/institution-transfer-pilot.md",
       "source_evidence": [
         {
@@ -819,7 +868,9 @@
         "长篇时间",
         "场景"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.macro-micro-rhythm"
+      ],
       "card": "cards/repeat-by-delta.md",
       "source_evidence": [
         {
@@ -878,7 +929,10 @@
         "神话化",
         "后世"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.relationship-multiaxis",
+        "cap.wanming.source-conflict-canon"
+      ],
       "card": "cards/public-memory-recoding.md",
       "source_evidence": [
         {
@@ -927,7 +981,10 @@
         "利益",
         "价值分歧"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.public-memory-recoding",
+        "cap.wanming.structural-conflict"
+      ],
       "card": "cards/relationship-multiaxis.md",
       "source_evidence": [
         {
@@ -986,7 +1043,9 @@
         "冲突来源",
         "历史小说"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.public-memory-recoding"
+      ],
       "card": "cards/source-conflict-canon.md",
       "source_evidence": [
         {
@@ -1040,7 +1099,11 @@
         "拆权",
         "基层治理"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.power-contract",
+        "cap.wanming.success-constraints",
+        "cap.wanming.structural-conflict"
+      ],
       "card": "cards/resource-power-rebalance.md",
       "source_evidence": [
         {
@@ -1089,7 +1152,12 @@
         "资源",
         "利益"
       ],
-      "also_read": [],
+      "also_read": [
+        "cap.wanming.scale-restructure",
+        "cap.wanming.success-constraints",
+        "cap.wanming.relationship-multiaxis",
+        "cap.wanming.resource-power-rebalance"
+      ],
       "card": "cards/structural-conflict.md",
       "source_evidence": [
         {
