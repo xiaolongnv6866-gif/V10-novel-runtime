@@ -37,7 +37,7 @@
 
 语言信号：扩军、扩张、组织重构、管理瓶颈、scale-up、org redesign、delegation layers。
 
-与相邻能力的初步区分：本能力决定**是否需要改结构以及为什么改**；power-contract 负责定义具体职位权力，decentralized-pilot 负责地域分权试点。
+与相邻能力的区分（定稿）：本能力决定**是否需要改结构以及为什么改**；power-contract 负责定义具体职位权力，decentralized-pilot 负责地域分权试点。
 
 ## E — Execution
 
@@ -69,3 +69,12 @@
 不要把组织图本身当剧情；需要人物利益、任命和扯皮进入现场。
 如果只是单个岗位权限不清，用 power-contract；如果只是高层信息过载，用 information-triage。
 原书成熟体系有时显得过度高效；重构后仍要保留执行偏差、站队和地方差异。
+
+
+## 相关能力
+
+- `actionability-ladder` — 组合：前者把个人行动力推到组织尺度，本卡负责规模变化后的结构承载。
+- `power-contract` — 组合：重构确定新岗位后，用它定义职责、资源、边界与问责。
+- `delegated-execution` — 组合：新结构需要真实授权，才能避免主角继续亲力亲为。
+- `decentralized-pilot` — 组合：地域型瓶颈可进一步进入地方分权试点。
+- `structural-conflict` — 组合：结构重构会重分权力资源，由此生成利益阻力。
