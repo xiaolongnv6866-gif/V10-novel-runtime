@@ -617,7 +617,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当连续多章都在战争、政治、建设或任务推进，人物只剩工作身份，用户想插生活场景又怕变水章时使用。生活场景必须改变关系、欲望、代价或后续判断；不用于单纯展示民生指标。",
+        "tags": [
+          "rhythm",
+          "daily-life",
+          "long-form"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.limited-info-multipov",
@@ -662,7 +671,16 @@
           "independent_eval": true
         },
         "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
-      }
+      },
+      "frontmatter": {
+        "description": "当一场战争、政治危机或城市事件涉及多个地点和群体，用户需要多视角编排、信息差或避免上帝视角时使用。建立每个视角的已知/未知/行动边界和碰撞点；不为热闹无限加 POV。",
+        "tags": [
+          "multi-pov",
+          "limited-information",
+          "event-structure"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.aftermath-settlement",
@@ -712,7 +730,16 @@
           "independent_eval": true
         },
         "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
-      }
+      },
+      "frontmatter": {
+        "description": "当战斗、政变、商业冲突或重大成功刚结束，用户想知道“高潮之后写什么”或避免下一章世界恢复原状时使用。结算人员、资源、政治关系和普通生活，并把至少一项后果送入下一场景。",
+        "tags": [
+          "aftermath",
+          "continuity",
+          "consequence"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.institution-transfer-pilot",
@@ -762,7 +789,16 @@
           "independent_eval": true
         },
         "notes": "五关通过；在默认 8 入口预算内保留为独立可发现 Skill。"
-      }
+      },
+      "frontmatter": {
+        "description": "当穿越者想引入只记得名称或大概原理的现代制度，或新机构首次运行暴露混乱时使用。严格区分已知/未知/猜测，设计最小试点、缺口、目标冲突与继续/暂停标准；不把现代方案当自动正确。",
+        "tags": [
+          "institution-transfer",
+          "pilot",
+          "knowledge-boundary"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.repeat-by-delta",
@@ -812,7 +848,16 @@
           "independent_eval": true
         },
         "notes": "五关通过，但按预期调用频率、跨场景复用、独特性、证据强度与触发可分性排序后，为满足默认 8 入口预算降为来源 router 能力卡；并非淘汰。"
-      }
+      },
+      "frontmatter": {
+        "description": "当第二次、第三次写训练、会议、节庆、行军、回家或工作流程，用户觉得重复又想保留时间感时使用。先确认旧基线，只展开身份、规模、规则、关系和情绪的新差值；无差值则压缩。",
+        "tags": [
+          "repetition",
+          "delta",
+          "long-form"
+        ]
+      },
+      "resources": []
     },
     {
       "capability_id": "cap.wanming.public-memory-recoding",
