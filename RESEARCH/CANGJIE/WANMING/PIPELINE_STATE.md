@@ -13,8 +13,8 @@
 - Stage 1.5 triple verification: **COMPLETE / USER CONFIRMED**
 - Stage 1.6 promotion gate: **COMPLETE / VALIDATED**
 - Stage 2 RIA++ capability cards: **COMPLETE / VALIDATED — 20 / 20**
-- Stage 3 Zettelkasten links: **READY / NOT STARTED**
-- Stage 4 pressure tests: NOT STARTED
+- Stage 3 Zettelkasten links: **COMPLETE / VALIDATED**
+- Stage 4 pressure tests: **READY / NOT STARTED**
 - Stage 5 compile/delivery: NOT STARTED
 - V10 candidate promotion review: NOT STARTED
 
@@ -90,3 +90,20 @@ The container has no direct GitHub DNS/network access, so `git clone` of the Can
 ## Next step
 
 Run Cangjie Stage 3 using the original `methodology/04-stage2-ria-plus.md`: build one complete R/I/A1/A2/E/B capability card for each of the 20 active verified units and update the same Bundle metadata. Do not modify V10 Runtime or Canon.
+
+
+## Stage 3 validation
+
+- relation edges: 24
+- Bundle also_read symmetry: PASS
+- invalid targets: 0
+- cards with related section: 20 / 20
+- cards with draft A2 marker: 0
+- glossary entries: 15
+- overview/glossary copied into Bundle book/: yes
+- reference delivery mapping: complete
+- summary: `STAGE3_SUMMARY.md`
+
+## Next step
+
+Run Cangjie Stage 4 pressure tests using the original `methodology/06-stage4-pressure-test.md`.
