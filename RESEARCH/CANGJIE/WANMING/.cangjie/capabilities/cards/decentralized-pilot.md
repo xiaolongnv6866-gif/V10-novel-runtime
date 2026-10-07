@@ -37,7 +37,7 @@
 
 语言信号：地方分权、总部瓶颈、区域管理、试点、decentralization、local authority、pilot governance。
 
-与相邻能力的初步区分：scale-restructure 先判断整体结构为什么失效；本能力专门处理**地域型分权与有限试点**。institution-transfer-pilot 更广，处理跨时代制度移植和知识缺口。
+与相邻能力的区分（定稿）：scale-restructure 先判断整体结构为什么失效；本能力专门处理**地域型分权与有限试点**。institution-transfer-pilot 更广，处理跨时代制度移植和知识缺口。
 
 ## E — Execution
 
@@ -70,3 +70,9 @@
 不要让地方岗位同时拥有无限资源分配与最终裁决权。
 不要一次铺满全境；原书明确把“试点”作为降低未知摩擦的方法。
 若核心问题是知识不完整的现代制度移植，使用 institution-transfer-pilot。
+
+
+## 相关能力
+
+- `scale-restructure` — 组合：地域迟缓通常是规模重构的一种特例。
+- `institution-transfer-pilot` — 组合：地方分权可作为有限制度试点，沿用试点—反馈—回收逻辑。
