@@ -37,10 +37,11 @@
       "runs": 1
     },
     {
-      "case_id": "af-edge-01",
+      "case_id": "af-boundary-01",
       "prompt": "这是一次很小的成功，几乎没有资源损失和政治影响，还要强行写完整善后章吗？",
-      "expected": "edge_case",
-      "runs": 1
+      "expected": "should_trigger",
+      "runs": 1,
+      "note": "Pre-run correction: this boundary scenario should trigger the capability so it can execute its B/E boundary handling. The upstream scorer treats edge_case as non-trigger, so expected was changed before any run."
     }
   ],
   "output_cases": []
