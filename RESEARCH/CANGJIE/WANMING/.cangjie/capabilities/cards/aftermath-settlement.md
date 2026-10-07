@@ -37,7 +37,7 @@
 
 语言信号：余波、善后、战后、后果结算、aftermath、consequence settlement、fallout。
 
-与相邻能力的初步区分：本能力结算**整个事件留下的多类后果**；success-constraints 专门处理成功本身产生的新约束，micro-life-dashboard 专门把社会后果落到普通生活。
+与相邻能力的区分（定稿）：本能力结算**整个事件留下的多类后果**；success-constraints 专门处理成功本身产生的新约束，micro-life-dashboard 专门把社会后果落到普通生活。
 
 ## E — Execution
 
@@ -70,3 +70,10 @@
 不要认为只有失败才有代价，成功同样需要结算。
 不要用伤亡数字替代人物与家庭后果，但也避免不必要的伤害细节。
 如果只想设计成功后政治/声望升级，用 success-constraints。
+
+
+## 相关能力
+
+- `success-constraints` — 组合：成功生成的新责任和暴露应进入完整余波矩阵，而非只做抽象提醒。
+- `micro-life-dashboard` — 组合：把事件后果落到家庭、教育、劳动与消费等生活指标。
+- `limited-info-multipov` — 组合：可沿重大事件中的不同受影响位置继续结算余波。
