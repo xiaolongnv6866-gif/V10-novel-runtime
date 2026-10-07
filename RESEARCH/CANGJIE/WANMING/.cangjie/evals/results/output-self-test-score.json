@@ -1,0 +1,1264 @@
+{
+  "suite_id": "wanming-all-active-output",
+  "environment": "fallback_self_test",
+  "planned": 40,
+  "completed": 40,
+  "passed": 37,
+  "cases": [
+    {
+      "case_id": "actionability_ladder_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.current_qualification",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.target_gaps",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.next_action",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.costs",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "actionability_ladder_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "learning_loop_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.raw_feedback",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.filtered_issues",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.rule_changes",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.recheck",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "learning_loop_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "scale_restructure_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.bottlenecks",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.minimum_restructure",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.new_costs",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.reevaluation_triggers",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "scale_restructure_boundary",
+      "pass": false,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": false
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "information_triage_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.triage_table",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.decision_queue",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.delegated",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.structural_backlog",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "information_triage_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "power_contract_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.responsibilities",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.resources",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.boundaries",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.accountability",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "power_contract_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "delegated_execution_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.leadership_direction",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.professional_assignments",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.approval_points",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.absence_test",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "delegated_execution_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "decentralized_pilot_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.bottlenecks",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.authority_layers",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.local_authority",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.pilot_metrics",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "decentralized_pilot_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "adaptive_opponents_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.actors",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.old_to_new_judgments",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.misjudgments",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.next_conditions",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "adaptive_opponents_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "success_constraints_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.direct_benefits",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.repricers",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.new_responsibilities",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.new_constraints",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "success_constraints_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "micro_life_dashboard_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.life_indicators",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.benefits",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.costs",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.scene_slice",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "micro_life_dashboard_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "macro_micro_rhythm_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.task_fatigue",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.life_scene",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.state_change",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.mainline_effect",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "macro_micro_rhythm_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "limited_info_multipov_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.viewpoints",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.timeline",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.switching_order",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.information_gaps",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "limited_info_multipov_boundary",
+      "pass": false,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": false
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "aftermath_settlement_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.consequences",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.immediate_delayed",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.scenes",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.next_input",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "aftermath_settlement_boundary",
+      "pass": false,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": false
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "institution_transfer_pilot_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.known_unknown_guess",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.prerequisites",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.pilot",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.failure_signals",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.decision",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "institution_transfer_pilot_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "repeat_by_delta_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.baseline",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.delta_table",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.compress",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.expand",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "repeat_by_delta_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "public_memory_recoding_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.fact_layer",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.propagator",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.public_version",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.differences",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.theme_echo",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "public_memory_recoding_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "relationship_multiaxis_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.axes",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.changes",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.stable_parts",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.next_action",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "relationship_multiaxis_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "source_conflict_canon_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.source_comparison",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.uncertainties",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.canon_decision",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.affected_chapters",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "source_conflict_canon_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "resource_power_rebalance_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.power_resource_matrix",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.rent_trigger",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.rebalance",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.new_costs",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "resource_power_rebalance_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "structural_conflict_normal",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.status",
+          "ok": true
+        },
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.new_power_resources",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.stakeholders",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.losses",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.resistance",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.result.differentiation",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "case_id": "structural_conflict_boundary",
+      "pass": true,
+      "assertions": [
+        {
+          "kind": "json_equals",
+          "value": "$.capability",
+          "ok": true
+        },
+        {
+          "kind": "regex",
+          "value": "\"status\"\\s*:\\s*\"(needs_input|out_of_scope)\"",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.missing",
+          "ok": true
+        },
+        {
+          "kind": "json_path",
+          "value": "$.boundary_reason",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
