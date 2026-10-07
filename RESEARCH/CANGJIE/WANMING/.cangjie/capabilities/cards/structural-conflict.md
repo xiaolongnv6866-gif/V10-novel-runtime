@@ -37,7 +37,7 @@
 
 语言信号：利益冲突、权力重分配、改革阻力、结构冲突、structural conflict、stakeholders、power redistribution.
 
-与相邻能力的初步区分：本能力生成**权力/资源重分配造成的冲突**；adaptive-opponents 关注对手学习，resource-power-rebalance 关注同一组织内部因资源升值而拆权。
+与相邻能力的区分（定稿）：本能力生成**权力/资源重分配造成的冲突**；adaptive-opponents 关注对手学习，resource-power-rebalance 关注同一组织内部因资源升值而拆权。
 
 ## E — Execution
 
@@ -71,3 +71,11 @@
 不要让所有受损者都公开造反；大多数阻力更可能是拖延、游说、站队和局部不合作。
 不要把复杂社会全部压缩成可计算利益，保留文化、身份和偶然性。
 若冲突来自事件后新信息而非资源重分配，用 adaptive-opponents。
+
+
+## 相关能力
+
+- `scale-restructure` — 组合：结构重构会重分权力资源，从而产生内部与外部阻力。
+- `success-constraints` — 组合：成功扩大权力资源后，既有群体会重新估价并产生利益反应。
+- `relationship-multiaxis` — 组合：结构变化可只改变人物关系中的利益/职位轴，而保留其他轴。
+- `resource-power-rebalance` — 组合：内部拆权会让原受益者失去资源，形成新的冲突来源。
