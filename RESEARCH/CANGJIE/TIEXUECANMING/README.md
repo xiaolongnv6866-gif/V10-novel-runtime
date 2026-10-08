@@ -7,7 +7,7 @@
 - 已完成 V10 v0.2.0 仓库恢复
 - 已按原始 Cangjie 2.5 方法执行 Stage 0
 - 已完成来源审计与 `BOOK_OVERVIEW.md`
-- **Stage 0 已获用户确认；Stage 1 五类候选共237条已保存（含连续章节审读与12条字段纠错），GitHub Actions schema gate 已通过，但全量语义覆盖硬门仍未通过；Stage 1.5–5 未开始**
+- **Stage 0 已获用户确认；Stage 1 五类候选共250条已保存（含连续章节审读与12条字段纠错），GitHub Actions schema gate 已通过，但全量语义覆盖硬门仍未通过；Stage 1.5–5 未开始**
 
 ## 入口
 
@@ -16,6 +16,7 @@
 - [PIPELINE_STATE.md](./PIPELINE_STATE.md)
 - [STAGE1_SUMMARY.md](./STAGE1_SUMMARY.md)
 - [STAGE1_COVERAGE_AUDIT.md](./STAGE1_COVERAGE_AUDIT.md)
+- [STAGE1_SEMANTIC_BATCH_03.md](./STAGE1_SEMANTIC_BATCH_03.md) — 第33–80章连续区间逐章复核，6章全文/42章定向
 - [STAGE1_SEMANTIC_BATCH_02.md](./STAGE1_SEMANTIC_BATCH_02.md) — 最新连续章节审读/15条候选与12条纠错
 - [STAGE1_SCHEMA_REPAIR_AUDIT.json](./STAGE1_SCHEMA_REPAIR_AUDIT.json) — 五类候选字段校验结果
 - [STAGE1_REVIEW_BACKLOG.md](./STAGE1_REVIEW_BACKLOG.md) — 后续全量语义审读队列
