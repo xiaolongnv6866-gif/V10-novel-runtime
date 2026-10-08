@@ -446,3 +446,165 @@
   tags:
   - case
   - fictional-scene
+- id: c27
+  title: 放告程序由书办掌握次序
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第13章 官威
+  source_locator: Text/chapter19.html
+  source_quote: 以便于他随时调整放告顺序，从中获得好处，这是一个
+  summary: 形式上可供百姓依序办事，实际排序权会影响当事人选择；例证“权力存在于流程微环节”。
+  bound_to:
+  - TX-T01
+  - TX-T02
+  task_ids:
+  - TX-T01
+  - TX-T02
+  outcome: 只限对应小说正文所展示的结果；后续因果需读后文验证
+  tags:
+  - case
+  - fictional-scene
+- id: c28
+  title: 快班名额与另一班岗位交换
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第68章 编制
+  source_locator: Text/chapter74.html
+  source_quote: 交易，沈司吏给他三个编制，但是要把侄子加到快班，
+  summary: 扩员需要和既有名额管理者谈条件，形成新的人事债务。
+  bound_to:
+  - TX-T06
+  - TX-T07
+  task_ids:
+  - TX-T06
+  - TX-T07
+  outcome: 只限对应小说正文所展示的结果；后续因果需读后文验证
+  tags:
+  - case
+  - fictional-scene
+- id: c29
+  title: 复社与东林的潜在资源竞争
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第132章 市场
+  source_locator: Text/chapter139.html
+  source_quote: 你多了我便少了，两派各有心思，看似一脉，根上却不是一
+  summary: 同盟话语掩盖资源和科举方面的不同筹划。
+  bound_to:
+  - TX-T04
+  - TX-T14
+  task_ids:
+  - TX-T04
+  - TX-T14
+  outcome: 只限对应小说正文所展示的结果；后续因果需读后文验证
+  tags:
+  - case
+  - fictional-scene
+- id: c30
+  title: 组织扩张之前计算借款付息
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第178章 融资
+  source_locator: Text/chapter185.html
+  source_quote: 单独给唐兄二分的利息。唐兄请仔细斟酌之后，再
+  summary: 能取得资金并不意味着该资金没有期限或偿还要求。
+  bound_to:
+  - TX-T07
+  - TX-T11
+  task_ids:
+  - TX-T07
+  - TX-T11
+  outcome: 只限对应小说正文所展示的结果；后续因果需读后文验证
+  tags:
+  - case
+  - fictional-scene
+- id: c31
+  title: 银庄讨论长期用银
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第179章 银庄
+  source_locator: Text/chapter186.html
+  source_quote: 若是招两千兵马，每年军饷就要给出大约五万，所以这
+  summary: 组织扩张将年度负担提前带进金融选择。
+  bound_to:
+  - TX-T07
+  - TX-T11
+  task_ids:
+  - TX-T07
+  - TX-T11
+  outcome: 只限对应小说正文所展示的结果；后续因果需读后文验证
+  tags:
+  - case
+  - fictional-scene
+- id: c32
+  title: 银庄掌柜忧虑无法向主角要抵押
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第276章 奢华
+  source_locator: Text/chapter283.html
+  source_quote: 的安庆百顺堂，说抵押就给抵押了，军饷也都抵押
+  summary: 同一事业两种风险视角出现冲突而不敢完全摊开。
+  bound_to:
+  - TX-T11
+  - TX-T16
+  task_ids:
+  - TX-T11
+  - TX-T16
+  outcome: 只限对应小说正文所展示的结果；后续因果需读后文验证
+  tags:
+  - case
+  - fictional-scene
+- id: c33
+  title: 不同耕地质量造成资源分配争执
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第417章 瓦房
+  source_locator: Text/chapter423.html
+  source_quote: 七十亩，其余都是下田，下田又都在几处地方，若
+  summary: 基层分配者不能简单按户数平均而不顾质量差异。
+  bound_to:
+  - TX-T08
+  - TX-T13
+  task_ids:
+  - TX-T08
+  - TX-T13
+  outcome: 只限对应小说正文所展示的结果；后续因果需读后文验证
+  tags:
+  - case
+  - fictional-scene
+- id: c34
+  title: 一场高层决定通过各营传播变异
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第483章 哗然
+  source_locator: Text/chapter490.html
+  source_quote: 各营，短短时间就发酵成了这般情形。  愕然半
+  summary: 不只看高层意图，还看消息扩散后的不同群体反应。
+  bound_to:
+  - TX-T09
+  - TX-T15
+  task_ids:
+  - TX-T09
+  - TX-T15
+  outcome: 只限对应小说正文所展示的结果；后续因果需读后文验证
+  tags:
+  - case
+  - fictional-scene
+- id: c35
+  title: 发行消息的时间形成政治选择
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第533章 版面
+  source_locator: Text/chapter540.html
+  source_quote: 找谭爷我说什么退贴票，退啥贴票，怎生说得出口
+  summary: 某项财经消息何时登报也涉及可信度与现实处境。
+  bound_to:
+  - TX-T12
+  - TX-T14
+  task_ids:
+  - TX-T12
+  - TX-T14
+  outcome: 只限对应小说正文所展示的结果；后续因果需读后文验证
+  tags:
+  - case
+  - fictional-scene
