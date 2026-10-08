@@ -1,7 +1,7 @@
 source_href	chapter_title	text_chars	candidate_anchors	has_chapter_end_note	machine_topics	review_status
 Text/chapter7.html	第1章 恶隶	2231	0	0		unanchored;machine-scanned;semantic-B02-full-chapter
-Text/chapter8.html	第2章 桐城	4128	0	0		unanchored;machine-scanned;semantic-B02-full-chapter
-Text/chapter9.html	第3章 退婚	3235	0	0	舆论与误判	unanchored;machine-scanned;semantic-B02-full-chapter
+Text/chapter8.html	第2章 桐城	4128	3	0		candidate-anchored;machine-scanned;semantic-B02-full-chapter
+Text/chapter9.html	第3章 退婚	3235	4	0	舆论与误判	candidate-anchored;machine-scanned;semantic-B02-full-chapter
 Text/chapter10.html	第4章 白胡子老爷爷	3880	0	0	舆论与误判	unanchored;machine-scanned;semantic-B02-targeted-passages
 Text/chapter11.html	第5章 月半	2403	0	0		unanchored;machine-scanned;semantic-B02-targeted-passages
 Text/chapter12.html	第6章 南监	2550	0	0	公门权责,人物关系	unanchored;machine-scanned;semantic-B02-targeted-passages
@@ -13,9 +13,9 @@ Text/chapter17.html	第11章 干一行爱一行	2949	0	0	人物关系	unanchored
 Text/chapter18.html	第12章 六扇门	6004	2	0	公门权责	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
 Text/chapter19.html	第13章 官威	6235	5	0	公门权责,舆论与误判	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
 Text/chapter20.html	第14章 仗义	3672	5	0	公门权责,舆论与误判	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
-Text/chapter21.html	第15章 家奴	5497	0	0	舆论与误判	unanchored;machine-scanned;semantic-B02-targeted-passages
-Text/chapter22.html	第16章 小鞋	3528	0	0	人物关系	unanchored;machine-scanned;semantic-B02-full-chapter
-Text/chapter23.html	第17章 站队	4245	0	0	公门权责,舆论与误判	unanchored;machine-scanned;semantic-B02-full-chapter
+Text/chapter21.html	第15章 家奴	5497	3	0	舆论与误判	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter22.html	第16章 小鞋	3528	1	0	人物关系	candidate-anchored;machine-scanned;semantic-B02-full-chapter
+Text/chapter23.html	第17章 站队	4245	4	0	公门权责,舆论与误判	candidate-anchored;machine-scanned;semantic-B02-full-chapter
 Text/chapter24.html	第18章 和买	5077	5	0	公门权责,舆论与误判,普通生活	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
 Text/chapter25.html	第19章 估值	3343	0	0	普通生活	unanchored;machine-scanned;semantic-B02-targeted-passages
 Text/chapter26.html	第20章 发愤图强	4339	0	0	公门权责	unanchored;machine-scanned;semantic-B02-targeted-passages
