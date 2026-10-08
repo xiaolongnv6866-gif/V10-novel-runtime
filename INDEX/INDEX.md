@@ -97,3 +97,7 @@
 - `RESEARCH/CANGJIE/TIEXUECANMING/candidates/` — frameworks/principles/cases/counter-examples/glossary 五份源绑定提取文件
 
 当前：**Stage 0 用户已确认；Stage 1 已保存250条原始候选，严格字段校验通过，仍须补足全量语义覆盖；Stage 1.5–5 未开始。**
+
+### 双书蒸馏验收标准校正（2026-10-08）
+- `RESEARCH/CANGJIE/CROSS_BOOK_STAGE1_PARITY_AUDIT_2026-10-08.md` — 《晚明》与《铁血残明》Stage 1 源覆盖口径不一致的正式审计与返工要求。
+- **《晚明》Stage 5 编译交付已完成，但 Stage 1 全量语义覆盖的可审计证明不足，待追溯复核。** 《铁血残明》Stage 1 仍未过全量语义覆盖门。严禁以原始候选数量或测试通过率代替完整来源覆盖。
