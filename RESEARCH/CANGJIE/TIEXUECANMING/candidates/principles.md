@@ -628,3 +628,92 @@
   - narrative
   - inferred-rule
   evidence_status: 从虚构情节提取的待核查叙事判断，非作者明确的通用建议
+- id: p46
+  title: 不能只因柜前官吏更换就抹平上解制度成本
+  type: principle
+  source_chapter: 第88章 投柜
+  source_locator: Text/chapter94.html
+  source_quote: 身在这个体系中，并无多少选择的空间
+  summary: 基层人物受上级上解、惯例和家庭生计共同限制；要改因果必须改变约束源，不能只把人写善良。
+  task_ids:
+  - TX-T02
+  - TX-T08
+  - TX-T11
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 小说情节归纳的待验证叙事原则；不是作者明确写作宣言
+- id: p47
+  title: 警讯尚不确定时仍需写清谁有权传递
+  type: principle
+  source_chapter: 第104章 王法
+  source_locator: Text/chapter110.html
+  source_quote: 本官已尽力筹措，但确实有些局促
+  summary: 信息不确证与资源不足可同时成立；高层说“通知即可”，基层可能因无法安置受众而不肯承担口头责任。
+  task_ids:
+  - TX-T04
+  - TX-T08
+  - TX-T15
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 小说情节归纳的待验证叙事原则；不是作者明确写作宣言
+- id: p48
+  title: 同一行动不同职位并不有相同收益
+  type: principle
+  source_chapter: 第222章 两难
+  source_locator: Text/chapter229.html
+  source_quote: 史可法是安池兵备
+  summary: 一个角色承担驻地责任，另一个追求外地机会，合理分歧不应被简化为胆量或高瞻远瞩之争。
+  task_ids:
+  - TX-T09
+  - TX-T14
+  - TX-T16
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 小说情节归纳的待验证叙事原则；不是作者明确写作宣言
+- id: p49
+  title: 功劳既有事实也有正式报告的争议空间
+  type: principle
+  source_chapter: 第352章 告捷
+  source_locator: Text/chapter359.html
+  source_quote: 涉及到战后军功的分配
+  summary: 重大成果进入正式组织后会被改写成可报告和可核查的语句；必须分别保留事实、文字选择、可能的奖惩归责。
+  task_ids:
+  - TX-T05
+  - TX-T14
+  - TX-T17
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 小说情节归纳的待验证叙事原则；不是作者明确写作宣言
+- id: p50
+  title: 组织口号是否兑现要看岗位付出的具体成本
+  type: principle
+  source_chapter: 第458章 兄弟
+  source_locator: Text/chapter464.html
+  source_quote: 老子不要这脸面去求庞大人
+  summary: “同袍”“兄弟”等理念若要成为人物性格，必须落实到需要丢面子、失便利或承担问责的现场选择。
+  task_ids:
+  - TX-T13
+  - TX-T16
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 小说情节归纳的待验证叙事原则；不是作者明确写作宣言
+- id: p51
+  title: 政治会议里不能把所有将官视为一种风险偏好
+  type: principle
+  source_chapter: 第480章 士气
+  source_locator: Text/chapter487.html
+  source_quote: 大堂中的人，各自担忧着自己的事情
+  summary: 同一会议的与会者面对不同战损、军费、声誉和未来归责，发言应由其岗位、信息和承受能力形成。
+  task_ids:
+  - TX-T09
+  - TX-T14
+  - TX-T15
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 小说情节归纳的待验证叙事原则；不是作者明确写作宣言
