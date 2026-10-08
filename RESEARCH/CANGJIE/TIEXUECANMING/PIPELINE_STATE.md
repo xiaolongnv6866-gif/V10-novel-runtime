@@ -3,7 +3,7 @@
 - Stage 0 source audit: **COMPLETE**
 - Stage 0 Adler whole-book (available EPUB 1–534): **COMPLETE / USER CONFIRMED**
 - Stage 0 user confirmation: **CONFIRMED (user replied “继续”)**
-- Stage 1 five-extractor candidates: **197 RAW SAVED (44/45/47/31/30); SOURCE-COVERAGE GATE OPEN — NOT FULLY COMPLETE**
+- Stage 1 five-extractor candidates: **222 RAW SAVED (49/51/54/35/33); SOURCE-COVERAGE GATE OPEN — NOT FULLY COMPLETE**
 - Stage 1.5 triple verification: NOT STARTED
 - Stage 1.6 promotion gate: NOT STARTED
 - Stage 2 RIA++: NOT STARTED
@@ -28,13 +28,13 @@ Checkpoint policy: upload after each finished verifiable stage/sub-stage and ver
 
 - Stage 0 confirmed by user's “继续”.
 - Five raw candidate files uploaded, back-read and matched on content/IDs:
-  - frameworks 44
-  - principles 45
-  - cases 47
-  - counter-examples 31
-  - glossary 30
-- total: 197 raw items (NOT tri-verified).
-- candidate chapter anchors: 53 distinct physical EPUB chapter records (+ 1 attached reader timeline).
+  - frameworks 49
+  - principles 51
+  - cases 54
+  - counter-examples 35
+  - glossary 33
+- total: 222 raw items (NOT tri-verified).
+- candidate chapter anchors: 61 distinct physical EPUB chapter records (+ 1 attached reader timeline).
 - 18 Stage 0 tasks have raw membership; TX-T17 now has multiple independently locatable appendix/annotation examples, but historical provenance is still not externally corroborated.
 - Scope caveat: mechanical full-text indexing + focused source close-reads `!=` complete semantic full-scan required by framework/principle extractors.
 - stage documents:
@@ -56,3 +56,17 @@ Next: close the Stage 1 semantic-coverage gap or mark unresolved source tasks ho
 - `STAGE1_COVERAGE_UPDATE_2026-10-08.md`: newest coverage audit and remaining hard-gate limits.
 - Full semantic framework/principle scanning is still **incomplete**, Stage 1.5 is **NOT STARTED**.
 - V10 Runtime / Canon: NOT MODIFIED.
+
+
+## Stage 1 semantic batch 01 — 2026-10-08
+
+- Review: 31 targeted semantic chapter-passage reviews, focusing on previously sparse intervals.
+- Added 25 raw source-bound items, after explicit duplicate/reuse checks.
+- Current raw pool: **222** (49 frameworks, 51 principles, 54 cases, 35 counterexamples, 33 glossary).
+- Candidate-anchored physical novel chapters: **61**; separately 1 reader compilation timeline.
+- 222/222 unique IDs, valid EPUB physical locator, verbatim short quote matched in source record, and task mapping present in local validation.
+- `STAGE1_SEMANTIC_BATCH_01.md`: full per-chapter audit and candidate-gain/duplicate rationale.
+- `STAGE1_CHAPTER_SCAN_MATRIX.tsv`: regenerated source-anchoring counts, with 31 targeted-passage review flags.
+- No claim of all 532 physical chapter entries semantically close-read.
+- **Stage 1 source-coverage hard gate: OPEN; Stage 1.5: NOT STARTED.**
+- Runtime / Canon changes: **NONE**.
