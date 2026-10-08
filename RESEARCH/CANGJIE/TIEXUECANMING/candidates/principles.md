@@ -21,7 +21,7 @@
   type: principle
   source_chapter: 第12章 六扇门
   source_locator: Text/chapter18.html
-  source_quote: 立命的基础，还是需要帮一把的。  庞丁打来一木盆的
+  source_quote: 立命的基础，还是需要帮一把的。
   summary: 新增钱不能只作为主角自由升级资金，还会进入既有人情、家业与衙门打点。
   task_ids:
   - TX-T01
@@ -35,7 +35,7 @@
   type: principle
   source_chapter: 第14章 仗义
   source_locator: Text/chapter20.html
-  source_quote: 国用一竖拇指：“有义气！”  蒋国用闻言抬起头
+  source_quote: 国用一竖拇指：“有义气！”
   summary: 角色宣称的道德姿态与真正行动可以反差极大；叙述应让行为校正口号。
   task_ids:
   - TX-T03
@@ -75,7 +75,7 @@
   type: principle
   source_chapter: 第35章 风起
   source_locator: Text/chapter41.html
-  source_quote: 得有理，然则如今从何着手，可否拿个章程。”  “
+  source_quote: 得有理，然则如今从何着手，可否拿个章程。”
   summary: 职位上可以暂摄，执行中仍要弄清哪些班房有人、哪些人回家、责任如何转移。
   task_ids:
   - TX-T04
@@ -115,7 +115,7 @@
   type: principle
   source_chapter: 第75章 官贷
   source_locator: Text/chapter81.html
-  source_quote: 递房等司吏，算是给足了杨尔铭面子。  “锦仙（杨尔铭表字
+  source_quote: 递房等司吏，算是给足了杨尔铭面子。
   summary: 上级给面子不等于移交权力；礼数、利益、职责可彼此不一致。
   task_ids:
   - TX-T01
@@ -212,7 +212,7 @@
   type: principle
   source_chapter: 第200章 灵宝
   source_locator: Text/chapter207.html
-  source_quote: 是湖广。”  “有吃的都成。”小娃子嘴角抽搐了一下
+  source_quote: “有吃的都成。”小娃子嘴角抽搐了一下
   summary: 不同敌对人物受饥饿、庇护、信任和生存要求影响，不能成为没有生活的统一标签。
   task_ids:
   - TX-T09
@@ -254,7 +254,7 @@
   type: principle
   source_chapter: 第270章 形象
   source_locator: Text/chapter277.html
-  source_quote: 乱的哪去找，你啊总也是要有个后的……”  谭癞子不等她说
+  source_quote: 乱的哪去找，你啊总也是要有个后的……”
   summary: 宏大对外形象与个体的贫困、家族压力可同时存在，不要让宣传成为人物事实的唯一层。
   task_ids:
   - TX-T12
@@ -296,7 +296,7 @@
   type: principle
   source_chapter: 第380章 汰换
   source_locator: Text/chapter387.html
-  source_quote: 都满意。”  “你如此想虽不中亦不远。”  “那我就问问总文
+  source_quote: “你如此想虽不中亦不远。”
   summary: 新规与旧岗位文化不匹配时，执行者不仅存在服从问题，也存在认同与上层责任冲突。
   task_ids:
   - TX-T16
@@ -392,7 +392,7 @@
   type: principle
   source_chapter: 第68章 编制
   source_locator: Text/chapter74.html
-  source_quote: 四个编制，需要从皂班那边分出来。  庞雨知道
+  source_quote: 四个编制，需要从皂班那边分出来。
   summary: 人员增补背后有人让出名额，补员不是凭空增长。
   task_ids:
   - TX-T06
@@ -476,7 +476,7 @@
   type: principle
   source_chapter: 第483章 哗然
   source_locator: Text/chapter490.html
-  source_quote: 各营，短短时间就发酵成了这般情形。  愕然半
+  source_quote: 各营，短短时间就发酵成了这般情形。
   summary: 单一行动在公开传播后可能引起跨机构连锁反应，不能把人物当全知。
   task_ids:
   - TX-T09
@@ -572,3 +572,59 @@
   - inferred-rule
   - state-continuity
   evidence_status: 章末注/正文抽出的候选判断，非作者直接发布的通用写作规范
+- id: p42
+  source_chapter: 第31章 民情
+  source_locator: Text/chapter37.html
+  source_quote: 指望着这两个月的收入了
+  task_ids:
+  - TX-T02
+  - TX-T04
+  title: 角色执行意愿不能只由官场忠诚解释
+  type: principle
+  summary: 把责任、风险、日常生活收入并列为角色的行动条件；没有本人利益就不应凭岗位名让其自动执行。
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从虚构情节提取的待核查叙事判断，非作者明确的通用建议
+- id: p43
+  source_chapter: 第174章 费用
+  source_locator: Text/chapter181.html
+  source_quote: 发签本是你的恩惠
+  task_ids:
+  - TX-T06
+  - TX-T13
+  title: 原本无价的互惠一旦定价可能改变受众评价
+  type: principle
+  summary: 某项安排“有效率”不代表关系上也是加分；被管理者会按是谁负担、谁在收费来重新定义它。
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从虚构情节提取的待核查叙事判断，非作者明确的通用建议
+- id: p44
+  source_chapter: 第267章 人口
+  source_locator: Text/chapter274.html
+  source_quote: 没有在陆地的远征能力
+  task_ids:
+  - TX-T07
+  - TX-T14
+  title: 能力领域改变时重新检验资源和依赖
+  type: principle
+  summary: 不能从熟悉场地的成功外推到陌生地区与不同补给条件；这种外推是叙事可信度上的缺口。
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从虚构情节提取的待核查叙事判断，非作者明确的通用建议
+- id: p45
+  source_chapter: 第371章 威风
+  source_locator: Text/chapter378.html
+  source_quote: 那房顶都没有，下雨漏三天了
+  task_ids:
+  - TX-T10
+  - TX-T13
+  title: 头衔提高不代表基层生活立刻改善
+  type: principle
+  summary: 通过角色自夸的职位前景与现实住所形成反差，让读者自行判断“升迁收益”是否兑现到普通生活。
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从虚构情节提取的待核查叙事判断，非作者明确的通用建议
