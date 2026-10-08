@@ -1,0 +1,84 @@
+name: Wanming Cangjie Single Compile
+
+on:
+  push:
+    paths:
+      - ".github/workflows/wanming-cangjie-single.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout V10
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Checkout pinned Cangjie
+        uses: actions/checkout@v4
+        with:
+          repository: kangarooking/cangjie-skill
+          ref: a28de55ba881b9928956a55048f743f7a9e3b23e
+          path: cangjie
+
+      - name: Install dependency
+        run: python3 -m pip install pyyaml
+
+      - name: Compile single with original Cangjie
+        shell: bash
+        run: |
+          set -euxo pipefail
+          rm -rf RESEARCH/CANGJIE/WANMING/dist/wanming
+          python3 cangjie/scripts/cangjie.py compile \
+            --bundle RESEARCH/CANGJIE/WANMING/.cangjie/capabilities \
+            --out RESEARCH/CANGJIE/WANMING/dist/wanming \
+            --output single
+
+      - name: Run explicit validator
+        shell: bash
+        run: |
+          set -euxo pipefail
+          mkdir -p RESEARCH/CANGJIE/WANMING/BUILD_AUDIT
+          python3 cangjie/scripts/validate_skill_pack.py \
+            RESEARCH/CANGJIE/WANMING/dist/wanming \
+            | tee RESEARCH/CANGJIE/WANMING/BUILD_AUDIT/validate-skill-pack.log
+
+      - name: Capture build audit
+        shell: bash
+        run: |
+          set -euxo pipefail
+          latest="$(find RESEARCH/CANGJIE/WANMING/.cangjie/runs -mindepth 1 -maxdepth 1 -type d | sort | tail -n 1)"
+          cp "$latest/output-decision.md" RESEARCH/CANGJIE/WANMING/BUILD_AUDIT/output-decision.md
+          cp "$latest/output-decision.json" RESEARCH/CANGJIE/WANMING/BUILD_AUDIT/output-decision.json
+          cp "$latest/staging-validation.log" RESEARCH/CANGJIE/WANMING/BUILD_AUDIT/staging-validation.log
+          {
+            echo "V10 commit: $(git rev-parse HEAD)"
+            echo "Cangjie commit: $(git -C cangjie rev-parse HEAD)"
+            echo "Variant: single"
+            echo "Bundle SHA256: $(sha256sum RESEARCH/CANGJIE/WANMING/.cangjie/capabilities/verified.yaml | awk '{print $1}')"
+            echo
+            echo "Published files:"
+            find RESEARCH/CANGJIE/WANMING/dist/wanming -type f | sort
+            echo
+            echo "SHA256:"
+            find RESEARCH/CANGJIE/WANMING/dist/wanming -type f -print0 | sort -z | xargs -0 sha256sum
+          } > RESEARCH/CANGJIE/WANMING/BUILD_AUDIT/build-manifest.txt
+
+      - name: Commit compiled repository delivery
+        shell: bash
+        run: |
+          set -euxo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add RESEARCH/CANGJIE/WANMING/dist/wanming \
+                  RESEARCH/CANGJIE/WANMING/BUILD_AUDIT \
+                  RESEARCH/CANGJIE/WANMING/.cangjie/runs
+          if git diff --cached --quiet; then
+            echo "No build changes to commit."
+          else
+            git commit -m "Build Wanming Cangjie single skill"
+            git push
+          fi
