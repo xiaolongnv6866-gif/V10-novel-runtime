@@ -40,7 +40,7 @@
 ## 当前能力来源
 
 - 已有长期《晚明》《铁血残明》学习与 72 轮左右的选择训练成果。
-- Cangjie-skill：《晚明》已完成 Stage 0–5 正式蒸馏、single 编译、V10 候选去重与 4 个原创开放测试簇；双臂盲测后已有3项最小晋级（Runtime A5/H1 与 V10_SKILL §4.1），其余保留为参考。《铁血残明》Stage 0 已确认、Stage 1 原始候选237条，仍在补足全量语义覆盖；EPUB收录至第534章正文。
+- Cangjie-skill：《晚明》已完成 Stage 0–5 正式蒸馏、single 编译、V10 候选去重与 4 个原创开放测试簇；双臂盲测后已有3项最小晋级（Runtime A5/H1 与 V10_SKILL §4.1），其余保留为参考。《铁血残明》Stage 0 已确认、Stage 1 原始候选250条，仍在补足全量语义覆盖；EPUB收录至第534章正文。
 - NUWA：计划进一步蒸馏柯山梦的作者心智与判断方式。
 - GitHub 专项研究：人物、世界、连续性、战争、财政、技术、物流、情报、国际贸易、史实来源等。
 - 用户历次正文纠偏必须与上述能力同等进入统一 Runtime，而不是成为临时提醒。
@@ -90,8 +90,8 @@
 
 - 当前来源：用户提供 EPUB V3.0，正文第1—534章，书未在此文件完结，目录存在编号缺陷。
 - Stage 0：来源审计 + Adler 整书理解（六层结构、18个关键任务）已完成，并已得到用户确认。
-- Stage 1：五类源证据候选已经初提取并补扫至 **237条**（框架53、原则55、案例58、反例37、术语34），文件全部上传并回读。
-- **Stage 1 的框架/原则全量语义覆盖硬门尚未通过**：目前66个小说章节有候选锚点；TX-T17已补审84个章末注/附载年表记录，仍不等于全量语义阅读；继续补读和核证，不能把237条当成已 verified。
+- Stage 1：五类源证据候选已经初提取并补扫至 **250条**（框架56、原则57、案例62、反例39、术语36），文件全部上传并回读。
+- **Stage 1 的框架/原则全量语义覆盖硬门尚未通过**：目前70个小说章节有候选锚点；TX-T17已补审84个章末注/附载年表记录，仍不等于全量语义阅读；继续补读和核证，不能把250条当成已 verified。
 - Stage 1.5–5 尚未开始；下一步是 Stage 1 的覆盖补审。
 - 断点：`RESEARCH/CANGJIE/TIEXUECANMING/PIPELINE_STATE.md`
 - 本阶段未改变 Canon 或 Runtime。
@@ -103,3 +103,5 @@
 - 《铁血残明》Stage 1 本轮发现并修复了旧候选12条 YAML 字段错位（ce24–ce31、g27–g30）；五类原始候选237条全部通过字段类型、原文引文与任务映射校验。审计：`RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_SCHEMA_REPAIR_AUDIT.json`。连续章节审读见 `STAGE1_SEMANTIC_BATCH_02.md`；全量语义覆盖硬门仍为 OPEN。
 
 - Tiexue Stage 1 可复用 QA：`RESEARCH/CANGJIE/TIEXUECANMING/QA/validate_stage1_candidates.py`；`GitHub Actions / Tiexue Stage 1 Schema Gate` 已成功运行（run 37771968995）。无原书时仅结构校验，不等于全文语义通过。后续连续章块审读顺序见 `STAGE1_REVIEW_BACKLOG.md`。
+
+- 《铁血残明》Stage 1 连续阅读第33—80章：6章全文、42章定向段落；共增加13条RAW至250。见 `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_SEMANTIC_BATCH_03.md`。仍需要余下章节及targeted章的逐自然块语义复核，Stage 1.5未开始。
