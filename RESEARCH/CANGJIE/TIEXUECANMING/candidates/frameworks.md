@@ -888,3 +888,78 @@
   outputs: 不同立场的现场选择及其在后续章节的可见后果
   steps: 列出现实发生与各机构可见之不同→比较关键措辞对应的归责差异→安排有权修改/传送的人物产生选择→记录另一方得知后的反作用
   missing_conditions: 史实归属不能由小说塘报当一手史料
+- id: f50
+  title: 家庭职业底线反衬主角自利叙事
+  type: framework
+  source_chapter: 第2章 桐城
+  source_locator: Text/chapter8.html
+  source_quote: 咱老庞家不能干亏心事
+  summary: 先写家庭遭遇资金压力，再让非主角经营者在生存风险下拒绝损害旧职业信用的捷径；同一生活空间再呈现主角的自利说辞，不由旁白宣布哪方才是时代正确答案。不同人物的价值选择形成冲突与叙事张力。
+  inputs: 家庭现金压力；父辈职业惯例；主角现时欲望
+  steps: 先让长辈在具体损失面前选择→让主角以另一套理由行动→用家务/钱物后果呈现差异→保留两方各自目标和不知情部分
+  outputs: 多主体价值冲突，不依赖抽象道德独白
+  missing_conditions: 同一场景的价值对照不是作者明确提出的普适原则；须跨篇复核
+  task_ids:
+  - TX-T03
+  - TX-T08
+  - TX-T13
+  tags:
+  - character
+  - family
+  - value-conflict
+- id: f51
+  title: 现代套话在本地语境落空的现场喜剧
+  type: framework
+  source_chapter: 第3章 退婚
+  source_locator: Text/chapter9.html
+  source_quote: 少年穷个屁，咱老庞家比他刘家有钱多了
+  summary: 人物想用某种熟悉的豪言接管冲突，却不知道在场者早有自己的事实、亲属关系和面子争议；其他角色直接以本地常识驳回，随后争执沿他们关心的问题继续。这比主角自嘲或旁白说不合时宜更有效。
+  inputs: 主角预设台词；在场者事实；正在进行的冲突
+  steps: 让人物按自己熟悉的叙事模板发言→他人以实际经济/身份事实驳回→原冲突不因台词终止→留下身份错位和下一步行动
+  outputs: 人物局限与幽默同时显露
+  missing_conditions: 适用于角色确有认知错位的现场；不能机械把每句现代话都写成笑话
+  task_ids:
+  - TX-T03
+  - TX-T13
+  tags:
+  - humor
+  - dialogue
+  - limited-knowledge
+- id: f52
+  title: 公开站队语言改变顶头上司的即时选择
+  type: framework
+  source_chapter: 第17章 站队
+  source_locator: Text/chapter23.html
+  source_quote: 县丞会不会觉得王大壮不认可庞雨的观点
+  summary: 底层人物的公开表态被旁观者传播给更高层。直属上司不需要真正同意该表态，但会担忧按原计划针对他将被误读成反对上级，从而临时改变工作分派。公开语词带来实际收益，也留下上司待日后清算的私怨。
+  inputs: 有受众的公开表态；即时上下级立场；现有岗位分派权
+  steps: 先确立直属上司原意→让主角公开表态被第三方听见→写上司对传递和归责的预期→具体改变当下任务分配→保留延迟报复可能
+  outputs: 不需直接指令也可改变岗位安排的短期政治效果
+  missing_conditions: 不能把当众拍马屁写成稳定权力；地方上司的长期敌意并未消失
+  task_ids:
+  - TX-T02
+  - TX-T06
+  - TX-T12
+  - TX-T14
+  tags:
+  - power
+  - speech
+  - second-order
+- id: f53
+  title: 街坊会茶作为独立流言传播场
+  type: framework
+  source_chapter: 第15章 家奴
+  source_locator: Text/chapter21.html
+  source_quote: 她们正跟这儿办十日一次的会茶
+  summary: 跳出主角视角，在已有社会聚会里交错放入不同来源、不同解释的消息；主角家属与当事亲眷也可以主动干预，声誉变化在主角不在场时仍运行。保持邻里人物各有交往与面子，不让舆论成为主角操控开关。
+  inputs: 可接触的社交聚会；邻里关系；未核准的传闻；当事家属
+  steps: 建立聚会内各人消息渠道→让版本并列争执→当事人回应及旁人反应→把声誉结果传回家庭或后续交易
+  outputs: 独立于主角的街坊传播链
+  missing_conditions: 此处只提供小说内的舆论示例；不可推断任何时期的群体必然如此
+  task_ids:
+  - TX-T12
+  - TX-T13
+  tags:
+  - social-world
+  - limited-information
+  - humor
