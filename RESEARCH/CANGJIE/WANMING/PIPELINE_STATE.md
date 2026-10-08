@@ -16,7 +16,7 @@
 - Stage 3 Zettelkasten links: **COMPLETE / VALIDATED**
 - Stage 4 pressure tests: **COMPLETE — FALLBACK SELF-TEST PASS**
 - Stage 5 compile/delivery: **COMPLETE — SINGLE / REPOSITORY DELIVERY**
-- V10 candidate promotion review: NOT STARTED
+- V10 candidate promotion review: **COMPLETE — 15 candidates / 5 reference-only**
 
 ## Stage 1 counts
 
@@ -184,3 +184,26 @@ Run Cangjie Stage 5 using the original `methodology/07-stage5-deliver.md`: gener
 Remaining outside Cangjie:
 - V10 candidate promotion review: READY
 - direct Runtime promotion: NOT STARTED
+
+
+## V10 candidate promotion review result
+
+- review file: `../V10_CANDIDATES/WANMING.md`
+- reviewed verified capabilities: 20 / 20
+- entered V10 candidate layer: 15
+  - new capability candidates: 8
+  - Runtime-strengthening candidates: 6
+  - V10 protocol candidate: 1
+- reference-only / embedded: 5
+- direct Runtime promotions: 0
+- V10 Runtime / Canon modified: false
+
+### Next V10 gate
+
+Run 4 V10-original scenario clusters:
+1. 1639–1640 组织成长
+2. 独立世界与地方政治
+3. 正文叙事层
+4. 现代知识与历史研究
+
+After V10-specific counterexample tests and blind non-regression, decide actual Runtime merges.
