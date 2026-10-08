@@ -631,3 +631,110 @@
   outputs: 有条件的叙事决策与场景变化
   steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
   missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f36
+  title: 来源冲突分开记录并公开小说取舍
+  type: framework
+  source_chapter: 第43章 汇集
+  source_locator: Text/chapter49.html
+  source_quote: 有其他记载说方孔炤是独子
+  summary: 面对互相矛盾的旧记录，正文不能把两个版本混成事实；先保留不同声称，再注明作品最终采信哪个版本，作为小说工作设定，而不是给历史真相盖章。
+  task_ids:
+  - TX-T17
+  tags:
+  - narrative
+  - historical-fiction
+  - source-provenance
+  inputs: 可定位原书段落/事件；写作任务与人物现实条件
+  outputs: 被来源限定的叙事因果/作者侧工作结果
+  steps: 对照实际材料→拆开证据与推断→明确选择及后果
+  missing_conditions: Stage 1 raw reconstructed method; Stage 1.5 must independently verify V1/V2/V3
+- id: f37
+  title: 历史材料冲突时将叙事实定与历史确定分离
+  type: framework
+  source_chapter: 第459章 连坐
+  source_locator: Text/chapter465.html
+  source_quote: 所以最终采信的设定
+  summary: 多份史料记录互相矛盾时，以具体有据的记录核定范围，承认不能确定的部分，再明确本书采用的文学重构方案；不可把“采信设定”说成唯一史实。
+  task_ids:
+  - TX-T17
+  - TX-T15
+  tags:
+  - narrative
+  - historical-fiction
+  - source-provenance
+  inputs: 可定位原书段落/事件；写作任务与人物现实条件
+  outputs: 被来源限定的叙事因果/作者侧工作结果
+  steps: 对照实际材料→拆开证据与推断→明确选择及后果
+  missing_conditions: Stage 1 raw reconstructed method; Stage 1.5 must independently verify V1/V2/V3
+- id: f38
+  title: 历史记录与推断之间显式保留逻辑跳步
+  type: framework
+  source_chapter: 第504章 塘马
+  source_locator: Text/chapter511.html
+  source_quote: 由此可以推断
+  summary: 一条历史文本陈述并不覆盖作者作出的后续推断；在资料工作层区分记录→推断→小说使用，防止后续角色把推断当成目击事实。
+  task_ids:
+  - TX-T17
+  tags:
+  - narrative
+  - historical-fiction
+  - source-provenance
+  inputs: 可定位原书段落/事件；写作任务与人物现实条件
+  outputs: 被来源限定的叙事因果/作者侧工作结果
+  steps: 对照实际材料→拆开证据与推断→明确选择及后果
+  missing_conditions: Stage 1 raw reconstructed method; Stage 1.5 must independently verify V1/V2/V3
+- id: f39
+  title: 大战后行政与日常成本延时结算
+  type: framework
+  source_chapter: 第358章 善后
+  source_locator: Text/chapter365.html
+  source_quote: 善后擦屁股几个月都办不完
+  summary: 重大事件不是战斗结束即归零；人员安置、钱粮、接洽、公文等形成延时后果，这些后果应通过一个个具体岗位的继续行动体现。
+  task_ids:
+  - TX-T05
+  - TX-T08
+  - TX-T16
+  tags:
+  - narrative
+  - historical-fiction
+  - causal-structure
+  inputs: 可定位原书段落/事件；写作任务与人物现实条件
+  outputs: 被来源限定的叙事因果/作者侧工作结果
+  steps: 对照实际材料→拆开证据与推断→明确选择及后果
+  missing_conditions: Stage 1 raw reconstructed method; Stage 1.5 must independently verify V1/V2/V3
+- id: f40
+  title: 存量资本与未来债务分开叙述
+  type: framework
+  source_chapter: 第409章 讨价
+  source_locator: Text/chapter415.html
+  source_quote: 这些都是银庄的负债
+  summary: 组织拥有大规模账面资金并不代表净可支配财富；从角色立场区分资产、负债、到期承诺和支付义务，让不同人物产生不同担忧；本条为小说因果，不是投资建议。
+  task_ids:
+  - TX-T11
+  - TX-T16
+  tags:
+  - narrative
+  - historical-fiction
+  - causal-structure
+  inputs: 可定位原书段落/事件；写作任务与人物现实条件
+  outputs: 被来源限定的叙事因果/作者侧工作结果
+  steps: 对照实际材料→拆开证据与推断→明确选择及后果
+  missing_conditions: Stage 1 raw reconstructed method; Stage 1.5 must independently verify V1/V2/V3
+- id: f41
+  title: 政治责任的预期会重写同一份绩效
+  type: framework
+  source_chapter: 第436章 评语
+  source_locator: Text/chapter442.html
+  source_quote: 朝廷最终需要一个出来顶下罪责的人
+  summary: 同一历史危机在现场行动者与权力评价者眼里分别是损失、责任、升迁或甩责机会；政治评价要通过评价者的风险位置和上级信息来转译。
+  task_ids:
+  - TX-T14
+  - TX-T09
+  tags:
+  - narrative
+  - historical-fiction
+  - causal-structure
+  inputs: 可定位原书段落/事件；写作任务与人物现实条件
+  outputs: 被来源限定的叙事因果/作者侧工作结果
+  steps: 对照实际材料→拆开证据与推断→明确选择及后果
+  missing_conditions: Stage 1 raw reconstructed method; Stage 1.5 must independently verify V1/V2/V3
