@@ -61,3 +61,18 @@
 - 读者已知而人物未知的信息
 
 索引只负责定位，不得取代原文事实。
+
+
+### 《晚明》Cangjie / V10 候选晋级
+- `RESEARCH/CANGJIE/WANMING/INDEX.md` — 《晚明》Cangjie Stage 0–5 全部蒸馏产物入口
+- `RESEARCH/CANGJIE/WANMING/FINAL_SNAPSHOT.md` — Cangjie 定版快照
+- `RESEARCH/V10_CANDIDATES/WANMING.md` — 20→15 候选去重与 Cluster A–D 测试状态
+- `RESEARCH/V10_CANDIDATES/WANMING_CANDIDATE_OVERLAY.md` — 盲测专用候选 Overlay，非 Runtime
+- `TESTS/WANMING_CANDIDATE_BLIND_PROTOCOL.md` — 双臂盲测协议
+- `TESTS/WANMING_CANDIDATE_BLIND_TESTS.md` — 候选盲测20题
+- `TESTS/WANMING_CANDIDATE_BLIND_SCORING.md` — 评测者专用评分表，不得交给被测会话
+- `TESTS/WANMING_CANDIDATE_BLIND_RUNBOOK.md` — 两个干净 Temporary Chat 的运行说明
+- `TESTS/bundles/V10-wanming-baseline-blind-v0.1.zip` — Baseline 盲测包
+- `TESTS/bundles/V10-wanming-candidate-blind-v0.1.zip` — Candidate 盲测包
+
+当前状态：**15 项候选全部完成开放测试，等待双臂盲测；Runtime/Canon 尚未修改。**
