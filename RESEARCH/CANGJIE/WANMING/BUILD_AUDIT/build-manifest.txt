@@ -1,4 +1,4 @@
-V10 commit: e82a1ac4b522b09cf244c4386235bd757ca49cad
+V10 commit: 2221f551342aadf8801d66a18deb7ee0d84c9a43
 Cangjie commit: a28de55ba881b9928956a55048f743f7a9e3b23e
 Variant: single
 Bundle SHA256: 17ec11060cf5da9ff91bb805940d334ac064b091bd35c840d0ba37d0765ed209
@@ -32,7 +32,7 @@ RESEARCH/CANGJIE/WANMING/dist/wanming/references/glossary.md
 RESEARCH/CANGJIE/WANMING/dist/wanming/references/overview.md
 
 SHA256:
-35c946b4f6c67950fcdeb4be5757ce194ac6f3a8151d0b8bbe7b635d65747c4d  RESEARCH/CANGJIE/WANMING/dist/wanming/BUILD_MANIFEST.json
+73fce2763ace7c6bdf48508cd2b257fd7aea786f074984a0eedf237f4a6e9e15  RESEARCH/CANGJIE/WANMING/dist/wanming/BUILD_MANIFEST.json
 02c934cec04ab999e2c50c8b1b36b9c0022128f9bcc62f7a1b8483647987260f  RESEARCH/CANGJIE/WANMING/dist/wanming/SKILL.md
 99683b160a3d36a447b680d2728d2bd092c486d9d4fb88a0b504a2599d74459d  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/actionability-ladder.md
 70bb9f6a0181b70397e68a5ec07cdbfec1082d34aebd740a022bd26a8482181f  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/adaptive-opponents.md
