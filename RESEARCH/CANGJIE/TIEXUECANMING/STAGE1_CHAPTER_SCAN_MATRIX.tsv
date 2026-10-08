@@ -86,10 +86,10 @@ Text/chapter90.html	第84章 守策	4495	0	0	舆论与误判	unanchored;machine-
 Text/chapter91.html	第85章 西人	3047	0	1	公门权责,作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter92.html	第86章 混乱	3376	0	0	公门权责	unanchored;machine-scanned
 Text/chapter93.html	第87章 不设防	3575	0	0	公门权责	unanchored;machine-scanned
-Text/chapter94.html	第88章 投柜	3296	0	0	公门权责	unanchored;machine-scanned
+Text/chapter94.html	第88章 投柜	3296	6	0	公门权责	candidate-anchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter95.html	第89章 光时亨	3187	0	1	作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter96.html	第90章 逃丁	3068	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter97.html	第91章 赌档	4558	0	0	普通生活	unanchored;machine-scanned
+Text/chapter97.html	第91章 赌档	4558	0	0	普通生活	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter98.html	第92章 早课	3552	0	0		unanchored;machine-scanned
 Text/chapter99.html	第93章 棍神	3892	0	0		unanchored;machine-scanned
 Text/chapter100.html	第94章 神棍	3037	0	0		unanchored;machine-scanned
@@ -102,8 +102,8 @@ Text/chapter106.html	第100章 追索	3617	0	0	公门权责	unanchored;machine-s
 Text/chapter107.html	第101章 警信	4230	0	0	人物关系,舆论与误判	unanchored;machine-scanned
 Text/chapter108.html	第102章 接近	3273	0	0	公门权责,舆论与误判	unanchored;machine-scanned
 Text/chapter109.html	第103章 同袍	3335	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter110.html	第104章 王法	5385	0	0	公门权责,舆论与误判,普通生活	unanchored;machine-scanned
-Text/chapter111.html	第105章 两全	4253	0	0	舆论与误判	unanchored;machine-scanned
+Text/chapter110.html	第104章 王法	5385	3	0	公门权责,舆论与误判,普通生活	candidate-anchored;machine-scanned;targeted-passage-review-20261008-b01
+Text/chapter111.html	第105章 两全	4253	0	0	舆论与误判	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter112.html	第106章 老爷	4560	0	0	人物关系,舆论与误判	unanchored;machine-scanned
 Text/chapter113.html	第107章 侦骑	5300	0	1	作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter114.html	第108章 城门	3790	0	0	舆论与误判	unanchored;machine-scanned
@@ -201,16 +201,16 @@ Text/chapter206.html	第199章 汹涌	4073	0	0	舆论与误判	unanchored;machin
 Text/chapter207.html	第200章 灵宝	3341	5	0	人物关系	candidate-anchored;machine-scanned
 Text/chapter208.html	第201章 拦路	3761	0	0	公门权责	unanchored;machine-scanned
 Text/chapter209.html	第202章 天赐	3427	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter210.html	第203章 气度	3136	0	0	普通生活	unanchored;machine-scanned
-Text/chapter211.html	第204章 杂务	3915	0	0	公门权责	unanchored;machine-scanned
+Text/chapter210.html	第203章 气度	3136	0	0	普通生活	unanchored;machine-scanned;targeted-passage-review-20261008-b01
+Text/chapter211.html	第204章 杂务	3915	0	0	公门权责	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter212.html	第205章　水营	3921	0	0	舆论与误判	unanchored;machine-scanned
 Text/chapter213.html	第206章 福分	3791	0	0	公门权责	unanchored;machine-scanned
-Text/chapter214.html	第207章 整顿	4983	0	0	舆论与误判	unanchored;machine-scanned
+Text/chapter214.html	第207章 整顿	4983	0	0	舆论与误判	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter215.html	第208章 西境	4736	0	0	公门权责	unanchored;machine-scanned
 Text/chapter216.html	第209章 石牌	3316	0	1	作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter217.html	第210章 城楼	6844	0	1	财政信用,舆论与误判,作者注释	unanchored;machine-scanned;note-indexed
-Text/chapter218.html	第211章 军力	5236	0	1	公门权责,财政信用,作者注释	unanchored;machine-scanned;note-indexed
-Text/chapter219.html	第212章 考核	4485	0	0	制度与执行,舆论与误判	unanchored;machine-scanned
+Text/chapter218.html	第211章 军力	5236	0	1	公门权责,财政信用,作者注释	unanchored;machine-scanned;note-indexed;targeted-passage-review-20261008-b01
+Text/chapter219.html	第212章 考核	4485	2	0	制度与执行,舆论与误判	candidate-anchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter220.html	第213章 文化	4887	0	0	公门权责,舆论与误判	unanchored;machine-scanned
 Text/chapter221.html	第214章 群殴	4072	0	0		unanchored;machine-scanned
 Text/chapter222.html	第215章 急令	4152	0	0	普通生活	unanchored;machine-scanned
@@ -218,9 +218,9 @@ Text/chapter223.html	第216章 对策	4473	0	0	舆论与误判	unanchored;machin
 Text/chapter224.html	第217章 虚兵	3413	0	0		unanchored;machine-scanned
 Text/chapter225.html	第218章 惑敌	3576	0	0	公门权责	unanchored;machine-scanned
 Text/chapter226.html	第219章 路遇	3201	0	0	人物关系	unanchored;machine-scanned
-Text/chapter227.html	第220章 群鸦	5065	0	0	人物关系,财政信用	unanchored;machine-scanned
+Text/chapter227.html	第220章 群鸦	5065	0	0	人物关系,财政信用	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter228.html	第221章 年前	3026	0	0	人物关系	unanchored;machine-scanned
-Text/chapter229.html	第222章 两难	3718	0	0	财政信用	unanchored;machine-scanned
+Text/chapter229.html	第222章 两难	3718	4	0	财政信用	candidate-anchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter230.html	第223章 和州	4333	0	0		unanchored;machine-scanned
 Text/chapter231.html	第224章 假扮	3722	0	1	作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter232.html	第225章 寒夜	4893	0	1	人物关系,作者注释	unanchored;machine-scanned;note-indexed
@@ -287,7 +287,7 @@ Text/chapter292.html	第285章 管事	4488	0	0		unanchored;machine-scanned
 Text/chapter293.html	第286章 高升	3540	0	0	财政信用	unanchored;machine-scanned
 Text/chapter294.html	第287章 同袍之谊	3797	0	0		unanchored;machine-scanned
 Text/chapter295.html	第288章 新编	3894	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter296.html	第289章 误差	3898	0	0	财政信用,舆论与误判	unanchored;machine-scanned
+Text/chapter296.html	第289章 误差	3898	1	0	财政信用,舆论与误判	candidate-anchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter297.html	第290章 正气	4086	0	1	人物关系,作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter298.html	第291章 阉党	4373	0	0		unanchored;machine-scanned
 Text/chapter299.html	第292章 眼线	4379	0	0	财政信用	unanchored;machine-scanned
@@ -295,17 +295,17 @@ Text/chapter300.html	第293章 头绪	4501	0	0	公门权责,舆论与误判	unan
 Text/chapter301.html	第294章 神采	4393	0	1	财政信用,作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter302.html	第295章 暂借	4202	0	1	作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter303.html	第296章 接收	3722	0	1	公门权责,作者注释	unanchored;machine-scanned;note-indexed
-Text/chapter304.html	第297章 精明	3957	0	0	公门权责	unanchored;machine-scanned
+Text/chapter304.html	第297章 精明	3957	0	0	公门权责	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter305.html	第298章 要账	3311	0	0	公门权责	unanchored;machine-scanned
 Text/chapter306.html	第299章 贺词	4048	0	0	公门权责,财政信用	unanchored;machine-scanned
 Text/chapter307.html	第300章 经验	3985	2	1	舆论与误判,作者注释	candidate-anchored;machine-scanned;note-indexed
-Text/chapter308.html	第301章 考核	4760	0	0	制度与执行	unanchored;machine-scanned
+Text/chapter308.html	第301章 考核	4760	0	0	制度与执行	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter309.html	第302章 好事	5394	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter310.html	第303章 开张	3972	0	1	财政信用,作者注释	unanchored;machine-scanned;note-indexed
-Text/chapter311.html	第304章 中枢	3037	0	0		unanchored;machine-scanned
+Text/chapter310.html	第303章 开张	3972	0	1	财政信用,作者注释	unanchored;machine-scanned;note-indexed;targeted-passage-review-20261008-b01
+Text/chapter311.html	第304章 中枢	3037	0	0		unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter312.html	第305章 冬夜	2840	0	1	人物关系,作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter313.html	第306章 令信	3823	0	0	公门权责	unanchored;machine-scanned
-Text/chapter314.html	第307章 专责	3707	0	0		unanchored;machine-scanned
+Text/chapter314.html	第307章 专责	3707	0	0		unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter315.html	第308章 策略	4418	0	0		unanchored;machine-scanned
 Text/chapter316.html	第309章 危局	2641	0	0		unanchored;machine-scanned
 Text/chapter317.html	第310章 江山	2717	2	0	制度与执行	candidate-anchored;machine-scanned
@@ -318,7 +318,7 @@ Text/chapter323.html	第316章 难测	4978	0	1	舆论与误判,作者注释	unan
 Text/chapter324.html	第317章 靠山	4229	0	1	作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter325.html	第318章 极致	3499	0	0		unanchored;machine-scanned
 Text/chapter326.html	第319章 开花	4443	0	0		unanchored;machine-scanned
-Text/chapter327.html	第320章 风险	5515	0	0	舆论与误判	unanchored;machine-scanned
+Text/chapter327.html	第320章 风险	5515	0	0	舆论与误判	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter328.html	第321章 不跋扈	2653	0	1	作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter329.html	第322章 捉生	3763	0	0	人物关系	unanchored;machine-scanned
 Text/chapter330.html	第323章 漩涡	2237	0	0		unanchored;machine-scanned
@@ -329,7 +329,7 @@ Text/chapter334.html	第327章 汇合	4093	0	0	舆论与误判	unanchored;machin
 Text/chapter335.html	第328章 隘口	4724	0	0		unanchored;machine-scanned
 Text/chapter336.html	第329章 在途	3367	0	1	作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter337.html	第330章 镇内	3804	0	0	人物关系	unanchored;machine-scanned
-Text/chapter338.html	第331章 选择	3956	0	0	人物关系,舆论与误判,普通生活	unanchored;machine-scanned
+Text/chapter338.html	第331章 选择	3956	0	0	人物关系,舆论与误判,普通生活	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter339.html	第332章 人山	3395	0	0		unanchored;machine-scanned
 Text/chapter340.html	第333章 墨烟铺	3952	0	1	人物关系,作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter341.html	第334章 包围	3782	0	0	舆论与误判	unanchored;machine-scanned
@@ -349,12 +349,12 @@ Text/chapter354.html	第347章 疯狂	3848	0	0	舆论与误判	unanchored;machin
 Text/chapter355.html	第348章 援兵	3704	0	0		unanchored;machine-scanned
 Text/chapter356.html	第349章 恶战	3759	0	0		unanchored;machine-scanned
 Text/chapter357.html	第350章 抉择	4296	0	0	普通生活	unanchored;machine-scanned
-Text/chapter358.html	第351章 伤兵	4159	0	0		unanchored;machine-scanned
-Text/chapter359.html	第352章 告捷	5096	0	0		unanchored;machine-scanned
+Text/chapter358.html	第351章 伤兵	4159	0	0		unanchored;machine-scanned;targeted-passage-review-20261008-b01
+Text/chapter359.html	第352章 告捷	5096	5	0		candidate-anchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter360.html	第353章 孤身	3362	0	0		unanchored;machine-scanned
 Text/chapter361.html	第354章 飞斧	4660	0	0		unanchored;machine-scanned
-Text/chapter362.html	第355章 前程	3549	0	1	作者注释	unanchored;machine-scanned;note-indexed
-Text/chapter363.html	第356章 谋划	4004	0	1	公门权责,财政信用,作者注释	unanchored;machine-scanned;note-indexed
+Text/chapter362.html	第355章 前程	3549	0	1	作者注释	unanchored;machine-scanned;note-indexed;targeted-passage-review-20261008-b01
+Text/chapter363.html	第356章 谋划	4004	0	1	公门权责,财政信用,作者注释	unanchored;machine-scanned;note-indexed;targeted-passage-review-20261008-b01
 Text/chapter364.html	第357章 条件	5539	0	0	舆论与误判	unanchored;machine-scanned
 Text/chapter365.html	第358章 善后	3806	4	0	公门权责,财政信用	candidate-anchored;machine-scanned
 Text/chapter366.html	第359章 关系	3715	0	0		unanchored;machine-scanned
@@ -445,8 +445,8 @@ Text/chapter451.html	第445章 猜测	3926	0	0	舆论与误判	unanchored;machin
 Text/chapter452.html	第446章 疾攻	3719	0	0		unanchored;machine-scanned
 Text/chapter453.html	第447章 求生	3430	0	1	人物关系,作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter454.html	第448章 博平	3855	0	0	人物关系,财政信用	unanchored;machine-scanned
-Text/chapter455.html	第449章 窘迫	5241	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter456.html	第450章 位置	4756	0	0	舆论与误判	unanchored;machine-scanned
+Text/chapter455.html	第449章 窘迫	5241	0	0	舆论与误判	unanchored;machine-scanned;targeted-passage-review-20261008-b01
+Text/chapter456.html	第450章 位置	4756	0	0	舆论与误判	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter457.html	第451章 一阵	3783	0	0		unanchored;machine-scanned
 Text/chapter458.html	第452章 号音	4374	0	0	舆论与误判	unanchored;machine-scanned
 Text/chapter459.html	第453章 院门	3168	0	0		unanchored;machine-scanned
@@ -454,7 +454,7 @@ Text/chapter460.html	第454章 外院	3594	0	0		unanchored;machine-scanned
 Text/chapter461.html	第455章 东街	4164	0	0	舆论与误判	unanchored;machine-scanned
 Text/chapter462.html	第456章 战神	3561	0	0		unanchored;machine-scanned
 Text/chapter463.html	第457章 保障	3355	0	0		unanchored;machine-scanned
-Text/chapter464.html	第458章 兄弟	4248	0	0	人物关系	unanchored;machine-scanned
+Text/chapter464.html	第458章 兄弟	4248	3	0	人物关系	candidate-anchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter465.html	第459章 连坐	6391	5	1	舆论与误判,作者注释	candidate-anchored;machine-scanned;note-indexed
 Text/chapter466.html	第460章 东阿	4892	0	0	制度与执行	unanchored;machine-scanned
 Text/chapter467.html	第461章 猎兵	3641	0	0	舆论与误判	unanchored;machine-scanned
@@ -471,13 +471,13 @@ Text/chapter478.html	第471章 夜战	3202	0	0		unanchored;machine-scanned
 Text/chapter479.html	第472章 山林	4315	0	0		unanchored;machine-scanned
 Text/chapter480.html	第473章 河道	4666	0	0	舆论与误判	unanchored;machine-scanned
 Text/chapter481.html	第474章 雪原	3630	0	0		unanchored;machine-scanned
-Text/chapter482.html	第475章 直奏	5480	0	1	舆论与误判,作者注释	unanchored;machine-scanned;note-indexed
+Text/chapter482.html	第475章 直奏	5480	0	1	舆论与误判,作者注释	unanchored;machine-scanned;note-indexed;targeted-passage-review-20261008-b01
 Text/chapter483.html	第476章 深宫	3418	0	0		unanchored;machine-scanned
-Text/chapter484.html	第477章 名气	3904	0	0	舆论与误判	unanchored;machine-scanned
+Text/chapter484.html	第477章 名气	3904	0	0	舆论与误判	unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter485.html	第478章 转道	1775	0	0		unanchored;machine-scanned
-Text/chapter486.html	第479章 首辅	5095	0	1	舆论与误判,作者注释	unanchored;machine-scanned;note-indexed
-Text/chapter487.html	第480章 士气	3757	0	0		unanchored;machine-scanned
-Text/chapter488.html	第481章 妥协	5957	0	0		unanchored;machine-scanned
+Text/chapter486.html	第479章 首辅	5095	0	1	舆论与误判,作者注释	unanchored;machine-scanned;note-indexed;targeted-passage-review-20261008-b01
+Text/chapter487.html	第480章 士气	3757	1	0		candidate-anchored;machine-scanned;targeted-passage-review-20261008-b01
+Text/chapter488.html	第481章 妥协	5957	0	0		unanchored;machine-scanned;targeted-passage-review-20261008-b01
 Text/chapter489.html	第482章 间隔	4726	0	1	舆论与误判,作者注释	unanchored;machine-scanned;note-indexed
 Text/chapter490.html	第483章 哗然	4877	3	1	舆论与误判,作者注释	candidate-anchored;machine-scanned;note-indexed
 Text/chapter491.html	第484章 自问	4859	0	0	舆论与误判	unanchored;machine-scanned
