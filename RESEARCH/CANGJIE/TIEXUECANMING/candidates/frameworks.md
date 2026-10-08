@@ -469,3 +469,165 @@
   outputs: 有条件的叙事决策与场景变化
   steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
   missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f27
+  title: 程序入口可被书办裁量变成隐形权力
+  type: framework
+  source_chapter: 第13章 官威
+  source_locator: Text/chapter19.html
+  source_quote: 以便于他随时调整放告顺序，从中获得好处，这是一个
+  summary: 处理一件公门小事时同时标出程序书面规定、书办能改变的次序、求办者的成本，后续结果由差距而来。
+  task_ids:
+  - TX-T01
+  - TX-T02
+  tags:
+  - narrative
+  - framework
+  - historical-fiction
+  inputs: 人物可知信息、现实权限、关系与代价
+  outputs: 有条件的叙事决策与场景变化
+  steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
+  missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f28
+  title: 基层编制成为岗位交换筹码
+  type: framework
+  source_chapter: 第68章 编制
+  source_locator: Text/chapter74.html
+  source_quote: 交易，沈司吏给他三个编制，但是要把侄子加到快班，
+  summary: 有人掌握名额、有人拥有属吏、有人成为利益交换条件；原有部门不能无成本地让出人数与控制。
+  task_ids:
+  - TX-T06
+  - TX-T07
+  tags:
+  - narrative
+  - framework
+  - historical-fiction
+  inputs: 人物可知信息、现实权限、关系与代价
+  outputs: 有条件的叙事决策与场景变化
+  steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
+  missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f29
+  title: 士人派系的同盟与竞争并存
+  type: framework
+  source_chapter: 第132章 市场
+  source_locator: Text/chapter139.html
+  source_quote: 下便是那些名利，你多了我便少了，两派各有心思，看似一脉
+  summary: 看起来口号相同的群体，仍因科举、仕途和资源形成彼此防范，正式利益关系决定台面话怎样说。
+  task_ids:
+  - TX-T04
+  - TX-T14
+  tags:
+  - narrative
+  - framework
+  - historical-fiction
+  inputs: 人物可知信息、现实权限、关系与代价
+  outputs: 有条件的叙事决策与场景变化
+  steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
+  missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f30
+  title: 一次融资与常态养人开支分账
+  type: framework
+  source_chapter: 第178章 融资
+  source_locator: Text/chapter185.html
+  source_quote: 三千五百两，这个利息不低，也不算离谱。  此时安
+  summary: 将一次筹资、债务到期、出资人利益、每年维护成本分别呈现，不能以资金到账替代长期可持续性。
+  task_ids:
+  - TX-T07
+  - TX-T11
+  tags:
+  - narrative
+  - framework
+  - historical-fiction
+  inputs: 人物可知信息、现实权限、关系与代价
+  outputs: 有条件的叙事决策与场景变化
+  steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
+  missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f31
+  title: 商业资金链与长期组织开支同步变化
+  type: framework
+  source_chapter: 第179章 银庄
+  source_locator: Text/chapter186.html
+  source_quote: 若是招两千兵马，每年军饷就要给出大约五万，所以这
+  summary: 组织增长后的年度成本会改变当下融资选择；用某次收益不能自动解释长年账目。
+  task_ids:
+  - TX-T07
+  - TX-T11
+  tags:
+  - narrative
+  - framework
+  - historical-fiction
+  inputs: 人物可知信息、现实权限、关系与代价
+  outputs: 有条件的叙事决策与场景变化
+  steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
+  missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f32
+  title: 借贷双方内部目标不一致
+  type: framework
+  source_chapter: 第276章 奢华
+  source_locator: Text/chapter283.html
+  source_quote: 该是好事，但他又不敢问庞雨要抵押，到时庞雨一句没银子，银
+  summary: 同一阵营里金融业务负责人为偿付忧虑，借款者为了战略扩张，职位依赖会阻止公开讨价。
+  task_ids:
+  - TX-T11
+  - TX-T16
+  tags:
+  - narrative
+  - framework
+  - historical-fiction
+  inputs: 人物可知信息、现实权限、关系与代价
+  outputs: 有条件的叙事决策与场景变化
+  steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
+  missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f33
+  title: 基层生活中的资源分配公平难题
+  type: framework
+  source_chapter: 第417章 瓦房
+  source_locator: Text/chapter423.html
+  source_quote: 两家总旗，还得请墩长大人判明。”  潜山二号墩堡
+  summary: 土地与住房实际质量不同，均分数量不等于均分利益；让领受者讨论不同方案的实际成本。
+  task_ids:
+  - TX-T08
+  - TX-T13
+  tags:
+  - narrative
+  - framework
+  - historical-fiction
+  inputs: 人物可知信息、现实权限、关系与代价
+  outputs: 有条件的叙事决策与场景变化
+  steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
+  missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f34
+  title: 传言扩散造成队伍决策条件改变
+  type: framework
+  source_chapter: 第483章 哗然
+  source_locator: Text/chapter490.html
+  source_quote: 后匆匆往前赶去。刘宇亮的座驾在京营队列里面，但
+  summary: 领导层一次公开行动可经各营转述形成集体预期，在其他现场促成独立反应；人物不共享作者真相。
+  task_ids:
+  - TX-T09
+  - TX-T15
+  tags:
+  - narrative
+  - framework
+  - historical-fiction
+  inputs: 人物可知信息、现实权限、关系与代价
+  outputs: 有条件的叙事决策与场景变化
+  steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
+  missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
+- id: f35
+  title: 报纸版面本身成为政治信用资源
+  type: framework
+  source_chapter: 第533章 版面
+  source_locator: Text/chapter540.html
+  source_quote: 第533章 版面  “庞大人的银子得来也
+  summary: 某条消息是否刊发以及何时发，受读者、发行时点、政治风险与各方利益共同限制。
+  task_ids:
+  - TX-T12
+  - TX-T14
+  tags:
+  - narrative
+  - framework
+  - historical-fiction
+  inputs: 人物可知信息、现实权限、关系与代价
+  outputs: 有条件的叙事决策与场景变化
+  steps: 识别在场角色→拆分权责及信息→让行动改变状态→检查代价
+  missing_conditions: 原书为虚构案例；适用 V10 前还须 Stage 1.5 逐项验证
