@@ -73,8 +73,14 @@
   - 边界/反例：24 / 24 通过。
   - 反模式压力：4 / 4 通过。
 - Runtime / Canon 修改：0。
-- 当前唯一剩余晋级门：**双臂盲测 / non-regression**。
+- 双臂盲测 / non-regression：**已完成并通过**。
 - 已生成：
   - `TESTS/bundles/V10-wanming-baseline-blind-v0.1.zip`
   - `TESTS/bundles/V10-wanming-candidate-blind-v0.1.zip`
-- 盲测通过前不得把《晚明》候选写入 `RUNTIME/CORE.md` 或 `V10_SKILL.md`。
+- 盲测结果：Baseline 专项 37/40，Candidate 专项 40/40；标准 V10 40题两组均 40/40，无退化。
+- 最终仅晋级 3 项：
+  1. 组织学习闭环 → 紧凑合并入 Runtime A5；
+  2. 信息分流与决策优先级 → 紧凑合并入 Runtime H1；
+  3. 冲突史料裁决→Canon → 进入 V10_SKILL 4.1。
+- 其余 12 项均留在 RESEARCH/reference/tool 层，不进入 Runtime。
+- 当前版本：`RUNTIME/CORE.md` v0.2；`V10_SKILL.md` v0.2.0。
