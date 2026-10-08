@@ -419,3 +419,57 @@ Evaluator-only:
 - `TESTS/WANMING_CANDIDATE_BLIND_SCORING.md`
 
 The current development session is disqualified from strict blind scoring because it has seen the Overlay, test design and scoring logic.
+
+
+---
+
+## Final blind-test disposition
+
+Two-arm strict test completed.
+
+### Gate results
+
+- Standard V10 40 questions:
+  - Baseline: 40 / 40
+  - Candidate: 40 / 40
+- Candidate-specific 20:
+  - Baseline: 37 / 40
+  - Candidate: 40 / 40
+- Candidate delta: +3
+- anti-overuse probes: no regression
+- fatal Canon errors: 0
+
+Formal evaluator:
+`TESTS/results/2026-10-08-wanming-candidate-ab-blind-evaluation.md`
+
+### Promoted
+
+1. `V10-WM-C01` 组织学习闭环 → **PROMOTE_MERGE**
+   - merged into Runtime A5
+2. `V10-WM-C03` 信息分流与决策优先级 → **PROMOTE_MERGE**
+   - merged into Runtime H1
+3. `V10-WM-P01` 冲突史料裁决→Canon → **PROMOTE_PROTOCOL**
+   - merged into V10_SKILL §4.1
+
+### Reference / tool only
+
+The other 12 candidates remain useful research evidence or author-side tools but are **not** added to Runtime because the Baseline arm already produced full-quality behavior on their mapped blind probes:
+
+- V10-WM-C02
+- V10-WM-C04
+- V10-WM-C05
+- V10-WM-C06
+- V10-WM-C07
+- V10-WM-C08
+- V10-WM-S01
+- V10-WM-S02
+- V10-WM-S03
+- V10-WM-S04
+- V10-WM-S05
+- V10-WM-S06
+
+### Current version
+
+- Runtime: v0.2
+- V10_SKILL: v0.2.0
+- Canon changes from this promotion: none
