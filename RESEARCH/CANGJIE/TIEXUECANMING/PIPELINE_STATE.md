@@ -3,7 +3,7 @@
 - Stage 0 source audit: **COMPLETE**
 - Stage 0 Adler whole-book (available EPUB 1–534): **COMPLETE / USER CONFIRMED**
 - Stage 0 user confirmation: **CONFIRMED (user replied “继续”)**
-- Stage 1 five-extractor candidates: **222 RAW SAVED (49/51/54/35/33); SOURCE-COVERAGE GATE OPEN — NOT FULLY COMPLETE**
+- Stage 1 five-extractor candidates: **237 RAW SAVED (53/55/58/37/34); SOURCE-COVERAGE GATE OPEN — NOT FULLY COMPLETE**
 - Stage 1.5 triple verification: NOT STARTED
 - Stage 1.6 promotion gate: NOT STARTED
 - Stage 2 RIA++: NOT STARTED
@@ -28,13 +28,13 @@ Checkpoint policy: upload after each finished verifiable stage/sub-stage and ver
 
 - Stage 0 confirmed by user's “继续”.
 - Five raw candidate files uploaded, back-read and matched on content/IDs:
-  - frameworks 49
-  - principles 51
-  - cases 54
-  - counter-examples 35
-  - glossary 33
-- total: 222 raw items (NOT tri-verified).
-- candidate chapter anchors: 61 distinct physical EPUB chapter records (+ 1 attached reader timeline).
+  - frameworks 53
+  - principles 55
+  - cases 58
+  - counter-examples 37
+  - glossary 34
+- total: 237 raw items (NOT tri-verified).
+- candidate chapter anchors: 66 distinct physical EPUB chapter records (+ 1 attached reader timeline).
 - 18 Stage 0 tasks have raw membership; TX-T17 now has multiple independently locatable appendix/annotation examples, but historical provenance is still not externally corroborated.
 - Scope caveat: mechanical full-text indexing + focused source close-reads `!=` complete semantic full-scan required by framework/principle extractors.
 - stage documents:
@@ -70,3 +70,23 @@ Next: close the Stage 1 semantic-coverage gap or mark unresolved source tasks ho
 - No claim of all 532 physical chapter entries semantically close-read.
 - **Stage 1 source-coverage hard gate: OPEN; Stage 1.5: NOT STARTED.**
 - Runtime / Canon changes: **NONE**.
+
+
+## Stage 1 semantic batch 02 — 2026-10-08
+
+- Continuous EPUB physical chapter window: Text/chapter7.html to Text/chapter38.html (story chapters 1–32).
+- Review flags: 5 whole-chapter semantic reads (1,2,3,16,17) + 27 targeted-passage reviews. Partial reading must not be counted as full.
+- New source-bound candidates: 15 → **237 raw total** (53 frameworks / 55 principles / 58 cases / 37 counterexamples / 34 glossary).
+- New capabilities of interest: family economic ethics vs protagonist desire; locally invalid modern slogans as dialogue comedy; independent neighborhood women's social reporting; publicly visible political praise changing a direct superior's immediate task allocation but not his long-term resentment.
+- Discovered and repaired **12 preexisting field-type mismatches**:
+  - ce24–ce31 (warning_signs/bound_to/task_ids)
+  - g27–g30 (key_distinction/task_ids)
+- Strict schema validator: 237 unique IDs, valid source locator + literal short quote, 18 task IDs all properly typed, case bound_to/example_kind and counterexample warning_signs/bound_to well-formed, **0 errors**.
+- Previous audit claiming all task mappings valid from "nonempty" alone is superseded for schema correctness.
+- Artifacts:
+  - `STAGE1_SEMANTIC_BATCH_02.md`
+  - `STAGE1_SCHEMA_REPAIR_AUDIT.json`
+  - updated five `candidates/*.md`
+  - updated `STAGE1_CHAPTER_SCAN_MATRIX.tsv`
+- **Stage 1 semantic hard gate: OPEN; Stage 1.5: NOT STARTED.**
+- Runtime v0.2 / Canon: NOT MODIFIED.
