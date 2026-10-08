@@ -373,3 +373,115 @@
   - narrative
   - inferred-rule
   evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
+- id: p28
+  title: 无形排序权也是真实权力
+  type: principle
+  source_chapter: 第13章 官威
+  source_locator: Text/chapter19.html
+  source_quote: 以便于他随时调整放告顺序，从中获得好处，这是一个
+  summary: 前台手续不动，但谁掌握排列次序、解释依据与应对异议，就可能改变人物成本。
+  task_ids:
+  - TX-T01
+  - TX-T02
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
+- id: p29
+  title: 编制交换必须追踪原岗位损失
+  type: principle
+  source_chapter: 第68章 编制
+  source_locator: Text/chapter74.html
+  source_quote: 四个编制，需要从皂班那边分出来。  庞雨知道
+  summary: 人员增补背后有人让出名额，补员不是凭空增长。
+  task_ids:
+  - TX-T06
+  - TX-T07
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
+- id: p30
+  title: 派系表面一脉未必根本一致
+  type: principle
+  source_chapter: 第132章 市场
+  source_locator: Text/chapter139.html
+  source_quote: 你多了我便少了，两派各有心思，看似一脉，根上却不是一
+  summary: 派系共同敌人不保证个人地位与升迁路径一致。
+  task_ids:
+  - TX-T04
+  - TX-T14
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
+- id: p31
+  title: 一次筹资需留下付款压力
+  type: principle
+  source_chapter: 第178章 融资
+  source_locator: Text/chapter185.html
+  source_quote: 单独给唐兄二分的利息。唐兄请仔细斟酌之后，再
+  summary: 资金进入组织以后，债主利益和到期义务持续存在。
+  task_ids:
+  - TX-T07
+  - TX-T11
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
+- id: p32
+  title: 新钱不能自动等于多年军费
+  type: principle
+  source_chapter: 第179章 银庄
+  source_locator: Text/chapter186.html
+  source_quote: 若是招两千兵马，每年军饷就要给出大约五万，所以这
+  summary: 把一次取得的本金与持续年度负担分开写，并留出未来约束。
+  task_ids:
+  - TX-T07
+  - TX-T11
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
+- id: p33
+  title: 下属的专业风险可以不被上层承认
+  type: principle
+  source_chapter: 第276章 奢华
+  source_locator: Text/chapter283.html
+  source_quote: 的安庆百顺堂，说抵押就给抵押了，军饷也都抵押
+  summary: 职位依赖使下属无法向掌权人提出合理要求；内部风险不能因主角阵营而消失。
+  task_ids:
+  - TX-T11
+  - TX-T16
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
+- id: p34
+  title: 公平分配要考虑质量与便利的差异
+  type: principle
+  source_chapter: 第417章 瓦房
+  source_locator: Text/chapter423.html
+  source_quote: 七十亩，其余都是下田，下田又都在几处地方，若
+  summary: 平均数量不能替代不同地块、时段与位置的实际价值判断。
+  task_ids:
+  - TX-T08
+  - TX-T13
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
+- id: p35
+  title: 信息扩散要有延时和受众放大
+  type: principle
+  source_chapter: 第483章 哗然
+  source_locator: Text/chapter490.html
+  source_quote: 各营，短短时间就发酵成了这般情形。  愕然半
+  summary: 单一行动在公开传播后可能引起跨机构连锁反应，不能把人物当全知。
+  task_ids:
+  - TX-T09
+  - TX-T15
+  tags:
+  - narrative
+  - inferred-rule
+  evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
