@@ -1,0 +1,80 @@
+name: Build Wanming Blind Test Bundles
+
+on:
+  push:
+    paths:
+      - ".github/workflows/v10-wanming-blind-bundles.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout V10
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build clean baseline and candidate bundles
+        shell: bash
+        run: |
+          set -euxo pipefail
+          rm -rf /tmp/v10-baseline /tmp/v10-candidate
+          mkdir -p /tmp/v10-baseline/{RUNTIME,CANON,CURRENT,INDEX,TESTS}
+          mkdir -p /tmp/v10-candidate/{RUNTIME,CANON,CURRENT,INDEX,TESTS,RESEARCH/V10_CANDIDATES}
+
+          common_files=(
+            "V10_SKILL.md"
+            "RUNTIME/CORE.md"
+            "CANON/MASTER_SETTING.md"
+            "CURRENT/PROJECT_STATE.md"
+            "INDEX/INDEX.md"
+            "TESTS/BLIND_TESTS.md"
+            "TESTS/WANMING_CANDIDATE_BLIND_TESTS.md"
+          )
+
+          for f in "${common_files[@]}"; do
+            cp --parents "$f" /tmp/v10-baseline
+            cp --parents "$f" /tmp/v10-candidate
+          done
+
+          cp --parents RESEARCH/V10_CANDIDATES/WANMING_CANDIDATE_OVERLAY.md /tmp/v10-candidate
+
+          mkdir -p TESTS/bundles
+          rm -f TESTS/bundles/V10-wanming-baseline-blind-v0.1.zip
+          rm -f TESTS/bundles/V10-wanming-candidate-blind-v0.1.zip
+
+          (cd /tmp/v10-baseline && zip -qr "$GITHUB_WORKSPACE/TESTS/bundles/V10-wanming-baseline-blind-v0.1.zip" .)
+          (cd /tmp/v10-candidate && zip -qr "$GITHUB_WORKSPACE/TESTS/bundles/V10-wanming-candidate-blind-v0.1.zip" .)
+
+          {
+            echo "V10 Wanming blind bundles v0.1"
+            echo "source commit: $(git rev-parse HEAD)"
+            echo
+            echo "baseline:"
+            unzip -Z1 TESTS/bundles/V10-wanming-baseline-blind-v0.1.zip | sort
+            echo
+            echo "candidate:"
+            unzip -Z1 TESTS/bundles/V10-wanming-candidate-blind-v0.1.zip | sort
+            echo
+            echo "sha256:"
+            sha256sum TESTS/bundles/V10-wanming-*-blind-v0.1.zip
+          } > TESTS/bundles/WANMING_BLIND_BUNDLE_MANIFEST.txt
+
+      - name: Commit bundles
+        shell: bash
+        run: |
+          set -euxo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add TESTS/bundles
+          if git diff --cached --quiet; then
+            echo "No bundle changes."
+          else
+            git commit -m "Build Wanming candidate blind test bundles"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
