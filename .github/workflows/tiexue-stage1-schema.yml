@@ -1,0 +1,26 @@
+name: Tiexue Stage 1 Schema Gate
+
+on:
+  push:
+    paths:
+      - "RESEARCH/CANGJIE/TIEXUECANMING/candidates/**"
+      - "RESEARCH/CANGJIE/TIEXUECANMING/QA/**"
+      - ".github/workflows/tiexue-stage1-schema.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-raw-candidates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout V10
+        uses: actions/checkout@v4
+      - name: Install PyYAML
+        run: python3 -m pip install pyyaml
+      - name: Validate raw candidate schema
+        run: |
+          python3 RESEARCH/CANGJIE/TIEXUECANMING/QA/validate_stage1_candidates.py \
+            RESEARCH/CANGJIE/TIEXUECANMING
+          echo "Note: this is a schema-only gate; EPUB quote and semantic coverage require separate source-bound audits."
