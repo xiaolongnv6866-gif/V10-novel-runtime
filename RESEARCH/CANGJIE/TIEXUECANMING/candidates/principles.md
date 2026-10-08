@@ -485,3 +485,90 @@
   - narrative
   - inferred-rule
   evidence_status: 从小说场景归纳的待验证叙事原则，非作者直接陈述的普适规则
+- id: p36
+  title: 非作者编纂年表不得升级为作者正文
+  type: principle
+  source_chapter: 年表
+  source_locator: Text/Section0011.html
+  source_quote: 时间线系贴吧吧友
+  summary: EPUB 附载年表明确署名读者整理；可作检索线索，不能当小说作者亲自作出的设定陈述或历史一手证据。
+  task_ids:
+  - TX-T17
+  - TX-T18
+  tags:
+  - narrative
+  - inferred-rule
+  - source-provenance
+  evidence_status: 章末注/正文抽出的候选判断，非作者直接发布的通用写作规范
+- id: p37
+  title: 互相矛盾的史料允许带来源选择小说版本
+  type: principle
+  source_chapter: 第43章 汇集
+  source_locator: Text/chapter49.html
+  source_quote: 这里参考桐城耆旧传
+  summary: 有冲突时保留来源归属与取舍，选定的故事版本并非证明其他记录无效。
+  task_ids:
+  - TX-T17
+  tags:
+  - narrative
+  - inferred-rule
+  - source-provenance
+  evidence_status: 章末注/正文抽出的候选判断，非作者直接发布的通用写作规范
+- id: p38
+  title: 解释性推断不得冒充文献所载事实
+  type: principle
+  source_chapter: 第504章 塘马
+  source_locator: Text/chapter511.html
+  source_quote: 由此可以推断
+  summary: “记录事实”和“由此推断”必须分别标记，日后 Canon 不能在无独立证据时抹去这种不确定性。
+  task_ids:
+  - TX-T17
+  tags:
+  - narrative
+  - inferred-rule
+  - source-provenance
+  evidence_status: 章末注/正文抽出的候选判断，非作者直接发布的通用写作规范
+- id: p39
+  title: 存在来源矛盾仍须标明小说设定
+  type: principle
+  source_chapter: 第459章 连坐
+  source_locator: Text/chapter465.html
+  source_quote: 互相矛盾的不少
+  summary: 多份记录冲突且时间次序混乱时，小说可选择一致的虚构呈现，但需登记事实层冲突与文学重构层选择。
+  task_ids:
+  - TX-T17
+  - TX-T18
+  tags:
+  - narrative
+  - inferred-rule
+  - source-provenance
+  evidence_status: 章末注/正文抽出的候选判断，非作者直接发布的通用写作规范
+- id: p40
+  title: 故事中的机构资金应与偿付承诺分开
+  type: principle
+  source_chapter: 第409章 讨价
+  source_locator: Text/chapter415.html
+  source_quote: 大部分是要付息的
+  summary: 账面沉淀资金伴随偿还与成本；不能只写规模增大不写真实义务，小说中的数字不直接当现实公式。
+  task_ids:
+  - TX-T11
+  tags:
+  - narrative
+  - inferred-rule
+  - state-continuity
+  evidence_status: 章末注/正文抽出的候选判断，非作者直接发布的通用写作规范
+- id: p41
+  title: 事件后果可能长期占用多个岗位
+  type: principle
+  source_chapter: 第358章 善后
+  source_locator: Text/chapter365.html
+  source_quote: 善后擦屁股几个月都办不完
+  summary: 高潮结果之后仍存在岗位责任、公文、安置和钱粮后续工作，叙事需选择其中改变下一场景的部分，不强制机械清单。
+  task_ids:
+  - TX-T05
+  - TX-T16
+  tags:
+  - narrative
+  - inferred-rule
+  - state-continuity
+  evidence_status: 章末注/正文抽出的候选判断，非作者直接发布的通用写作规范
