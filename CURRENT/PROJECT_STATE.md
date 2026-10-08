@@ -101,3 +101,5 @@
 - 本轮31章定向语义补读与去重判断：`RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_SEMANTIC_BATCH_01.md`；仍不能宣称全量语义精读完成。
 
 - 《铁血残明》Stage 1 本轮发现并修复了旧候选12条 YAML 字段错位（ce24–ce31、g27–g30）；五类原始候选237条全部通过字段类型、原文引文与任务映射校验。审计：`RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_SCHEMA_REPAIR_AUDIT.json`。连续章节审读见 `STAGE1_SEMANTIC_BATCH_02.md`；全量语义覆盖硬门仍为 OPEN。
+
+- Tiexue Stage 1 可复用 QA：`RESEARCH/CANGJIE/TIEXUECANMING/QA/validate_stage1_candidates.py`；`GitHub Actions / Tiexue Stage 1 Schema Gate` 已成功运行（run 37771968995）。无原书时仅结构校验，不等于全文语义通过。后续连续章块审读顺序见 `STAGE1_REVIEW_BACKLOG.md`。
