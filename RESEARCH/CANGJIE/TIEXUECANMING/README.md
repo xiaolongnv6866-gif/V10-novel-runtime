@@ -7,7 +7,7 @@
 - 已完成 V10 v0.2.0 仓库恢复
 - 已按原始 Cangjie 2.5 方法执行 Stage 0
 - 已完成来源审计与 `BOOK_OVERVIEW.md`
-- **Stage 0 已获用户确认；Stage 1 五类候选共237条已保存（含连续章节审读与12条字段纠错），但全量语义覆盖硬门仍未通过；Stage 1.5–5 未开始**
+- **Stage 0 已获用户确认；Stage 1 五类候选共237条已保存（含连续章节审读与12条字段纠错），GitHub Actions schema gate 已通过，但全量语义覆盖硬门仍未通过；Stage 1.5–5 未开始**
 
 ## 入口
 
@@ -18,6 +18,8 @@
 - [STAGE1_COVERAGE_AUDIT.md](./STAGE1_COVERAGE_AUDIT.md)
 - [STAGE1_SEMANTIC_BATCH_02.md](./STAGE1_SEMANTIC_BATCH_02.md) — 最新连续章节审读/15条候选与12条纠错
 - [STAGE1_SCHEMA_REPAIR_AUDIT.json](./STAGE1_SCHEMA_REPAIR_AUDIT.json) — 五类候选字段校验结果
+- [STAGE1_REVIEW_BACKLOG.md](./STAGE1_REVIEW_BACKLOG.md) — 后续全量语义审读队列
+- [QA/validate_stage1_candidates.py](./QA/validate_stage1_candidates.py) — 可复用结构校验器（带原书时可加源引文核查）
 - [STAGE1_SEMANTIC_BATCH_01.md](./STAGE1_SEMANTIC_BATCH_01.md) — 31章审读记录、25条新候选及去重判断
 - [STAGE1_COVERAGE_UPDATE_2026-10-08.md](./STAGE1_COVERAGE_UPDATE_2026-10-08.md) — 197条时的历史覆盖审计（现已222条）
 - [STAGE1_T17_PROVENANCE_REVIEW.md](./STAGE1_T17_PROVENANCE_REVIEW.md) — 84个注释记录与来源等级
