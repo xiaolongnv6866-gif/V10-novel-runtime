@@ -342,3 +342,103 @@
   tags:
   - narrative
   - boundary
+- id: ce19
+  title: 只写公开流程忽略实际排序权
+  type: counter-example
+  source_chapter: 第13章 官威
+  source_locator: Text/chapter19.html
+  source_quote: 以便于他随时调整放告顺序，从中获得好处，这是一个
+  failure_mode: 只写公开流程忽略实际排序权
+  mechanism: 看似公平的一套程序仍可能留下可由人改变的细节，形成差异性待遇。
+  warning_signs:
+  - 书面规则完全一样但所有人际影响突然消失
+  bound_to:
+  - TX-T01
+  - TX-T02
+  task_ids:
+  - TX-T01
+  - TX-T02
+  evidence_status: 小说冲突/反事实写作失误推断，不冒充作者明文警告
+  tags:
+  - narrative
+  - boundary
+- id: ce20
+  title: 编制可无成本凭空增长
+  type: counter-example
+  source_chapter: 第68章 编制
+  source_locator: Text/chapter74.html
+  source_quote: 交易，沈司吏给他三个编制，但是要把侄子加到快班，
+  failure_mode: 编制可无成本凭空增长
+  mechanism: 新岗位可能来自其他岗位被削减或被迫让出人数，不应忽略。
+  warning_signs:
+  - 任何扩员均无需协调来源
+  bound_to:
+  - TX-T06
+  - TX-T07
+  task_ids:
+  - TX-T06
+  - TX-T07
+  evidence_status: 小说冲突/反事实写作失误推断，不冒充作者明文警告
+  tags:
+  - narrative
+  - boundary
+- id: ce21
+  title: 把一次贷款当多年长期经费
+  type: counter-example
+  source_chapter: 第179章 银庄
+  source_locator: Text/chapter186.html
+  source_quote: 若是招两千兵马，每年军饷就要给出大约五万，所以这
+  failure_mode: 把一次贷款当多年长期经费
+  mechanism: 一次资金到手后每年成本仍会不断发生，资金链必须能持续。
+  warning_signs:
+  - 只写贷款额不写偿还与日常开支
+  bound_to:
+  - TX-T07
+  - TX-T11
+  task_ids:
+  - TX-T07
+  - TX-T11
+  evidence_status: 小说冲突/反事实写作失误推断，不冒充作者明文警告
+  tags:
+  - narrative
+  - boundary
+- id: ce22
+  title: 主角阵营里没有真实专业异议
+  type: counter-example
+  source_chapter: 第276章 奢华
+  source_locator: Text/chapter283.html
+  source_quote: 的安庆百顺堂，说抵押就给抵押了，军饷也都抵押
+  failure_mode: 主角阵营里没有真实专业异议
+  mechanism: 借款方与金融负责人的利益不完全一致，后者可能因身份不能公开挑战。
+  warning_signs:
+  - 部属不敢提需求就当做需求不存在
+  bound_to:
+  - TX-T11
+  - TX-T16
+  task_ids:
+  - TX-T11
+  - TX-T16
+  evidence_status: 小说冲突/反事实写作失误推断，不冒充作者明文警告
+  tags:
+  - narrative
+  - boundary
+- id: ce23
+  title: 平均发放资源即天然公平
+  type: counter-example
+  source_chapter: 第417章 瓦房
+  source_locator: Text/chapter423.html
+  source_quote: 七十亩，其余都是下田，下田又都在几处地方，若
+  failure_mode: 平均发放资源即天然公平
+  mechanism: 位置质量不同让均分成为新的不平等；缺少当事人的观察会失真。
+  warning_signs:
+  - 只统计户数和亩数不听使用者
+  bound_to:
+  - TX-T08
+  - TX-T13
+  task_ids:
+  - TX-T08
+  - TX-T13
+  evidence_status: 小说冲突/反事实写作失误推断，不冒充作者明文警告
+  tags:
+  - narrative
+  - boundary
