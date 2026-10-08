@@ -1,36 +1,36 @@
 source_href	chapter_title	text_chars	candidate_anchors	has_chapter_end_note	machine_topics	review_status
-Text/chapter7.html	第1章 恶隶	2231	0	0		unanchored;machine-scanned
-Text/chapter8.html	第2章 桐城	4128	0	0		unanchored;machine-scanned
-Text/chapter9.html	第3章 退婚	3235	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter10.html	第4章 白胡子老爷爷	3880	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter11.html	第5章 月半	2403	0	0		unanchored;machine-scanned
-Text/chapter12.html	第6章 南监	2550	0	0	公门权责,人物关系	unanchored;machine-scanned
-Text/chapter13.html	第7章 匣床	4666	0	0	人物关系,舆论与误判,普通生活	unanchored;machine-scanned
-Text/chapter14.html	第8章 申明亭	2206	5	0	公门权责	candidate-anchored;machine-scanned
-Text/chapter15.html	第9章 调解	2949	0	0		unanchored;machine-scanned
-Text/chapter16.html	第10章 按揭	4178	0	0		unanchored;machine-scanned
-Text/chapter17.html	第11章 干一行爱一行	2949	0	0	人物关系	unanchored;machine-scanned
-Text/chapter18.html	第12章 六扇门	6004	2	0	公门权责	candidate-anchored;machine-scanned
-Text/chapter19.html	第13章 官威	6235	5	0	公门权责,舆论与误判	candidate-anchored;machine-scanned
-Text/chapter20.html	第14章 仗义	3672	5	0	公门权责,舆论与误判	candidate-anchored;machine-scanned
-Text/chapter21.html	第15章 家奴	5497	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter22.html	第16章 小鞋	3528	0	0	人物关系	unanchored;machine-scanned
-Text/chapter23.html	第17章 站队	4245	0	0	公门权责,舆论与误判	unanchored;machine-scanned
-Text/chapter24.html	第18章 和买	5077	5	0	公门权责,舆论与误判,普通生活	candidate-anchored;machine-scanned
-Text/chapter25.html	第19章 估值	3343	0	0	普通生活	unanchored;machine-scanned
-Text/chapter26.html	第20章 发愤图强	4339	0	0	公门权责	unanchored;machine-scanned
-Text/chapter27.html	第21章 明珠蒙尘	3837	0	0	公门权责	unanchored;machine-scanned
-Text/chapter28.html	第22章 渡劫	3568	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter29.html	第23章 小红人	5689	0	0	公门权责,人物关系,舆论与误判	unanchored;machine-scanned
-Text/chapter30.html	第24章 漏雨	4496	0	1	公门权责,人物关系,舆论与误判,作者注释	unanchored;machine-scanned;note-indexed
-Text/chapter31.html	第25章 大江	3170	0	0		unanchored;machine-scanned
-Text/chapter32.html	第26章 雨中人	4389	0	0	舆论与误判	unanchored;machine-scanned
-Text/chapter33.html	第27章 后门	4827	0	0	公门权责,人物关系	unanchored;machine-scanned
-Text/chapter34.html	第28章 户房	4072	0	0	公门权责,制度与执行	unanchored;machine-scanned
-Text/chapter35.html	第29章 催缴	6670	3	0	普通生活	candidate-anchored;machine-scanned
-Text/chapter36.html	第30章 吏目	4795	0	0	公门权责,舆论与误判,普通生活	unanchored;machine-scanned
-Text/chapter37.html	第31章 民情	5974	4	0	公门权责	candidate-anchored;machine-scanned
-Text/chapter38.html	第32章 好人	3764	0	0	人物关系,普通生活	unanchored;machine-scanned
+Text/chapter7.html	第1章 恶隶	2231	0	0		unanchored;machine-scanned;semantic-B02-full-chapter
+Text/chapter8.html	第2章 桐城	4128	0	0		unanchored;machine-scanned;semantic-B02-full-chapter
+Text/chapter9.html	第3章 退婚	3235	0	0	舆论与误判	unanchored;machine-scanned;semantic-B02-full-chapter
+Text/chapter10.html	第4章 白胡子老爷爷	3880	0	0	舆论与误判	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter11.html	第5章 月半	2403	0	0		unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter12.html	第6章 南监	2550	0	0	公门权责,人物关系	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter13.html	第7章 匣床	4666	0	0	人物关系,舆论与误判,普通生活	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter14.html	第8章 申明亭	2206	5	0	公门权责	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter15.html	第9章 调解	2949	0	0		unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter16.html	第10章 按揭	4178	0	0		unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter17.html	第11章 干一行爱一行	2949	0	0	人物关系	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter18.html	第12章 六扇门	6004	2	0	公门权责	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter19.html	第13章 官威	6235	5	0	公门权责,舆论与误判	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter20.html	第14章 仗义	3672	5	0	公门权责,舆论与误判	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter21.html	第15章 家奴	5497	0	0	舆论与误判	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter22.html	第16章 小鞋	3528	0	0	人物关系	unanchored;machine-scanned;semantic-B02-full-chapter
+Text/chapter23.html	第17章 站队	4245	0	0	公门权责,舆论与误判	unanchored;machine-scanned;semantic-B02-full-chapter
+Text/chapter24.html	第18章 和买	5077	5	0	公门权责,舆论与误判,普通生活	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter25.html	第19章 估值	3343	0	0	普通生活	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter26.html	第20章 发愤图强	4339	0	0	公门权责	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter27.html	第21章 明珠蒙尘	3837	0	0	公门权责	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter28.html	第22章 渡劫	3568	0	0	舆论与误判	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter29.html	第23章 小红人	5689	0	0	公门权责,人物关系,舆论与误判	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter30.html	第24章 漏雨	4496	0	1	公门权责,人物关系,舆论与误判,作者注释	unanchored;machine-scanned;note-indexed;semantic-B02-targeted-passages
+Text/chapter31.html	第25章 大江	3170	0	0		unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter32.html	第26章 雨中人	4389	0	0	舆论与误判	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter33.html	第27章 后门	4827	0	0	公门权责,人物关系	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter34.html	第28章 户房	4072	0	0	公门权责,制度与执行	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter35.html	第29章 催缴	6670	3	0	普通生活	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter36.html	第30章 吏目	4795	0	0	公门权责,舆论与误判,普通生活	unanchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter37.html	第31章 民情	5974	4	0	公门权责	candidate-anchored;machine-scanned;semantic-B02-targeted-passages
+Text/chapter38.html	第32章 好人	3764	0	0	人物关系,普通生活	unanchored;machine-scanned;semantic-B02-targeted-passages
 Text/chapter39.html	第33章 勒索	4839	0	0	公门权责,人物关系,舆论与误判	unanchored;machine-scanned
 Text/chapter40.html	第34章 机缘	4442	0	0	人物关系	unanchored;machine-scanned
 Text/chapter41.html	第35章 风起	5597	4	0	公门权责,舆论与误判	candidate-anchored;machine-scanned
