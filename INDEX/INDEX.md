@@ -77,3 +77,11 @@
 - `TESTS/bundles/V10-wanming-candidate-blind-v0.1.zip` — Candidate 盲测包
 
 当前状态：**双臂盲测已通过；3项完成最小晋级，12项留在 reference/tool 层；Canon 未修改。Runtime 已升级为 v0.2，V10_SKILL 已升级为 v0.2.0。**
+
+### 《铁血残明》Cangjie 蒸馏
+- `RESEARCH/CANGJIE/TIEXUECANMING/README.md` — 研究入口
+- `RESEARCH/CANGJIE/TIEXUECANMING/SOURCE_AUDIT.md` — EPUB 1–534 章节范围、版本与缺口
+- `RESEARCH/CANGJIE/TIEXUECANMING/BOOK_OVERVIEW.md` — Stage 0 整书理解（六层结构与 18 个关键任务）
+- `RESEARCH/CANGJIE/TIEXUECANMING/PIPELINE_STATE.md` — 恢复断点
+
+当前：**Stage 0 已完成，尚待用户确认；Stage 1–5 未开始。**
