@@ -7,7 +7,7 @@
 - 已完成 V10 v0.2.0 仓库恢复
 - 已按原始 Cangjie 2.5 方法执行 Stage 0
 - 已完成来源审计与 `BOOK_OVERVIEW.md`
-- **Stage 0 已获用户确认；Stage 1 五类候选共154条已保存，但全量语义覆盖硬门仍未通过；Stage 1.5–5 未开始**
+- **Stage 0 已获用户确认；Stage 1 五类候选共197条已保存（含第二轮补审），但全量语义覆盖硬门仍未通过；Stage 1.5–5 未开始**
 
 ## 入口
 
@@ -16,6 +16,9 @@
 - [PIPELINE_STATE.md](./PIPELINE_STATE.md)
 - [STAGE1_SUMMARY.md](./STAGE1_SUMMARY.md)
 - [STAGE1_COVERAGE_AUDIT.md](./STAGE1_COVERAGE_AUDIT.md)
+- [STAGE1_COVERAGE_UPDATE_2026-10-08.md](./STAGE1_COVERAGE_UPDATE_2026-10-08.md) — 最新197条候选覆盖审计
+- [STAGE1_T17_PROVENANCE_REVIEW.md](./STAGE1_T17_PROVENANCE_REVIEW.md) — 84个注释记录与来源等级
+- [STAGE1_CHAPTER_SCAN_MATRIX.tsv](./STAGE1_CHAPTER_SCAN_MATRIX.tsv) — 532物理章题机械扫描记录
 - [candidates/](./candidates/)
 
 ## 重要范围限定
