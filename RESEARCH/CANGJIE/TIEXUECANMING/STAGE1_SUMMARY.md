@@ -1,5 +1,7 @@
 # 《铁血残明》 Cangjie Stage 1 — Candidate Extraction Checkpoint
 
+> Historical checkpoint: initial 154 candidates. Updated state is in `STAGE1_COVERAGE_UPDATE_2026-10-08.md` (197 raw records).
+
 > Date: 2026-10-08  
 > Stage status: **CANDIDATE POOL SAVED / SOURCE-COVERAGE GATE OPEN**  
 > This is an auditable checkpoint, not Stage 1.5 tri-verification.
