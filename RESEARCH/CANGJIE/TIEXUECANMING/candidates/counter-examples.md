@@ -451,10 +451,12 @@
   failure_mode: 把读者整理的时间线冒充作者叙事证据
   mechanism: 来源层级混淆会让附编内容绕过正文验证。
   warning_signs:
-  - - TX-T17
-    - TX-T18
-  bound_to: 只凭 EPUB 年表断言作者亲笔规划了该情节。
-  task_ids: 只凭 EPUB 年表断言作者亲笔规划了该情节。
+  - 只凭 EPUB 年表断言作者亲笔规划了该情节。
+  bound_to:
+  - f36
+  task_ids:
+  - TX-T17
+  - TX-T18
   evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
   tags:
   - boundary
@@ -468,9 +470,12 @@
   failure_mode: 把书末注的选用设定称作公认历史事实
   mechanism: 作者侧文学设定基于不一致资料作出取舍；“采信”不等于史学确定。
   warning_signs:
-  - - TX-T17
-  bound_to: 注释承认冲突但分析者删掉冲突，只输出唯一版本。
-  task_ids: 注释承认冲突但分析者删掉冲突，只输出唯一版本。
+  - 注释承认冲突但分析者删掉冲突，只输出唯一版本。
+  bound_to:
+  - f36
+  - f37
+  task_ids:
+  - TX-T17
   evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
   tags:
   - boundary
@@ -484,9 +489,11 @@
   failure_mode: 把注释里的推断当成记录的直接陈述
   mechanism: 来源记录不能单独证明作者推导的结论，二者需要分别记录。
   warning_signs:
-  - - TX-T17
-  bound_to: 后续 Canon 把“推断”升级为“明确史载”。
-  task_ids: 后续 Canon 把“推断”升级为“明确史载”。
+  - 后续 Canon 把“推断”升级为“明确史载”。
+  bound_to:
+  - f38
+  task_ids:
+  - TX-T17
   evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
   tags:
   - boundary
@@ -500,10 +507,12 @@
   failure_mode: 大战完毕立即清零行政与人员后果
   mechanism: 高潮之后存在跨岗位、跨时间的履约与处理工作；全略容易损坏组织可信度。
   warning_signs:
-  - - TX-T05
-    - TX-T16
-  bound_to: 下一章没有任何人继续处理尚未结清的状态。
-  task_ids: 下一章没有任何人继续处理尚未结清的状态。
+  - 下一章没有任何人继续处理尚未结清的状态。
+  bound_to:
+  - f39
+  task_ids:
+  - TX-T05
+  - TX-T16
   evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
   tags:
   - boundary
@@ -517,9 +526,11 @@
   failure_mode: 把机构持有存银误写为无偿资金
   mechanism: 小说财务角色明确关注负债和付息，不能当成可无限拨用的款项。
   warning_signs:
-  - - TX-T11
-  bound_to: 只列大额存银而完全不写利益义务与成本。
-  task_ids: 只列大额存银而完全不写利益义务与成本。
+  - 只列大额存银而完全不写利益义务与成本。
+  bound_to:
+  - f40
+  task_ids:
+  - TX-T11
   evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
   tags:
   - boundary
@@ -528,15 +539,17 @@
   source_chapter: 第31章 民情
   source_locator: Text/chapter37.html
   source_quote: 这两个月的收入了
-  task_ids: 让一群差役毫无利益差异地同时拒绝差事。
+  task_ids:
+  - TX-T02
+  - TX-T04
   title: 写基层不出力时忽略既有收入被抽走
   type: counter-example
   failure_mode: 写基层不出力时忽略既有收入被抽走
   mechanism: 只用忠奸、勇怯解释人物回避，会遗漏日常生计与岗位风险共同构成的阻力。
   warning_signs:
-  - - TX-T02
-    - TX-T04
-  bound_to: 让一群差役毫无利益差异地同时拒绝差事。
+  - 让一群差役毫无利益差异地同时拒绝差事。
+  bound_to:
+  - f42
   evidence_status: 从小说呈现推导的写作失败风险；不冒充作者直接警告
   tags:
   - boundary
@@ -545,15 +558,17 @@
   source_chapter: 第174章 费用
   source_locator: Text/chapter181.html
   source_quote: 发签本是你的恩惠
-  task_ids: 组织收费前后所有下属态度完全不变。
+  task_ids:
+  - TX-T06
+  - TX-T13
   title: 把组织给下属的便利改成收费却不写后果
   type: counter-example
   failure_mode: 把组织给下属的便利改成收费却不写后果
   mechanism: 管理者认为费用易收，却忽视基层认为“原来不收，如今要收”的关系信号。
   warning_signs:
-  - - TX-T06
-    - TX-T13
-  bound_to: 组织收费前后所有下属态度完全不变。
+  - 组织收费前后所有下属态度完全不变。
+  bound_to:
+  - f43
   evidence_status: 从小说呈现推导的写作失败风险；不冒充作者直接警告
   tags:
   - boundary
@@ -562,15 +577,17 @@
   source_chapter: 第267章 人口
   source_locator: Text/chapter274.html
   source_quote: 没有在陆地的远征能力
-  task_ids: 主角离开熟悉环境后全部能力毫无代价继续有效。
+  task_ids:
+  - TX-T07
+  - TX-T14
   title: 用地方组织的战斗能力替代长途维持能力
   type: counter-example
   failure_mode: 用地方组织的战斗能力替代长途维持能力
   mechanism: 熟悉区域的可持续行动依赖既有运输和支持网络，直接外推到远方属于作者藏起配套成本。
   warning_signs:
-  - - TX-T07
-    - TX-T14
-  bound_to: 主角离开熟悉环境后全部能力毫无代价继续有效。
+  - 主角离开熟悉环境后全部能力毫无代价继续有效。
+  bound_to:
+  - f44
   evidence_status: 从小说呈现推导的写作失败风险；不冒充作者直接警告
   tags:
   - boundary
@@ -650,3 +667,44 @@
   tags:
   - narrative
   - boundary
+- id: ce36
+  title: 现代励志台词必然压服古人
+  type: counter-example
+  source_chapter: 第3章 退婚
+  source_locator: Text/chapter9.html
+  source_quote: 果真魔怔了不是
+  failure_mode: 现代模板台词被写得天然震慑现场，无视旁人已有财力、身份和宗族事实。
+  mechanism: 台词与当下各方争执的实际利益不匹配；人物不会按作者熟悉的爽文格式反应。
+  warning_signs:
+  - 主角一句话之后其他人只剩惊叹
+  - 没人以自己处境反驳台词
+  bound_to:
+  - f51
+  - p53
+  task_ids:
+  - TX-T03
+  - TX-T13
+  tags:
+  - counter-example
+  - dialogue
+- id: ce37
+  title: 公开表态后一夜取得稳定上级支持
+  type: counter-example
+  source_chapter: 第17章 站队
+  source_locator: Text/chapter23.html
+  source_quote: 先饶你几天
+  failure_mode: 把班头暂时改派差事写成已经完全倒向主角、放弃长期报复。
+  mechanism: 班头担心本次处分被第三方传为政治立场而改变当日决定，原有分派权、私人矛盾和下次机会仍在。
+  warning_signs:
+  - 直属上司没有下一步独立打算
+  - 公众观感与私人动机被错误等同
+  bound_to:
+  - f52
+  - p54
+  task_ids:
+  - TX-T02
+  - TX-T06
+  tags:
+  - counter-example
+  - power
+  - temporality
