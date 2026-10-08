@@ -483,3 +483,36 @@
   tags:
   - term
   - social-life
+- id: g35
+  term: 申详
+  type: term
+  source_chapter: 第55章 首功
+  source_locator: Text/chapter61.html
+  source_quote: 申详中平乱过程要明白无误
+  author_definition: 小说中地方衙门上行的事件申报文书，事件经过、功绩解释和报送节点都会在其中呈现。
+  key_distinction: 不是战事现场的客观录像；撰写者的职位与对外责任影响措辞。真实性仍须另核史料。
+  why_it_matters: 帮助写作区分亲历事实、地方官方解释与朝廷回响。
+  task_ids:
+  - TX-T14
+  - TX-T17
+  tags:
+  - term
+  - official-record
+  - narrative
+- id: g36
+  term: 事件定性
+  type: term
+  source_chapter: 第61章 和解
+  source_locator: Text/chapter67.html
+  source_quote: 若定为奴变
+  author_definition: 小说中对同一民变使用不同类别名称，关系到谁承担责任、谁被免于牵连，以及正文如何表述事件。
+  key_distinction: 不等于事件本身改变；不同群体可能围绕同一事实争夺定性。
+  why_it_matters: 历史官场叙事可据此展示名义与利益变化，不能用作者旁白取代现场异议。
+  task_ids:
+  - TX-T04
+  - TX-T14
+  - TX-T17
+  tags:
+  - term
+  - framing
+  - politics
