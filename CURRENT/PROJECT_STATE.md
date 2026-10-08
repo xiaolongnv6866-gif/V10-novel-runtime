@@ -40,7 +40,7 @@
 ## 当前能力来源
 
 - 已有长期《晚明》《铁血残明》学习与 72 轮左右的选择训练成果。
-- Cangjie-skill：《晚明》已完成 Stage 0–5 正式蒸馏、single 编译、V10 候选去重与 4 个原创开放测试簇；15 项候选目前全部停在 READY_FOR_BLIND，尚未进入 Runtime。《铁血残明》尚待同级正式蒸馏。
+- Cangjie-skill：《晚明》已完成 Stage 0–5 正式蒸馏、single 编译、V10 候选去重与 4 个原创开放测试簇；15 项候选目前全部停在 READY_FOR_BLIND，尚未进入 Runtime。《铁血残明》Stage 0 已完成 EPUB 范围审计与整书理解，等待用户确认后进入 Stage 1；版本只含第1—534章。
 - NUWA：计划进一步蒸馏柯山梦的作者心智与判断方式。
 - GitHub 专项研究：人物、世界、连续性、战争、财政、技术、物流、情报、国际贸易、史实来源等。
 - 用户历次正文纠偏必须与上述能力同等进入统一 Runtime，而不是成为临时提醒。
@@ -84,3 +84,12 @@
   3. 冲突史料裁决→Canon → 进入 V10_SKILL 4.1。
 - 其余 12 项均留在 RESEARCH/reference/tool 层，不进入 Runtime。
 - 当前版本：`RUNTIME/CORE.md` v0.2；`V10_SKILL.md` v0.2.0。
+
+
+### 《铁血残明》→ Cangjie
+
+- 当前来源：用户提供 EPUB V3.0，正文第1—534章，书未在此文件完结，目录存在编号缺陷。
+- Stage 0：来源审计 + Adler 整书理解（六层结构、18个关键任务）已完成。
+- **等待用户确认 Stage 0 骨架后，才能依原始 Cangjie 方法进入 Stage 1 五提取器。**
+- 断点：`RESEARCH/CANGJIE/TIEXUECANMING/PIPELINE_STATE.md`
+- 本阶段未改变 Canon 或 Runtime。
