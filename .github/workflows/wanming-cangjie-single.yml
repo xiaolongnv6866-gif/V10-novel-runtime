@@ -82,3 +82,5 @@ jobs:
             git commit -m "Build Wanming Cangjie single skill"
             git push
           fi
+
+# trigger-existing-workflow
