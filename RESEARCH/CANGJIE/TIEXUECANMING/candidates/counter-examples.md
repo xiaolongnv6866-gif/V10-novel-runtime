@@ -27,7 +27,7 @@
   type: counter-example
   source_chapter: 第14章 仗义
   source_locator: Text/chapter20.html
-  source_quote: 国用一竖拇指：“有义气！”  蒋国用闻言抬起头
+  source_quote: 国用一竖拇指：“有义气！”
   failure_mode: 用正义口号替人物动机
   mechanism: 看似仗义的姿态与实际躲避行为错位；作者若只信台词，就把灰色人物写成道德宣传画。
   warning_signs:
@@ -63,7 +63,7 @@
   type: counter-example
   source_chapter: 第35章 风起
   source_locator: Text/chapter41.html
-  source_quote: 那快班壮班的班头去哪里了。”  无人回答，好半响
+  source_quote: 那快班壮班的班头去哪里了。”
   failure_mode: 代理官员有名就自动能调人
   mechanism: 危机时班头各有家眷与自身安排，衙门互推责任；只有名义无法组织行动。
   warning_signs:
@@ -137,7 +137,7 @@
   type: counter-example
   source_chapter: 第129章 往生
   source_locator: Text/chapter135.html
-  source_quote: 第129章 往生  天幕低垂，不时有雪花
+  source_quote: 天幕低垂，不时有雪花
   failure_mode: 战后恢复即情节清零
   mechanism: 事件后留有丧失、善后工作与对自身善恶的反思；不能胜利下一章万事如初。
   warning_signs:
@@ -157,7 +157,7 @@
   type: counter-example
   source_chapter: 第160章 旧人
   source_locator: Text/chapter167.html
-  source_quote: “二弟，这个……庞大人先坐。”  “大哥你别这么叫
+  source_quote: “二弟，这个……庞大人先坐。”
   failure_mode: 私人友谊直接变正式等级
   mechanism: 旧兄弟间的座次和口气改变，不可直接用“结拜多年”解决职务和能力分配。
   warning_signs:
@@ -175,7 +175,7 @@
   type: counter-example
   source_chapter: 第169章 高升
   source_locator: Text/chapter176.html
-  source_quote: “我那边有喝的，你留着自己喝，我走了。”  说完他不
+  source_quote: “我那边有喝的，你留着自己喝，我走了。”
   failure_mode: 所有晋升都让关系更亲密
   mechanism: 被提拔者的地位焦虑使他冷落旧伴；升职不等于社会关系全面向好。
   warning_signs:
@@ -195,7 +195,7 @@
   type: counter-example
   source_chapter: 第200章 灵宝
   source_locator: Text/chapter207.html
-  source_quote: 是湖广。”  “有吃的都成。”小娃子嘴角抽搐了一下
+  source_quote: “有吃的都成。”小娃子嘴角抽搐了一下
   failure_mode: 敌对一方没有自己的日常秩序
   mechanism: 人物的生存决策、老人经验和内部争执让对方社会继续运行；只写靶子会丢因果。
   warning_signs:
@@ -235,7 +235,7 @@
   type: counter-example
   source_chapter: 第270章 形象
   source_locator: Text/chapter277.html
-  source_quote: 可有钱呢。”  谭妈也没看，推回去的，“你自
+  source_quote: 谭妈也没看，推回去的，“你自
   failure_mode: 形象叙事使所有底层人物获益
   mechanism: 报纸/招募对不同人的含义各异，个体仍有钱粮婚姻与生计烦恼。
   warning_signs:
@@ -521,6 +521,57 @@
   bound_to: 只列大额存银而完全不写利益义务与成本。
   task_ids: 只列大额存银而完全不写利益义务与成本。
   evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
+  tags:
+  - boundary
+  - inferred-failure
+- id: ce29
+  source_chapter: 第31章 民情
+  source_locator: Text/chapter37.html
+  source_quote: 这两个月的收入了
+  task_ids: 让一群差役毫无利益差异地同时拒绝差事。
+  title: 写基层不出力时忽略既有收入被抽走
+  type: counter-example
+  failure_mode: 写基层不出力时忽略既有收入被抽走
+  mechanism: 只用忠奸、勇怯解释人物回避，会遗漏日常生计与岗位风险共同构成的阻力。
+  warning_signs:
+  - - TX-T02
+    - TX-T04
+  bound_to: 让一群差役毫无利益差异地同时拒绝差事。
+  evidence_status: 从小说呈现推导的写作失败风险；不冒充作者直接警告
+  tags:
+  - boundary
+  - inferred-failure
+- id: ce30
+  source_chapter: 第174章 费用
+  source_locator: Text/chapter181.html
+  source_quote: 发签本是你的恩惠
+  task_ids: 组织收费前后所有下属态度完全不变。
+  title: 把组织给下属的便利改成收费却不写后果
+  type: counter-example
+  failure_mode: 把组织给下属的便利改成收费却不写后果
+  mechanism: 管理者认为费用易收，却忽视基层认为“原来不收，如今要收”的关系信号。
+  warning_signs:
+  - - TX-T06
+    - TX-T13
+  bound_to: 组织收费前后所有下属态度完全不变。
+  evidence_status: 从小说呈现推导的写作失败风险；不冒充作者直接警告
+  tags:
+  - boundary
+  - inferred-failure
+- id: ce31
+  source_chapter: 第267章 人口
+  source_locator: Text/chapter274.html
+  source_quote: 没有在陆地的远征能力
+  task_ids: 主角离开熟悉环境后全部能力毫无代价继续有效。
+  title: 用地方组织的战斗能力替代长途维持能力
+  type: counter-example
+  failure_mode: 用地方组织的战斗能力替代长途维持能力
+  mechanism: 熟悉区域的可持续行动依赖既有运输和支持网络，直接外推到远方属于作者藏起配套成本。
+  warning_signs:
+  - - TX-T07
+    - TX-T14
+  bound_to: 主角离开熟悉环境后全部能力毫无代价继续有效。
+  evidence_status: 从小说呈现推导的写作失败风险；不冒充作者直接警告
   tags:
   - boundary
   - inferred-failure
