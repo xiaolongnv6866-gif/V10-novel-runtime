@@ -575,3 +575,78 @@
   tags:
   - boundary
   - inferred-failure
+- id: ce32
+  title: 把多级税制问题道德化为单一贪官
+  type: counter-example
+  source_chapter: 第88章 投柜
+  source_locator: Text/chapter94.html
+  source_quote: 身在这个体系中，并无多少选择的空间
+  failure_mode: 只让柜前某官员变好就自动解决农户负担
+  mechanism: 钱粮在上解各环节被要求形成常例；单人善意未必覆盖上游约束
+  warning_signs:
+  - 只让柜前某官员变好就自动解决农户负担
+  bound_to: &id001
+  - TX-T02
+  - TX-T08
+  - TX-T11
+  task_ids: *id001
+  evidence_status: 由虚构场景反推的叙事失误边界，不冒充作者明示警告
+  tags:
+  - narrative
+  - boundary
+- id: ce33
+  title: 把上司的风险保守简单写成无能
+  type: counter-example
+  source_chapter: 第222章 两难
+  source_locator: Text/chapter229.html
+  source_quote: 史可法是安池兵备
+  failure_mode: 主角能从进取获利就要求上级作同样选择
+  mechanism: 两人承担的驻守责任和政治追责不同，收益/损失不是同一张表
+  warning_signs:
+  - 主角能从进取获利就要求上级作同样选择
+  bound_to: &id002
+  - TX-T09
+  - TX-T14
+  - TX-T16
+  task_ids: *id002
+  evidence_status: 由虚构场景反推的叙事失误边界，不冒充作者明示警告
+  tags:
+  - narrative
+  - boundary
+- id: ce34
+  title: 只写胜仗，不写文书措辞与报送顺序
+  type: counter-example
+  source_chapter: 第352章 告捷
+  source_locator: Text/chapter359.html
+  source_quote: 涉及到战后军功的分配
+  failure_mode: 把官场功劳自动等同战场事实
+  mechanism: 塘报进入不同机构后，措辞、上报路径和受众职位改变正式结算
+  warning_signs:
+  - 把官场功劳自动等同战场事实
+  bound_to: &id003
+  - TX-T05
+  - TX-T14
+  - TX-T17
+  task_ids: *id003
+  evidence_status: 由虚构场景反推的叙事失误边界，不冒充作者明示警告
+  tags:
+  - narrative
+  - boundary
+- id: ce35
+  title: 把组织口号写成所有下属无成本贯彻
+  type: counter-example
+  source_chapter: 第458章 兄弟
+  source_locator: Text/chapter464.html
+  source_quote: 老子不要这脸面去求庞大人
+  failure_mode: 宣传同袍情谊就当作真实互助制度
+  mechanism: 当责任和时限冲突时，具体角色须承担失面子与判断代价，才有信服力
+  warning_signs:
+  - 宣传同袍情谊就当作真实互助制度
+  bound_to: &id004
+  - TX-T13
+  - TX-T16
+  task_ids: *id004
+  evidence_status: 由虚构场景反推的叙事失误边界，不冒充作者明示警告
+  tags:
+  - narrative
+  - boundary
