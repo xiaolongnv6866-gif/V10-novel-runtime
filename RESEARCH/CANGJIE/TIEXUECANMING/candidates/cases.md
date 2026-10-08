@@ -1013,3 +1013,82 @@
   - case
   - speech
   - office-politics
+- id: c59
+  title: 送鞋的善意使赶工人物仍有责任成本
+  type: case
+  source_chapter: 第34章 机缘
+  source_locator: Text/chapter40.html
+  source_quote: 脚脏，不试，给婶弄脏了要买
+  summary: 孙田秀不肯直接接受赠鞋，主角与街坊改变了她的眼前生活，却因此耽误自家投柜工作；随后主角对同伴抱怨仍需逐利。
+  task_ids:
+  - TX-T03
+  - TX-T08
+  - TX-T13
+  tags:
+  - case
+  - character
+  - everyday-life
+  example_kind: fictional_narrative_scene
+  bound_to:
+  - f55
+  - p56
+  outcome: 赠予真实发生，但人物的利益需求和工作债没有消失
+- id: c60
+  title: 士绅堂议后的方家私下算计
+  type: case
+  source_chapter: 第43章 汇集
+  source_locator: Text/chapter49.html
+  source_quote: 一场会议不欢而散
+  summary: 堂议上各方为利益、颜面与公开行动争论，会后方家私下另有自己的考量，其他官员也根据可知信息进行决策，官方结论不能覆盖独立行动。
+  task_ids:
+  - TX-T04
+  - TX-T14
+  - TX-T15
+  tags:
+  - case
+  - politics
+  - group
+  example_kind: fictional_narrative_scene
+  bound_to:
+  - f54
+  - f20
+  outcome: 公开会议取得有限意见，私下立场仍分裂
+- id: c61
+  title: 民变定性争论将身份与责任重新分配
+  type: case
+  source_chapter: 第61章 和解
+  source_locator: Text/chapter67.html
+  source_quote: 若定为奴变
+  summary: 县衙、秀才、士绅与庞雨争论怎样定义同一民变：名称一改，各方需要承担的责任和名誉成本便跟着变化；主角又有自己的谈判目标。
+  task_ids:
+  - TX-T04
+  - TX-T14
+  - TX-T15
+  tags:
+  - case
+  - document
+  - perspective
+  example_kind: fictional_narrative_scene
+  bound_to:
+  - f49
+  - f20
+  outcome: 事件事实未随命名改变，但参与者的谈判位置发生变化
+- id: c62
+  title: 误认少年新知县暴露身份与肉身落差
+  type: case
+  source_chapter: 第74章 新知县
+  source_locator: Text/chapter80.html
+  source_quote: 错了班头
+  summary: 庞雨凭随行者年龄推断谁是新知县，江帆指出真正的知县是个少年；意外从现场眼光与话语显出，不靠旁白直接评价朝廷官制。
+  task_ids:
+  - TX-T02
+  - TX-T13
+  tags:
+  - case
+  - status
+  - humor
+  example_kind: fictional_narrative_scene
+  bound_to:
+  - f56
+  - p57
+  outcome: 官职权威未变，人物先入为主的认知被现场纠正
