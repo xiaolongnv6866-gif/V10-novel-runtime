@@ -1,0 +1,84 @@
+{
+  "repairs": [
+    [
+      "ce24",
+      "ce: task_ids/warning_signs/bound_to"
+    ],
+    [
+      "ce25",
+      "ce: task_ids/warning_signs/bound_to"
+    ],
+    [
+      "ce26",
+      "ce: task_ids/warning_signs/bound_to"
+    ],
+    [
+      "ce27",
+      "ce: task_ids/warning_signs/bound_to"
+    ],
+    [
+      "ce28",
+      "ce: task_ids/warning_signs/bound_to"
+    ],
+    [
+      "ce29",
+      "ce: task_ids/warning_signs/bound_to"
+    ],
+    [
+      "ce30",
+      "ce: task_ids/warning_signs/bound_to"
+    ],
+    [
+      "ce31",
+      "ce: task_ids/warning_signs/bound_to"
+    ],
+    [
+      "g27",
+      "glossary: task_ids/key_distinction"
+    ],
+    [
+      "g28",
+      "glossary: task_ids/key_distinction"
+    ],
+    [
+      "g29",
+      "glossary: task_ids/key_distinction"
+    ],
+    [
+      "g30",
+      "glossary: task_ids/key_distinction"
+    ]
+  ],
+  "counts": {
+    "frameworks": 53,
+    "principles": 55,
+    "cases": 58,
+    "counter-examples": 37,
+    "glossary": 34
+  },
+  "total": 237,
+  "valid_task_ids": 18,
+  "task_counts": {
+    "TX-T01": 12,
+    "TX-T02": 36,
+    "TX-T03": 14,
+    "TX-T04": 19,
+    "TX-T05": 15,
+    "TX-T06": 32,
+    "TX-T07": 28,
+    "TX-T08": 23,
+    "TX-T09": 21,
+    "TX-T10": 16,
+    "TX-T11": 39,
+    "TX-T12": 18,
+    "TX-T13": 43,
+    "TX-T14": 41,
+    "TX-T15": 12,
+    "TX-T16": 30,
+    "TX-T17": 24,
+    "TX-T18": 9
+  },
+  "source_anchors": 67,
+  "novel_source_anchors": 66,
+  "errors": []
+}
