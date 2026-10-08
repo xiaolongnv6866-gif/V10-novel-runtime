@@ -717,3 +717,60 @@
   - narrative
   - inferred-rule
   evidence_status: 小说情节归纳的待验证叙事原则；不是作者明确写作宣言
+- id: p52
+  title: 历史家庭人物应有自己的不可交易底线
+  type: principle
+  source_chapter: 第2章 桐城
+  source_locator: Text/chapter8.html
+  source_quote: 泡过的药材给人家，好点是治不好病
+  summary: 家庭经营者即使缺钱也不必完全服从主角的短期效益算法。价值底线应通过失去一笔实际收入的选择建立，而不是被赋予空洞善良台词。
+  task_ids:
+  - TX-T03
+  - TX-T13
+  tags:
+  - character
+  - family
+  - cost
+- id: p53
+  title: 人物的现代豪言须接受在场事实裁决
+  type: principle
+  source_chapter: 第3章 退婚
+  source_locator: Text/chapter9.html
+  source_quote: 果真魔怔了不是
+  summary: 主角说出了自以为振奋的句子，旁人可以按自己的语言、财力和关系网络判断它是否有意义；语言魅力不能靠旁白宣布。
+  task_ids:
+  - TX-T03
+  - TX-T13
+  tags:
+  - dialogue
+  - humor
+  - reality-check
+- id: p54
+  title: 短期言辞胜利不可替代长期权力结算
+  type: principle
+  source_chapter: 第17章 站队
+  source_locator: Text/chapter23.html
+  source_quote: 先饶你几天
+  summary: 一次公开表态可以改变当日岗位分派，但受损的直属上司会保留既有权限和敌意；不能因一次出风头就把他写成完全服从或彻底失势。
+  task_ids:
+  - TX-T02
+  - TX-T06
+  - TX-T14
+  tags:
+  - power
+  - time-delay
+  - cost
+- id: p55
+  title: 日常差事可承载真实基层报复而非新阴谋
+  type: principle
+  source_chapter: 第16章 小鞋
+  source_locator: Text/chapter22.html
+  source_quote: 果真是县官不如现管
+  summary: 在岗位既有分派权内，上司可以让下属承担更累、更无价值的日常任务；小规模持续摩擦可以成为人物现实困境，不必每次都动用高层权谋。
+  task_ids:
+  - TX-T02
+  - TX-T06
+  - TX-T13
+  tags:
+  - authority
+  - everyday-life
