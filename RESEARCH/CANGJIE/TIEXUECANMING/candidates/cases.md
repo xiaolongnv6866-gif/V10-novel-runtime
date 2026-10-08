@@ -818,3 +818,121 @@
   tags:
   - case
   - fictional-scene
+- id: c48
+  title: 王荃纳税与多级交易损失
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第88章 投柜
+  source_locator: Text/chapter94.html
+  source_quote: 各官各房都有自己的常例银
+  summary: 农户的入柜损失不仅来自当面计价，而是书手、收柜与县以上上解共同形成的成本；小说明确让庞雨判断即使换自己也受此约束。
+  bound_to: &id001
+  - TX-T02
+  - TX-T08
+  - TX-T11
+  task_ids: *id001
+  outcome: 呈现了损失与制度责任链；并没有展示可以轻易消除这些成本的改革结果
+  tags:
+  - case
+  - fictional-scene
+- id: c49
+  title: 传警任务与里长避险负担对撞
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第104章 王法
+  source_locator: Text/chapter110.html
+  source_quote: 县衙只让你们传警
+  summary: 官府无法保证警讯必然应验，也无法立刻给逃难者足量食宿，里长不愿成为让乡民迁移的传话者。
+  bound_to: &id002
+  - TX-T04
+  - TX-T08
+  - TX-T15
+  task_ids: *id002
+  outcome: 责任争论在公开现场发生；后续是否完全落实传警仍需跨章追踪
+  tags:
+  - case
+  - fictional-scene
+- id: c50
+  title: 吴达财落选与跨单位调人资格
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第212章 考核
+  source_locator: Text/chapter219.html
+  source_quote: 这是守备营的士卒，不是哪个将官的
+  summary: 吴达财对承诺落空生怨，与上层强调士卒属于组织、调任还需顾及本人意愿的安排对照，说明职位不是单纯能力排名。
+  bound_to: &id003
+  - TX-T06
+  - TX-T10
+  - TX-T16
+  task_ids: *id003
+  outcome: 职位争议与群体文化仍在，不能写成被上层一句话立即解决
+  tags:
+  - case
+  - fictional-scene
+- id: c51
+  title: 援助决策对庞雨和史可法价值不等
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第222章 两难
+  source_locator: Text/chapter229.html
+  source_quote: 他的利益和庞雨也不完全一致
+  summary: 同一风险在不同身份角色身上产生相反收益评估：庞雨希望扩大影响，史可法需承担辖区责任。
+  bound_to: &id004
+  - TX-T09
+  - TX-T14
+  - TX-T16
+  task_ids: *id004
+  outcome: 上级暂不松口，主角转为准备可行条件；不等于两人的判断最终谁必然正确
+  tags:
+  - case
+  - fictional-scene
+- id: c52
+  title: 军费月度支出与一次性装备分账
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第289章 误差
+  source_locator: Text/chapter296.html
+  source_quote: 正常支出当在一万三千两上下
+  summary: 军队有常态饷粮工坊工资，也有补装器械等阶段性采购；人物对兵员变化和利钱继续增加提出担忧。
+  bound_to: &id005
+  - TX-T07
+  - TX-T11
+  - TX-T16
+  task_ids: *id005
+  outcome: 小说内部的财务规模和估算，不是已验证历史财政预算
+  tags:
+  - case
+  - fictional-scene
+- id: c53
+  title: 报告中两个字关系到军功分配
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第352章 告捷
+  source_locator: Text/chapter359.html
+  source_quote: 涉及到战后军功的分配
+  summary: 庞雨修改塘报中的用词，意识到其可能将自己的功劳划给另一路官军。
+  bound_to: &id006
+  - TX-T05
+  - TX-T14
+  - TX-T17
+  task_ids: *id006
+  outcome: 记录了主角判断和报送选择；官场最后如何裁定需后文验证
+  tags:
+  - case
+  - fictional-scene
+- id: c54
+  title: 军医院意见逼迫军官承担失面子的沟通
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第458章 兄弟
+  source_locator: Text/chapter464.html
+  source_quote: 老子不要这脸面去求庞大人
+  summary: 一项原本容易被军令覆盖的医疗专业意见，迫使中层军官在信守主角理念和执行命令之间亲自冒险沟通。
+  bound_to: &id007
+  - TX-T13
+  - TX-T16
+  task_ids: *id007
+  outcome: 角色最终去沟通，不等于在所有战时情境都可推迟集体行动
+  tags:
+  - case
+  - fictional-scene
