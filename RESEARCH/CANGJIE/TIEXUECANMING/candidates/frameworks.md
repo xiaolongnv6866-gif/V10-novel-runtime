@@ -793,3 +793,98 @@
   outputs: 源自现实约束的下一行动及后果
   steps: 先识别人物利益与组织能力边界→写冲突现场→保留代价
   missing_conditions: 小说源证据，Stage 1.5 未三重验证
+- id: f45
+  title: 税赋交易链与公门多级预算责任
+  type: framework
+  source_chapter: 第88章 投柜
+  source_locator: Text/chapter94.html
+  source_quote: 各官各房都有自己的常例银
+  summary: 一个底层缴税现场的额外损失不是单独某差役的临时贪心：粮店兑换、柜前成色评估、计量和上解常例分别施压。写改革前先把每一级收取、上解责任和农户最终承担的负担连起来。
+  task_ids:
+  - TX-T02
+  - TX-T08
+  - TX-T11
+  tags:
+  - narrative
+  - framework
+  - inferred-method
+  inputs: 对应各角色可知信息/权限/可承担成本；缺失则不推断
+  outputs: 不同立场的现场选择及其在后续章节的可见后果
+  steps: 找出最终承担者与各段结算者→核对收入/上解压力→选择一个底层现场看累计结果→检查单独替换经手人是否会改变制度约束
+  missing_conditions: 不可从虚构情节推定真实明朝税率；不提供具体克扣手法
+- id: f46
+  title: 不确定预警中的传达责任与救济责任分离
+  type: framework
+  source_chapter: 第104章 王法
+  source_locator: Text/chapter110.html
+  source_quote: 县衙只让你们传警
+  summary: 警讯传播者未必能向受众提供粮食、住宿或确定预测，因而基层传话人也会抵触。先拆出谁发现风险、谁传递、谁决定行动、谁承担避险成本，再写不同人如何用责任边界争执。
+  task_ids:
+  - TX-T04
+  - TX-T08
+  - TX-T15
+  tags:
+  - narrative
+  - framework
+  - inferred-method
+  inputs: 对应各角色可知信息/权限/可承担成本；缺失则不推断
+  outputs: 不同立场的现场选择及其在后续章节的可见后果
+  steps: 分别列出风险消息可靠性、传达义务、行动自由及救济缺口→用群众/里长/官员至少两方对话呈现冲突→下一场检查是否真的传到
+  missing_conditions: 适合叙事信息与责任链分析；不当现实应急指导
+- id: f47
+  title: 同一决策的跨职位风险收益差
+  type: framework
+  source_chapter: 第222章 两难
+  source_locator: Text/chapter229.html
+  source_quote: 他的利益和庞雨也不完全一致
+  summary: 主角能因扩展行动受益，上司却承担本地失守的政治责任，两人即使信息相同也不应直接同意。写选择时比较不同岗位要向谁交代、失去什么、获益在哪里。
+  task_ids:
+  - TX-T14
+  - TX-T16
+  - TX-T09
+  tags:
+  - narrative
+  - framework
+  - inferred-method
+  inputs: 对应各角色可知信息/权限/可承担成本；缺失则不推断
+  outputs: 不同立场的现场选择及其在后续章节的可见后果
+  steps: 为各职位分别填目标/职责/可得收益/最坏归责→识别共同目标之下不同风险敞口→用互不一致的选择制造下一节点
+  missing_conditions: 角色的风险推算必须使用当时可知信息
+- id: f48
+  title: 正式军职与中层许诺冲突的人员流动门
+  type: framework
+  source_chapter: 第212章 考核
+  source_locator: Text/chapter219.html
+  source_quote: 这是守备营的士卒，不是哪个将官的
+  summary: 基层人员从私人队伍变成正式组织成员后，跨单位调任不能只凭总指挥一句话：既有主官许诺、候选人个人意愿、组织公有性和上级最终授权彼此冲突。
+  task_ids:
+  - TX-T06
+  - TX-T10
+  - TX-T16
+  tags:
+  - narrative
+  - framework
+  - inferred-method
+  inputs: 对应各角色可知信息/权限/可承担成本；缺失则不推断
+  outputs: 不同立场的现场选择及其在后续章节的可见后果
+  steps: 先核原岗位任命承诺和用人缺口→取得人员意愿与直属主官意见→规定跨岗位的调入上限和最终裁决者→回看落选人的反应
+  missing_conditions: 不要求所有历史组织照搬现代调动程序
+- id: f49
+  title: 政治战报的措辞与报送路径双重结算
+  type: framework
+  source_chapter: 第352章 告捷
+  source_locator: Text/chapter359.html
+  source_quote: 涉及到战后军功的分配
+  summary: 一次结果送入官僚系统时，文件措辞、署名和先报哪一衙门可以改变功劳归属和消息先后。作者需要分开现场事实、当事人报告、官场受众各自利益。
+  task_ids:
+  - TX-T05
+  - TX-T14
+  - TX-T17
+  tags:
+  - narrative
+  - framework
+  - inferred-method
+  inputs: 对应各角色可知信息/权限/可承担成本；缺失则不推断
+  outputs: 不同立场的现场选择及其在后续章节的可见后果
+  steps: 列出现实发生与各机构可见之不同→比较关键措辞对应的归责差异→安排有权修改/传送的人物产生选择→记录另一方得知后的反作用
+  missing_conditions: 史实归属不能由小说塘报当一手史料
