@@ -423,3 +423,48 @@
   tags:
   - term
   - source-provenance
+- id: g31
+  term: 投柜
+  type: term
+  source_chapter: 第88章 投柜
+  source_locator: Text/chapter94.html
+  author_definition: 小说中的秋税柜前交纳场景，涉及花户、银头、册书、柜夫、书手等具体岗位；作者描写含兑银成色和常例。
+  source_quote: 正在等候缴纳秋税
+  key_distinction: 不等同现代“一站式税务窗口”，也不能把此小说情境当作历史制度普遍细节。
+  why_it_matters: 避免 V10 在使用场景时误把小说词汇等同外部已证实史实
+  task_ids:
+  - TX-T02
+  - TX-T08
+  tags:
+  - term
+  - historical-narrative
+- id: g32
+  term: 常例银
+  type: term
+  source_chapter: 第88章 投柜
+  source_locator: Text/chapter94.html
+  author_definition: 在此章小说叙事中，县衙和府衙不同岗位获得的惯例收入，最后被描写为摊派进田赋。
+  source_quote: 各官各房都有自己的常例银
+  key_distinction: 不能与官员正式俸禄画等号，也不能以小说金额为一手史料。
+  why_it_matters: 避免 V10 在使用场景时误把小说词汇等同外部已证实史实
+  task_ids:
+  - TX-T02
+  - TX-T11
+  tags:
+  - term
+  - historical-narrative
+- id: g33
+  term: 塘报
+  type: term
+  source_chapter: 第352章 告捷
+  source_locator: Text/chapter359.html
+  author_definition: 小说中对外报送军情及战果的正式文书，其措辞影响受众对功劳和责任的评价。
+  source_quote: 这份塘报极为重要
+  key_distinction: 不代表文书必然真实反映全部现场，也不是作者旁注本身。
+  why_it_matters: 避免 V10 在使用场景时误把小说词汇等同外部已证实史实
+  task_ids:
+  - TX-T14
+  - TX-T17
+  tags:
+  - term
+  - historical-narrative
