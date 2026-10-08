@@ -86,6 +86,7 @@
 - `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_SUMMARY.md` — 五提取器154条原始候选
 - `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_COVERAGE_AUDIT.md` — 初版来源覆盖审计（154条）
 - `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_COVERAGE_UPDATE_2026-10-08.md` — 197条时的历史原始候选来源审计
+- `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_SEMANTIC_BATCH_03.md` — 第33—80章连续区间6章全文/42章定向审读，新13条候选
 - `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_SEMANTIC_BATCH_02.md` — 最新第1—32章审读与15项新增候选
 - `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_REVIEW_BACKLOG.md` — 下一轮逐块审读范围与严格完成条件
 - `RESEARCH/CANGJIE/TIEXUECANMING/QA/validate_stage1_candidates.py` — 可重复执行的字段校验器
@@ -95,4 +96,4 @@
 - `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_CHAPTER_SCAN_MATRIX.tsv` — 532物理章题机械扫描矩阵
 - `RESEARCH/CANGJIE/TIEXUECANMING/candidates/` — frameworks/principles/cases/counter-examples/glossary 五份源绑定提取文件
 
-当前：**Stage 0 用户已确认；Stage 1 已保存237条原始候选，严格字段校验通过，仍须补足全量语义覆盖；Stage 1.5–5 未开始。**
+当前：**Stage 0 用户已确认；Stage 1 已保存250条原始候选，严格字段校验通过，仍须补足全量语义覆盖；Stage 1.5–5 未开始。**
