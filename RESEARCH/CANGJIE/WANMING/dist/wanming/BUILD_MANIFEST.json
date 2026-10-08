@@ -1,0 +1,50 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "02c934cec04ab999e2c50c8b1b36b9c0022128f9bcc62f7a1b8483647987260f",
+    "references/capabilities/actionability-ladder.md": "99683b160a3d36a447b680d2728d2bd092c486d9d4fb88a0b504a2599d74459d",
+    "references/capabilities/adaptive-opponents.md": "70bb9f6a0181b70397e68a5ec07cdbfec1082d34aebd740a022bd26a8482181f",
+    "references/capabilities/aftermath-settlement.md": "f31aadb9064d720de09e9dd422c330dae052db602a80f726c27a8e1871ddcfb8",
+    "references/capabilities/decentralized-pilot.md": "5e5244ba474d093e50dbc845141c53201c4a4ad0f0275d0a24a7507f3d4b4e11",
+    "references/capabilities/delegated-execution.md": "16827e093ff7d588458b3d8d21bcb88344248b27e2e47a6c7a1e610637244e39",
+    "references/capabilities/information-triage.md": "7c7418b2c46c1f872195314bdf368a95451a049667c2ad5e05482b2b7d2b2f4d",
+    "references/capabilities/institution-transfer-pilot.md": "4671ea7a67e229ce60e68118951de082cdf5f3b5658e51a629d36ceaf4c145ea",
+    "references/capabilities/learning-loop.md": "b138eda493b92186d03cf3cfdc7a71551c7fa02e13887a0eb8486695c609e85a",
+    "references/capabilities/limited-info-multipov.md": "f911dde3ca25791ce5148b38e1b78efb87f6f1d1585d4a7151f9013bed56ff0a",
+    "references/capabilities/macro-micro-rhythm.md": "92eff9f645df4733660d87cf4d39100ccf5febe8ed61631ece9d5636d6af8f0c",
+    "references/capabilities/micro-life-dashboard.md": "53dee67d75f5319880437efa51f4971380015956e36bb5413a4fa1bd49a3aa35",
+    "references/capabilities/power-contract.md": "a4d80612fa99892a4ecb72db85e755351fa954b37d80f356fd1ba2d697c20a5a",
+    "references/capabilities/public-memory-recoding.md": "884f0942587d014903f74f8cf9241771671a32c49d1507a2da0046b85db46fa7",
+    "references/capabilities/relationship-multiaxis.md": "3e24d9de3e6dee8050c24d72d6eb527eac1c304f272f9b96788152ed655105ba",
+    "references/capabilities/repeat-by-delta.md": "62e086fd1f882cee179024a85f1cf0c87ae9cdd2d26d7bedd33cc0adf2ca733b",
+    "references/capabilities/resource-power-rebalance.md": "a13b01fb1b17f019b46d29f8edd15d6e7035a65a88298ba83c9782cb2a50e66c",
+    "references/capabilities/scale-restructure.md": "2647c460a46382768a8f2cb31c21a7ab051d3ab46daba446bc745048bb4ce763",
+    "references/capabilities/source-conflict-canon.md": "63007ab4dcc2cb88fb6ae9f8fbdd03fce01e02982f841d9ec63092fa5100d51f",
+    "references/capabilities/structural-conflict.md": "a46f539e652f512866ad17e110413e70cff2d2ecb11ccd34d4fe960b9d625abe",
+    "references/capabilities/success-constraints.md": "46e6d31d75b064f059fddda09fa56d9a37939724f0d90caa22cb658f7f62fb2a",
+    "references/capability-index.md": "c189648217f579bc0e34ea281360f1d483c8f14d44f6f797deefbd8752d1199c",
+    "references/cheatsheet.md": "541d234cada719c648509081519d0eec114f32a9506a9bfe89e0f029ba7dea36",
+    "references/glossary.md": "3f086b8d10db7221befc3a3d673daedd3936e8b70633e1fd0305035620e6c904",
+    "references/overview.md": "2e22987fa389a5af5e2bcd1211784281fb0e7d2626fbf4625f6266f34c35db49"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.wanming",
+  "bundle_sha256": "17ec11060cf5da9ff91bb805940d334ac064b091bd35c840d0ba37d0765ed209",
+  "variant": "single",
+  "run_id": "run-20261008-090343-034c6b",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 7,
+    "capability_count": 20,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 7 个晋级 Skill，共 8 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

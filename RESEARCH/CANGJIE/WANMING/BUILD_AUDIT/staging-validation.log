@@ -1,0 +1,6 @@
+  skill: .staging-run-20261008-090343-034c6b-wanming   72 行    7411 字节
+
+共扫描 25 个 .md，其中 1 个 SKILL.md
+WARN  [name-dir] RESEARCH/CANGJIE/WANMING/dist/.staging-run-20261008-090343-034c6b-wanming/SKILL.md: name `wanming` 与目录名 `.staging-run-20261008-090343-034c6b-wanming` 不一致
+
+结果: 0 errors, 1 warnings

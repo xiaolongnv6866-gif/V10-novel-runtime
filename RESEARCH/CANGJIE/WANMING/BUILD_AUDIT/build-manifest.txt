@@ -1,0 +1,60 @@
+V10 commit: e82a1ac4b522b09cf244c4386235bd757ca49cad
+Cangjie commit: a28de55ba881b9928956a55048f743f7a9e3b23e
+Variant: single
+Bundle SHA256: 17ec11060cf5da9ff91bb805940d334ac064b091bd35c840d0ba37d0765ed209
+
+Published files:
+RESEARCH/CANGJIE/WANMING/dist/wanming/BUILD_MANIFEST.json
+RESEARCH/CANGJIE/WANMING/dist/wanming/SKILL.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/actionability-ladder.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/adaptive-opponents.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/aftermath-settlement.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/decentralized-pilot.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/delegated-execution.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/information-triage.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/institution-transfer-pilot.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/learning-loop.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/limited-info-multipov.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/macro-micro-rhythm.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/micro-life-dashboard.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/power-contract.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/public-memory-recoding.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/relationship-multiaxis.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/repeat-by-delta.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/resource-power-rebalance.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/scale-restructure.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/source-conflict-canon.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/structural-conflict.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/success-constraints.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/capability-index.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/cheatsheet.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/glossary.md
+RESEARCH/CANGJIE/WANMING/dist/wanming/references/overview.md
+
+SHA256:
+35c946b4f6c67950fcdeb4be5757ce194ac6f3a8151d0b8bbe7b635d65747c4d  RESEARCH/CANGJIE/WANMING/dist/wanming/BUILD_MANIFEST.json
+02c934cec04ab999e2c50c8b1b36b9c0022128f9bcc62f7a1b8483647987260f  RESEARCH/CANGJIE/WANMING/dist/wanming/SKILL.md
+99683b160a3d36a447b680d2728d2bd092c486d9d4fb88a0b504a2599d74459d  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/actionability-ladder.md
+70bb9f6a0181b70397e68a5ec07cdbfec1082d34aebd740a022bd26a8482181f  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/adaptive-opponents.md
+f31aadb9064d720de09e9dd422c330dae052db602a80f726c27a8e1871ddcfb8  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/aftermath-settlement.md
+5e5244ba474d093e50dbc845141c53201c4a4ad0f0275d0a24a7507f3d4b4e11  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/decentralized-pilot.md
+16827e093ff7d588458b3d8d21bcb88344248b27e2e47a6c7a1e610637244e39  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/delegated-execution.md
+7c7418b2c46c1f872195314bdf368a95451a049667c2ad5e05482b2b7d2b2f4d  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/information-triage.md
+4671ea7a67e229ce60e68118951de082cdf5f3b5658e51a629d36ceaf4c145ea  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/institution-transfer-pilot.md
+b138eda493b92186d03cf3cfdc7a71551c7fa02e13887a0eb8486695c609e85a  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/learning-loop.md
+f911dde3ca25791ce5148b38e1b78efb87f6f1d1585d4a7151f9013bed56ff0a  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/limited-info-multipov.md
+92eff9f645df4733660d87cf4d39100ccf5febe8ed61631ece9d5636d6af8f0c  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/macro-micro-rhythm.md
+53dee67d75f5319880437efa51f4971380015956e36bb5413a4fa1bd49a3aa35  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/micro-life-dashboard.md
+a4d80612fa99892a4ecb72db85e755351fa954b37d80f356fd1ba2d697c20a5a  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/power-contract.md
+884f0942587d014903f74f8cf9241771671a32c49d1507a2da0046b85db46fa7  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/public-memory-recoding.md
+3e24d9de3e6dee8050c24d72d6eb527eac1c304f272f9b96788152ed655105ba  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/relationship-multiaxis.md
+62e086fd1f882cee179024a85f1cf0c87ae9cdd2d26d7bedd33cc0adf2ca733b  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/repeat-by-delta.md
+a13b01fb1b17f019b46d29f8edd15d6e7035a65a88298ba83c9782cb2a50e66c  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/resource-power-rebalance.md
+2647c460a46382768a8f2cb31c21a7ab051d3ab46daba446bc745048bb4ce763  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/scale-restructure.md
+63007ab4dcc2cb88fb6ae9f8fbdd03fce01e02982f841d9ec63092fa5100d51f  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/source-conflict-canon.md
+a46f539e652f512866ad17e110413e70cff2d2ecb11ccd34d4fe960b9d625abe  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/structural-conflict.md
+46e6d31d75b064f059fddda09fa56d9a37939724f0d90caa22cb658f7f62fb2a  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capabilities/success-constraints.md
+c189648217f579bc0e34ea281360f1d483c8f14d44f6f797deefbd8752d1199c  RESEARCH/CANGJIE/WANMING/dist/wanming/references/capability-index.md
+541d234cada719c648509081519d0eec114f32a9506a9bfe89e0f029ba7dea36  RESEARCH/CANGJIE/WANMING/dist/wanming/references/cheatsheet.md
+3f086b8d10db7221befc3a3d673daedd3936e8b70633e1fd0305035620e6c904  RESEARCH/CANGJIE/WANMING/dist/wanming/references/glossary.md
+2e22987fa389a5af5e2bcd1211784281fb0e7d2626fbf4625f6266f34c35db49  RESEARCH/CANGJIE/WANMING/dist/wanming/references/overview.md
