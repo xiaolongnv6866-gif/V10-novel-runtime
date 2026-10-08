@@ -397,3 +397,25 @@ Next required gate:
 **blind / non-regression testing**.
 
 Until that gate passes, every candidate remains in RESEARCH/V10_CANDIDATES only.
+
+
+---
+
+## Blind-test gate ready
+
+All 15 candidates have completed V10 open testing and are now **READY_FOR_BLIND**.
+
+Strict two-arm assets:
+- Baseline bundle: `TESTS/bundles/V10-wanming-baseline-blind-v0.1.zip`
+  - SHA256: `0dce5ae525d2a18e5424d7cd319eef256e44a83d8b06ab9ad667cf8a37f9ac13`
+- Candidate bundle: `TESTS/bundles/V10-wanming-candidate-blind-v0.1.zip`
+  - SHA256: `44e5b2d3e299df363fb85cf476464e7ec3c0f5320aa134e8d35f6f4d9e5f2535`
+
+Protocol:
+- `TESTS/WANMING_CANDIDATE_BLIND_PROTOCOL.md`
+- `TESTS/WANMING_CANDIDATE_BLIND_RUNBOOK.md`
+
+Evaluator-only:
+- `TESTS/WANMING_CANDIDATE_BLIND_SCORING.md`
+
+The current development session is disqualified from strict blind scoring because it has seen the Overlay, test design and scoring logic.
