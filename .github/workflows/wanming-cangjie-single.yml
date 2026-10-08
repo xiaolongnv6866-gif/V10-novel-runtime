@@ -80,7 +80,11 @@ jobs:
             echo "No build changes to commit."
           else
             git commit -m "Build Wanming Cangjie single skill"
-            git push
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
           fi
 
 # trigger-existing-workflow
+
+# publish-race-fix
