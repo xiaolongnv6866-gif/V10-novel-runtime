@@ -16,7 +16,7 @@
 - Stage 3 Zettelkasten links: **COMPLETE / VALIDATED**
 - Stage 4 pressure tests: **COMPLETE — FALLBACK SELF-TEST PASS**
 - Stage 5 compile/delivery: **COMPLETE — SINGLE / REPOSITORY DELIVERY**
-- V10 candidate promotion review: **COMPLETE — 15 candidates / 5 reference-only**
+- V10 candidate promotion review: **COMPLETE — BLIND-TESTED / 3 PROMOTED / 12 REFERENCE-ONLY**
 
 ## Stage 1 counts
 
@@ -207,3 +207,29 @@ Run 4 V10-original scenario clusters:
 4. 现代知识与历史研究
 
 After V10-specific counterexample tests and blind non-regression, decide actual Runtime merges.
+
+
+## V10 blind-test final result
+
+- Baseline standard V10: 40 / 40
+- Candidate standard V10: 40 / 40
+- Baseline candidate-specific: 37 / 40
+- Candidate candidate-specific: 40 / 40
+- delta: +3
+- fatal Canon errors: 0
+- anti-overuse regression: none
+
+Final promotions:
+1. organization-learning loop → merged into Runtime A5
+2. information triage / decision priority → merged into Runtime H1
+3. source-conflict adjudication → V10_SKILL §4.1
+
+Reference/tool only after A/B comparison: 12 candidates.
+
+Current versions:
+- Runtime: v0.2
+- V10_SKILL: v0.2.0
+- Canon changes: none
+
+Formal evaluation:
+`TESTS/results/2026-10-08-wanming-candidate-ab-blind-evaluation.md`
