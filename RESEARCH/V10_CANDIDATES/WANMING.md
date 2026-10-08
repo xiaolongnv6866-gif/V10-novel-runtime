@@ -329,3 +329,26 @@ Result:
 - boundary tests: 6 / 6 pass
 - anti-pattern stress: pass
 - Runtime promotions: 0
+
+
+### Cluster C — 正文叙事层
+
+Status: **COMPLETE — OPEN_SCENE_PASS / READY_FOR_BLIND**
+
+Covered:
+- V10-WM-C05
+- V10-WM-S04
+- V10-WM-S05
+- V10-WM-C06
+
+Evidence:
+- `TESTS/WANMING_CLUSTER_C_PLAN.md`
+- `TESTS/WANMING_CLUSTER_C_POSITIVE_SCENES.md`
+- `TESTS/WANMING_CLUSTER_C_BOUNDARY_RESULTS.md`
+- `TESTS/WANMING_CLUSTER_C_RESULTS.md`
+
+Result:
+- positive scenes: 3 / 3 pass
+- boundary tests: 6 / 6 pass
+- mechanism-rich/prose-poor stress: pass
+- Runtime promotions: 0
