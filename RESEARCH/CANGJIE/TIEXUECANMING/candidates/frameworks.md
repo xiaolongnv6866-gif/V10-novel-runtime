@@ -7,7 +7,7 @@
   type: framework
   source_chapter: 第8章 申明亭
   source_locator: Text/chapter14.html
-  source_quote: 第8章 申明亭  申明亭就在县衙大门外
+  source_quote: 申明亭就在县衙大门外
   summary: 人物的纠纷进入里老调解与县衙之间的边界；先确定主持者、程序与可控资源，再呈现各方怎样利用规则改变谈判地位。
   task_ids:
   - TX-T01
@@ -25,7 +25,7 @@
   type: framework
   source_chapter: 第14章 仗义
   source_locator: Text/chapter20.html
-  source_quote: 账的时候。  但工食银换牌票，这是县衙公认的潜规则，
+  source_quote: 但工食银换牌票，这是县衙公认的潜规则，
   summary: 从制度上的职位收入与实际牌票利益两个层次解释基层行动；反对表面不公可能反而得罪实际受益者。
   task_ids:
   - TX-T02
@@ -96,7 +96,7 @@
   type: framework
   source_chapter: 第56章 庞班头
   source_locator: Text/chapter62.html
-  source_quote: 居之，何为能者，能帮上官解忧者便是。”  开始发问那
+  source_quote: 居之，何为能者，能帮上官解忧者便是。”
   summary: 名额、收入、眼前任务与考察表现组合成选择压力，让候选下属主动行动而非听主角讲制度。
   task_ids:
   - TX-T06
@@ -168,7 +168,7 @@
   type: framework
   source_chapter: 第160章 旧人
   source_locator: Text/chapter167.html
-  source_quote: “二弟，这个……庞大人先坐。”  “大哥你别这么叫
+  source_quote: “二弟，这个……庞大人先坐。”
   summary: 地位变化后同一句称呼或座次就变成关系谈判；旧情分、职务资格与个人期望互相碰撞。
   task_ids:
   - TX-T10
@@ -186,7 +186,7 @@
   type: framework
   source_chapter: 第169章 高升
   source_locator: Text/chapter176.html
-  source_quote: 连忙拦住他道，“董哥你就别去了，东西都拿上了。”  董
+  source_quote: 连忙拦住他道，“董哥你就别去了，东西都拿上了。”
   summary: 一个看似好消息的升迁，改变受提拔者对旧同伴的羞耻、回避和利益距离，让人事变化呈现于细小动作。
   task_ids:
   - TX-T10
@@ -204,7 +204,7 @@
   type: framework
   source_chapter: 第180章 例会
   source_locator: Text/chapter187.html
-  source_quote: 个好人。”  “士兵的月饷发了这几月，他们都是如何
+  source_quote: “士兵的月饷发了这几月，他们都是如何
   summary: 主角的制度与普通士兵的家庭、消费和储蓄意愿通过中层报告连接；不能用一个平均士兵替代所有人。
   task_ids:
   - TX-T07
@@ -222,7 +222,7 @@
   type: framework
   source_chapter: 第200章 灵宝
   source_locator: Text/chapter207.html
-  source_quote: 在砍树打柴。  小娃子把一床被子从车架上取下来
+  source_quote: 小娃子把一床被子从车架上取下来
   summary: 跨阵营视角从营地、食物、老人、少年和传言切入，让敌对势力成为有自己内部秩序的社会而非目标牌。
   task_ids:
   - TX-T09
@@ -258,7 +258,7 @@
   type: framework
   source_chapter: 第250章 曹操
   source_locator: Text/chapter257.html
-  source_quote: 操  滁州城外，高迎祥正摸着自己脸上的疤子，在
+  source_quote: 滁州城外，高迎祥正摸着自己脸上的疤子，在
   summary: 同一情报被多个领头者在不同后果、资源与经验基础上解读；决定来自各自选择，不需主角在场。
   task_ids:
   - TX-T09
@@ -294,7 +294,7 @@
   type: framework
   source_chapter: 第310章 江山
   source_locator: Text/chapter317.html
-  source_quote: 走一边读。  “内阁如何票拟的？”  “是首辅票拟的
+  source_quote: “内阁如何票拟的？”
   summary: 朝廷接到的奏章经过票拟、阉官宣读、皇帝判断，每个位置都带不同优先级，政治压力不会只按主角战功换算。
   task_ids:
   - TX-T14
@@ -366,7 +366,7 @@
   type: framework
   source_chapter: 第387章 三卷序
   source_locator: Text/chapter395.html
-  source_quote: ，最后一句写着“今朝男儿建功时”。  崔永炟看得很仔细
+  source_quote: ，最后一句写着“今朝男儿建功时”。
   summary: 切换卷次时先让非主角人物因私欲和处境对组织消息作判断，说明主角名声传播但不能控制接收者选择。
   task_ids:
   - TX-T12
@@ -528,7 +528,7 @@
   type: framework
   source_chapter: 第178章 融资
   source_locator: Text/chapter185.html
-  source_quote: 三千五百两，这个利息不低，也不算离谱。  此时安
+  source_quote: 三千五百两，这个利息不低，也不算离谱。
   summary: 将一次筹资、债务到期、出资人利益、每年维护成本分别呈现，不能以资金到账替代长期可持续性。
   task_ids:
   - TX-T07
@@ -582,7 +582,7 @@
   type: framework
   source_chapter: 第417章 瓦房
   source_locator: Text/chapter423.html
-  source_quote: 两家总旗，还得请墩长大人判明。”  潜山二号墩堡
+  source_quote: 两家总旗，还得请墩长大人判明。”
   summary: 土地与住房实际质量不同，均分数量不等于均分利益；让领受者讨论不同方案的实际成本。
   task_ids:
   - TX-T08
@@ -618,7 +618,7 @@
   type: framework
   source_chapter: 第533章 版面
   source_locator: Text/chapter540.html
-  source_quote: 第533章 版面  “庞大人的银子得来也
+  source_quote: “庞大人的银子得来也
   summary: 某条消息是否刊发以及何时发，受读者、发行时点、政治风险与各方利益共同限制。
   task_ids:
   - TX-T12
@@ -738,3 +738,58 @@
   outputs: 被来源限定的叙事因果/作者侧工作结果
   steps: 对照实际材料→拆开证据与推断→明确选择及后果
   missing_conditions: Stage 1 raw reconstructed method; Stage 1.5 must independently verify V1/V2/V3
+- id: f42
+  source_chapter: 第31章 民情
+  source_locator: Text/chapter37.html
+  source_quote: 很多人还凑钱买了牌票等着下乡
+  task_ids:
+  - TX-T02
+  - TX-T04
+  title: 基层人员的回避由收入与风险同时决定
+  type: framework
+  summary: 官府临时抽调人员执行高风险或无常规收入的差事时，受命者的抗拒可来自收入损失、身份恐惧与职责推诿并行，而非只靠作者形容“庸吏”。
+  tags:
+  - narrative
+  - framework
+  - source-derived
+  inputs: 在场角色的具体资源、职责和期待
+  outputs: 源自现实约束的下一行动及后果
+  steps: 先识别人物利益与组织能力边界→写冲突现场→保留代价
+  missing_conditions: 小说源证据，Stage 1.5 未三重验证
+- id: f43
+  source_chapter: 第174章 费用
+  source_locator: Text/chapter181.html
+  source_quote: 反显得是你盘剥挑夫
+  task_ids:
+  - TX-T06
+  - TX-T07
+  - TX-T13
+  title: 制度性便利收费会改变上下级关系性质
+  type: framework
+  summary: 下属被给予便宜行事的资格本可视为组织恩惠；一旦将其制度化收费，被管理者就可能理解成新的剥夺，改变服从与信任条件。
+  tags:
+  - narrative
+  - framework
+  - source-derived
+  inputs: 在场角色的具体资源、职责和期待
+  outputs: 源自现实约束的下一行动及后果
+  steps: 先识别人物利益与组织能力边界→写冲突现场→保留代价
+  missing_conditions: 小说源证据，Stage 1.5 未三重验证
+- id: f44
+  source_chapter: 第267章 人口
+  source_locator: Text/chapter274.html
+  source_quote: 他的军队没有在陆地的远征能力
+  task_ids:
+  - TX-T07
+  - TX-T14
+  title: 区域组织的能力边界由运输配套决定
+  type: framework
+  summary: 一个体系在本地有固定供给与人员并不证明它能脱离原场所行动；要把跨区域行动的承诺和此前积累的实际输送能力分开检查。仅用于历史小说情节逻辑，不给出现实军事操作细节。
+  tags:
+  - narrative
+  - framework
+  - source-derived
+  inputs: 在场角色的具体资源、职责和期待
+  outputs: 源自现实约束的下一行动及后果
+  steps: 先识别人物利益与组织能力边界→写冲突现场→保留代价
+  missing_conditions: 小说源证据，Stage 1.5 未三重验证
