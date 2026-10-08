@@ -90,3 +90,11 @@ Next: close the Stage 1 semantic-coverage gap or mark unresolved source tasks ho
   - updated `STAGE1_CHAPTER_SCAN_MATRIX.tsv`
 - **Stage 1 semantic hard gate: OPEN; Stage 1.5: NOT STARTED.**
 - Runtime v0.2 / Canon: NOT MODIFIED.
+
+## Repeatable QA gate
+
+- Validator: `QA/validate_stage1_candidates.py`, available without copyrighted EPUB; supports optional private `--source-jsonl` literal quote check.
+- Workflow: `.github/workflows/tiexue-stage1-schema.yml`.
+- GitHub Actions run `37771968995`: **SUCCESS** on public repository schema-only validation.
+- Distinction: CI success = structured raw candidate fields valid, **not** whole-source semantic coverage or Stage 1.5 tri-verification.
+- Next chapter queue: `STAGE1_REVIEW_BACKLOG.md`, start at continuous chapters 33–80 without revisiting the existing B01/B02 passages except when evidence conflicts.
