@@ -3,7 +3,7 @@
 - Stage 0 source audit: **COMPLETE**
 - Stage 0 Adler whole-book (available EPUB 1–534): **COMPLETE / USER CONFIRMED**
 - Stage 0 user confirmation: **CONFIRMED (user replied “继续”)**
-- Stage 1 five-extractor candidates: **237 RAW SAVED (53/55/58/37/34); SOURCE-COVERAGE GATE OPEN — NOT FULLY COMPLETE**
+- Stage 1 five-extractor candidates: **250 RAW SAVED (56/57/62/39/36); SOURCE-COVERAGE GATE OPEN — NOT FULLY COMPLETE**
 - Stage 1.5 triple verification: NOT STARTED
 - Stage 1.6 promotion gate: NOT STARTED
 - Stage 2 RIA++: NOT STARTED
@@ -28,13 +28,13 @@ Checkpoint policy: upload after each finished verifiable stage/sub-stage and ver
 
 - Stage 0 confirmed by user's “继续”.
 - Five raw candidate files uploaded, back-read and matched on content/IDs:
-  - frameworks 53
-  - principles 55
-  - cases 58
-  - counter-examples 37
-  - glossary 34
-- total: 237 raw items (NOT tri-verified).
-- candidate chapter anchors: 66 distinct physical EPUB chapter records (+ 1 attached reader timeline).
+  - frameworks 56
+  - principles 57
+  - cases 62
+  - counter-examples 39
+  - glossary 36
+- total: 250 raw items (NOT tri-verified).
+- candidate chapter anchors: 70 distinct physical EPUB chapter records (+ 1 reader-compiled timeline).
 - 18 Stage 0 tasks have raw membership; TX-T17 now has multiple independently locatable appendix/annotation examples, but historical provenance is still not externally corroborated.
 - Scope caveat: mechanical full-text indexing + focused source close-reads `!=` complete semantic full-scan required by framework/principle extractors.
 - stage documents:
@@ -98,3 +98,19 @@ Next: close the Stage 1 semantic-coverage gap or mark unresolved source tasks ho
 - GitHub Actions run `37771968995`: **SUCCESS** on public repository schema-only validation.
 - Distinction: CI success = structured raw candidate fields valid, **not** whole-source semantic coverage or Stage 1.5 tri-verification.
 - Next chapter queue: `STAGE1_REVIEW_BACKLOG.md`, start at continuous chapters 33–80 without revisiting the existing B01/B02 passages except when evidence conflicts.
+
+
+## Stage 1 semantic batch 03 — continuous chapters 33–80
+
+- Book chapter span: 33–80 = **48** source chapters (physical `Text/chapter39.html`–`Text/chapter86.html`).
+- Six complete-text reviews: chapters 34, 43, 55, 61, 68, 74.
+- Other **42** chapters: targeted scene/excerpt reading, NOT full-chapter semantic reading.
+- Added 13 raw entries: 3 framework, 2 principle, 4 case, 2 counterexample, 2 glossary.
+- Raw candidate total: **250** (56/57/62/39/36).
+- Local schema + literal quote validator: **PASS; 0 issues**, source quotes checked against original EPUB physical records.
+- GitHub Actions schema-only check on updated candidate files: **SUCCESS**, run `37773419996`. This never replaces the private-source quote check or source semantics.
+- Current distinct source paths: 71 = 70 story-physical sources + 1 reader-produced timeline (separate evidence category).
+- Audit: `STAGE1_SEMANTIC_BATCH_03.md`; chapter reading status updated in `STAGE1_CHAPTER_SCAN_MATRIX.tsv`.
+- Next continuous first-pass range: **chapters 81–129**. Later revisit chapters flagged targeted-only for full natural-block framework/principle verification.
+- **Stage 1 hard gate remains OPEN**; Stage 1.5 V1/V2/V3 **NOT STARTED**.
+- V10 Runtime/Canon modifications: **NONE**.
