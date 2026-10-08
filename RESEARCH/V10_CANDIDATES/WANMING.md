@@ -307,3 +307,25 @@ Result:
 - boundary tests: 6 / 6 pass
 - management-report stress: pass
 - Runtime promotions: 0
+
+
+### Cluster B — 独立世界与地方政治
+
+Status: **COMPLETE — OPEN_SCENE_PASS / READY_FOR_BLIND**
+
+Covered:
+- V10-WM-S03
+- V10-WM-C08
+- V10-WM-S06
+
+Evidence:
+- `TESTS/WANMING_CLUSTER_B_PLAN.md`
+- `TESTS/WANMING_CLUSTER_B_POSITIVE_SCENES.md`
+- `TESTS/WANMING_CLUSTER_B_BOUNDARY_RESULTS.md`
+- `TESTS/WANMING_CLUSTER_B_RESULTS.md`
+
+Result:
+- positive scenes: 3 / 3 pass
+- boundary tests: 6 / 6 pass
+- anti-pattern stress: pass
+- Runtime promotions: 0
