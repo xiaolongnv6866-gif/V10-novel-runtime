@@ -774,3 +774,34 @@
   tags:
   - authority
   - everyday-life
+- id: p56
+  title: 善意若无实际代价容易沦为人物美化
+  type: principle
+  source_chapter: 第34章 机缘
+  source_locator: Text/chapter40.html
+  source_quote: 庞雨最近资金紧张
+  summary: 在人物帮别人解决困难时，同时保留钱、时间、工作和私人关系的负担；允许主角事后抱怨，让行为的真诚与性格自利并存。不能只让受益者感谢主角而无自己的选择。
+  task_ids:
+  - TX-T03
+  - TX-T08
+  - TX-T13
+  tags:
+  - character
+  - cost
+  - life
+- id: p57
+  title: 官职被承认不等于旁人能准确识别官员本人
+  type: principle
+  source_chapter: 第74章 新知县
+  source_locator: Text/chapter80.html
+  source_quote: 中间那位就是杨知县了吧
+  summary: 一个人的职位与实际年龄、履职经验、旁人想象、随行幕友影响力可能错位；把这种错位通过可见误认和后续执行问题展示，而不取消其正式任命的有效性。
+  task_ids:
+  - TX-T01
+  - TX-T02
+  - TX-T13
+  tags:
+  - status
+  - information
+  - irony
+  - irony
