@@ -963,3 +963,60 @@
   - social-world
   - limited-information
   - humor
+- id: f54
+  title: 公开协商与私下结盟的双层现场
+  type: framework
+  source_chapter: 第43章 汇集
+  source_locator: Text/chapter49.html
+  source_quote: 一场会议不欢而散
+  summary: 让各方在公开场合围绕一套可说出口的方案争论；会后切到各自小圈子的真实交易、顾忌与准备。公开会议仍然会形成真实文书或决定，却不能被等同于某一方实际行动的全貌。
+  task_ids:
+  - TX-T04
+  - TX-T14
+  - TX-T15
+  tags:
+  - multi-interest
+  - politics
+  - narrative
+  inputs: 公共议题、公开发言者、其既有资源与秘密风险
+  steps: 先列每人的公开目标与不可公开目标→让会议产生可见冲突和有限决议→切到局部人物的后续行为→核对决议与行动的差值
+  outputs: 可由不同位置自行推动的并行因果
+  missing_conditions: 非作者政策说明；只在章节中存在公开/私下两层行为时可用
+- id: f55
+  title: 有代价的善举并行保留功利欲望
+  type: framework
+  source_chapter: 第34章 机缘
+  source_locator: Text/chapter40.html
+  source_quote: 末了自己还亏了几两银子
+  summary: 主角为他人解决一件具体困难，同时承担金钱、时间和关系的代价；紧接着仍然抱怨成本、催办自己的利益事务。让读者从前后行为自己判断复杂品格，不靠旁白宣布主角善恶。
+  task_ids:
+  - TX-T03
+  - TX-T08
+  - TX-T13
+  tags:
+  - character
+  - everyday-life
+  - ambiguity
+  inputs: 具体受益人及其独立困难、主角短期利益、双方关系
+  steps: 先让受益人的具体需要站住脚→主角做一项不可免费收回的事→展示受益人对承诺的解释→切回主角未消失的逐利事项和新成本
+  outputs: 同一角色的善意/自利同时成立且留下后续账
+  missing_conditions: 不能由一场善举把整个人物洗成道德楷模，也不能取消受益人的独立意愿
+- id: f56
+  title: 官衔威严与身体年龄经验错位的入场悬念
+  type: framework
+  source_chapter: 第74章 新知县
+  source_locator: Text/chapter80.html
+  source_quote: 当先是个大约只有十三四岁的大男孩
+  summary: 先由官位、迎送程序和属员判断制造读者预期；随后用身体年龄、衣着和谁先认错人的现场揭示反差。官员的正式权力仍在，但下属、幕友和亲属的能力/欲望不因此变成同一种状态。
+  task_ids:
+  - TX-T01
+  - TX-T02
+  - TX-T13
+  tags:
+  - status
+  - humor
+  - scene-entry
+  inputs: 社会角色预期、可见身体特征、正式权限链
+  steps: 建立角色将要出现的职位期待→通过下属误认或现场礼节揭示反差→让各人据身份继续行动→延后用实际事务检验其能否履职
+  outputs: 身份有效而人物复杂的场景入口
+  missing_conditions: 单个少年官员是小说特定人物，不能推广为所有官员都缺乏执行力
