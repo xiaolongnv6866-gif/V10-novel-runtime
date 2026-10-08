@@ -40,7 +40,7 @@
 ## 当前能力来源
 
 - 已有长期《晚明》《铁血残明》学习与 72 轮左右的选择训练成果。
-- Cangjie-skill：计划正式蒸馏两书中的可执行创作方法。
+- Cangjie-skill：《晚明》已完成 Stage 0–5 正式蒸馏、single 编译、V10 候选去重与 4 个原创开放测试簇；15 项候选目前全部停在 READY_FOR_BLIND，尚未进入 Runtime。《铁血残明》尚待同级正式蒸馏。
 - NUWA：计划进一步蒸馏柯山梦的作者心智与判断方式。
 - GitHub 专项研究：人物、世界、连续性、战争、财政、技术、物流、情报、国际贸易、史实来源等。
 - 用户历次正文纠偏必须与上述能力同等进入统一 Runtime，而不是成为临时提醒。
@@ -60,3 +60,21 @@
 - 正确理解主角、崇祯、南阳、1641/1644/1649–1652时间压力。
 - 自动执行核心创作原则而非等待提醒。
 - 对旧剧情有疑问时主动回查 Canon，而不是凭印象补写。
+
+
+## 当前候选晋级工作
+
+### 《晚明》→ V10
+
+- Cangjie Stage 0–5：完成。
+- V10 candidate review：20 个 verified 能力中 15 个进入候选层，5 个 reference-only。
+- V10 原创开放测试：Cluster A–D 全部完成。
+  - 正向场景/协议：12 / 12 通过（Cluster A 有一次叙事层修复后通过）。
+  - 边界/反例：24 / 24 通过。
+  - 反模式压力：4 / 4 通过。
+- Runtime / Canon 修改：0。
+- 当前唯一剩余晋级门：**双臂盲测 / non-regression**。
+- 已生成：
+  - `TESTS/bundles/V10-wanming-baseline-blind-v0.1.zip`
+  - `TESTS/bundles/V10-wanming-candidate-blind-v0.1.zip`
+- 盲测通过前不得把《晚明》候选写入 `RUNTIME/CORE.md` 或 `V10_SKILL.md`。
