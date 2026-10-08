@@ -105,3 +105,10 @@
 - Tiexue Stage 1 可复用 QA：`RESEARCH/CANGJIE/TIEXUECANMING/QA/validate_stage1_candidates.py`；`GitHub Actions / Tiexue Stage 1 Schema Gate` 已成功运行（run 37771968995）。无原书时仅结构校验，不等于全文语义通过。后续连续章块审读顺序见 `STAGE1_REVIEW_BACKLOG.md`。
 
 - 《铁血残明》Stage 1 连续阅读第33—80章：6章全文、42章定向段落；共增加13条RAW至250。见 `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_SEMANTIC_BATCH_03.md`。仍需要余下章节及targeted章的逐自然块语义复核，Stage 1.5未开始。
+
+## 双书 Stage 1 验收一致性校正（2026-10-08）
+- 原来对《晚明》“Stage 0–5 complete”的声明只适用于**当时已抽取能力的Cangjie Skill 编译/测试交付**；其 framework/principle 全书逐自然块语义扫描没有留下足够可审计日志，故**来源覆盖完整性待补审**。
+- 《晚明》20个已分流单元和3项V10 A/B晋级不因此自动无效，但不能当作已穷尽整书能力的证据。
+- 《铁血残明》维持Stage 1覆盖硬门OPEN；按原始Cangjie“双全量扫描+三检索块”策略完成，不以候选数衡量好坏。
+- 统一审计与修复方案：`RESEARCH/CANGJIE/CROSS_BOOK_STAGE1_PARITY_AUDIT_2026-10-08.md`。
+- 本次没有更改Runtime或Canon。
