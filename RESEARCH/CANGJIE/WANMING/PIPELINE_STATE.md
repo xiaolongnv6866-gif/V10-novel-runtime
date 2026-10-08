@@ -15,7 +15,7 @@
 - Stage 2 RIA++ capability cards: **COMPLETE / VALIDATED — 20 / 20**
 - Stage 3 Zettelkasten links: **COMPLETE / VALIDATED**
 - Stage 4 pressure tests: **COMPLETE — FALLBACK SELF-TEST PASS**
-- Stage 5 compile/delivery: **AUTO DECISION COMPLETE / WAITING USER OUTPUT CONFIRMATION**
+- Stage 5 compile/delivery: **COMPLETE — SINGLE / REPOSITORY DELIVERY**
 - V10 candidate promotion review: NOT STARTED
 
 ## Stage 1 counts
@@ -158,7 +158,29 @@ Run Cangjie Stage 5 using the original `methodology/07-stage5-deliver.md`: gener
 
 - user output choice: **single / confirmed**
 - DIGEST.md: COMPLETE (~9100 chars)
-- formal compile: PENDING
-- validate_skill_pack.py: PENDING
-- repository delivery: PENDING
+- formal compile: COMPLETE
+- validate_skill_pack.py: PASS — 0 errors / 0 warnings
+- repository delivery: COMPLETE
 - host skill installation: not requested; repository delivery is current target
+
+
+## Stage 5 final validation
+
+- user output choice: single / confirmed
+- compiled Skill entries: 1
+- internal capability cards: 20
+- explicit validator: 25 Markdown / 1 SKILL.md / 0 errors / 0 warnings
+- DIGEST.md: complete
+- INDEX.md: complete
+- FINAL_SNAPSHOT.md: complete
+- repository delivery: complete
+- host installation: not performed; no local target was requested
+- V10 Runtime / Canon modified: false
+
+## Cangjie pipeline status
+
+**Stage 0–5 COMPLETE for repository delivery.**
+
+Remaining outside Cangjie:
+- V10 candidate promotion review: READY
+- direct Runtime promotion: NOT STARTED
