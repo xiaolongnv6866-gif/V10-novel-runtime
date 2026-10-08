@@ -608,3 +608,112 @@
   tags:
   - case
   - fictional-scene
+- id: c36
+  title: 附载年表被署名为吧友整理
+  type: case
+  example_kind: editorial_paratext_case
+  source_chapter: 年表
+  source_locator: Text/Section0011.html
+  source_quote: 时间线系贴吧吧友
+  summary: 编辑/附载材料显式给出整理者，证明当前 EPUB 的年表与小说正文的作者源级别不同。
+  bound_to: &id001
+  - TX-T17
+  - TX-T18
+  task_ids: *id001
+  outcome: 仅对应 EPUB 实际材料；不推断后续故事或史学真实结果
+  tags:
+  - case
+  - source-provenance
+- id: c37
+  title: 书末注对人物关系冲突版本公开取舍
+  type: case
+  example_kind: epub_chapter_note_case
+  source_chapter: 第43章 汇集
+  source_locator: Text/chapter49.html
+  source_quote: 有其他记载说方孔炤是独子
+  summary: 第43章注释指出有关人物关系存在不同记载，并说明所采用资料；不是小说人物在场知识。
+  bound_to: &id002
+  - TX-T17
+  task_ids: *id002
+  outcome: 仅对应 EPUB 实际材料；不推断后续故事或史学真实结果
+  tags:
+  - case
+  - source-provenance
+- id: c38
+  title: 书末注把矛盾记录收束为叙事设定
+  type: case
+  example_kind: epub_chapter_note_case
+  source_chapter: 第459章 连坐
+  source_locator: Text/chapter465.html
+  source_quote: 所以最终采信的设定
+  summary: 第459章长注承认史料时间线与记录互相冲突，再把最终小说采用的版本称为“设定”；这里是作者侧证据处理案例。
+  bound_to: &id003
+  - TX-T17
+  task_ids: *id003
+  outcome: 仅对应 EPUB 实际材料；不推断后续故事或史学真实结果
+  tags:
+  - case
+  - source-provenance
+- id: c39
+  title: 书末注显式用记录推算未知条件
+  type: case
+  example_kind: epub_chapter_note_case
+  source_chapter: 第504章 塘马
+  source_locator: Text/chapter511.html
+  source_quote: 由此可以推断
+  summary: 第504章注释从可定位记录推导另一个条件，推导连接词直接表明结论仍是推断。
+  bound_to: &id004
+  - TX-T17
+  task_ids: *id004
+  outcome: 仅对应 EPUB 实际材料；不推断后续故事或史学真实结果
+  tags:
+  - case
+  - source-provenance
+- id: c40
+  title: 善后因公文和钱粮延续到下段
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第358章 善后
+  source_locator: Text/chapter365.html
+  source_quote: 善后擦屁股几个月都办不完
+  summary: 第358章把一场大事留下的财务、安置、岗位责任和官府往来并入后来行动，提供后果持续性案例。
+  bound_to: &id005
+  - TX-T05
+  - TX-T16
+  task_ids: *id005
+  outcome: 仅对应 EPUB 实际材料；不推断后续故事或史学真实结果
+  tags:
+  - case
+  - fictional-scene
+- id: c41
+  title: 账面银庄存银形成利息支付压力
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第409章 讨价
+  source_locator: Text/chapter415.html
+  source_quote: 这些都是银庄的负债
+  summary: 第409章人物明确把所掌握的存银视为对储户的负债，并考虑每年的付息与可持续收益，体现不同角色的财务焦虑。
+  bound_to: &id006
+  - TX-T11
+  - TX-T16
+  task_ids: *id006
+  outcome: 仅对应 EPUB 实际材料；不推断后续故事或史学真实结果
+  tags:
+  - case
+  - fictional-scene
+- id: c42
+  title: 官场预设归责改变人物的政治预期
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第436章 评语
+  source_locator: Text/chapter442.html
+  source_quote: 顶下罪责的人
+  summary: 第436章通过知情人物的政治推断把危机结果与问责位置连接，说明上级解释不一定等同现场事实。
+  bound_to: &id007
+  - TX-T09
+  - TX-T14
+  task_ids: *id007
+  outcome: 仅对应 EPUB 实际材料；不推断后续故事或史学真实结果
+  tags:
+  - case
+  - fictional-scene
