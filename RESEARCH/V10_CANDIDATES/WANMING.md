@@ -352,3 +352,48 @@ Result:
 - boundary tests: 6 / 6 pass
 - mechanism-rich/prose-poor stress: pass
 - Runtime promotions: 0
+
+
+### Cluster D — 现代知识与历史研究
+
+Status: **COMPLETE — OPEN_TEST_PASS / READY_FOR_BLIND**
+
+Covered:
+- V10-WM-C07
+- V10-WM-P01
+
+Evidence:
+- `TESTS/WANMING_CLUSTER_D_PLAN.md`
+- `TESTS/WANMING_CLUSTER_D_POSITIVE_TESTS.md`
+- `TESTS/WANMING_CLUSTER_D_BOUNDARY_RESULTS.md`
+- `TESTS/WANMING_CLUSTER_D_RESULTS.md`
+
+Result:
+- positive tests: 3 / 3 pass
+- boundary tests: 6 / 6 pass
+- anti-pattern stress: pass
+- Runtime / V10_SKILL promotions: 0
+
+---
+
+## Wanming V10 open-test aggregate
+
+All four clusters are complete:
+
+- Cluster A: 6 candidates
+- Cluster B: 3 candidates
+- Cluster C: 4 candidates
+- Cluster D: 2 candidates
+
+Total V10 candidates tested: **15 / 15**
+
+Open-test state:
+- positive scene/protocol tests: **12 / 12 pass** (Cluster A includes one narrative-layer repair before final pass)
+- boundary/counterexample tests: **24 / 24 pass**
+- cross-cluster anti-pattern stresses: **4 / 4 pass**
+- direct Runtime promotions: **0**
+
+Next required gate:
+**blind / non-regression testing**.
+
+Until that gate passes, every candidate remains in RESEARCH/V10_CANDIDATES only.
