@@ -296,3 +296,73 @@
   tags:
   - term
   - historical-narrative
+- id: g22
+  term: 放告
+  type: term
+  source_chapter: 第13章 官威
+  source_locator: Text/chapter19.html
+  author_definition: 官署接受诉求时由书办等人员安排办理次序的流程入口。
+  source_quote: 话，辜知县走了不放告，已经积累了三十多件，每
+  key_distinction: 手续相同不代表办理顺序无权力。
+  why_it_matters: 用于恢复 TX-T02 对应的小说背景术语，不将叙事词汇误作现代法规或普适组织法。
+  task_ids:
+  - TX-T02
+  tags:
+  - term
+  - historical-narrative
+- id: g23
+  term: 编制
+  type: term
+  source_chapter: 第68章 编制
+  source_locator: Text/chapter74.html
+  author_definition: 在地方衙门内随差务与人事利益被划拨的名额。
+  source_quote: 第68章 编制  “叫那庞班头出来，既
+  key_distinction: 不只是纸上数字。
+  why_it_matters: 用于恢复 TX-T06 对应的小说背景术语，不将叙事词汇误作现代法规或普适组织法。
+  task_ids:
+  - TX-T06
+  tags:
+  - term
+  - historical-narrative
+- id: g24
+  term: 融资
+  type: term
+  source_chapter: 第178章 融资
+  source_locator: Text/chapter185.html
+  author_definition: 故事里机构与人事关系连动的资金获得及付息义务。
+  source_quote: 第178章 融资  庞雨拿出一张纸递过去
+  key_distinction: 不是免费新钱。
+  why_it_matters: 用于恢复 TX-T11 对应的小说背景术语，不将叙事词汇误作现代法规或普适组织法。
+  task_ids:
+  - TX-T11
+  tags:
+  - term
+  - historical-narrative
+- id: g25
+  term: 抵押
+  type: term
+  source_chapter: 第276章 奢华
+  source_locator: Text/chapter283.html
+  author_definition: 借款担保要求，金融负责者可能希望有却不敢向掌权人索取。
+  source_quote: 的安庆百顺堂，说抵押就给抵押了，军饷也都抵押
+  key_distinction: 不等于签字借款后风险消失。
+  why_it_matters: 用于恢复 TX-T11 对应的小说背景术语，不将叙事词汇误作现代法规或普适组织法。
+  task_ids:
+  - TX-T11
+  tags:
+  - term
+  - historical-narrative
+- id: g26
+  term: 墩长
+  type: term
+  source_chapter: 第417章 瓦房
+  source_locator: Text/chapter423.html
+  author_definition: 某类基层分配/行政场景中负责回应土地与用人问题的角色。
+  source_quote: 两家总旗，还得请墩长大人判明。”  潜山二号
+  key_distinction: 不是抽象善政的发言机器。
+  why_it_matters: 用于恢复 TX-T08 对应的小说背景术语，不将叙事词汇误作现代法规或普适组织法。
+  task_ids:
+  - TX-T08
+  tags:
+  - term
+  - historical-narrative
