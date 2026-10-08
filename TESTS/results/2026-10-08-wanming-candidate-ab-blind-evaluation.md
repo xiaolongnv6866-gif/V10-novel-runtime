@@ -2,6 +2,10 @@
 
 ## 测试输入
 
+Raw answer attachment SHA256:
+- Baseline answer: `ccfb7908174ef18f64aa84f8c7528779c95ef0dcd4836e12075d23adececaa19`
+- Candidate answer: `6df73fa7416fcd077b4669a916527345a8ec773dc442e5d230d92688eda06272`
+
 - Arm A: Baseline 临时会话答卷
 - Arm B: Candidate 临时会话答卷
 - 评分协议：`TESTS/WANMING_CANDIDATE_BLIND_PROTOCOL.md`
