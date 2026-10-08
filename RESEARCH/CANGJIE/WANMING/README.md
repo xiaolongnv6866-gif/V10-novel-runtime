@@ -20,7 +20,7 @@
 - Stage 2: complete / validated
 - Stage 3: complete / validated
 - Stage 4: complete / fallback self-test pass
-- Stage 5: not started
+- Stage 5: complete / single repository delivery
 - verified canonical units: 20
 - promoted independent Skills: 7
 - router capability cards: 13
@@ -39,3 +39,8 @@
 ## 保存策略
 
 当前阶段成果立即保存；后续 Stage 1.6、2、3、4、5 完成后继续更新同一目录。全部蒸馏、反例测试、压力测试完成后再做一次完整定版，然后才进入 V10 候选晋级评审。
+
+
+## Final status
+
+Cangjie Stage 0–5 已完成仓库交付。当前产物仍属于 RESEARCH/candidate 来源层；V10 Runtime / Canon 未修改。下一步为 V10 candidate promotion review。
