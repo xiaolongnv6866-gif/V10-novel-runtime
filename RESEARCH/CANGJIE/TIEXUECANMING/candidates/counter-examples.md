@@ -708,3 +708,47 @@
   - counter-example
   - power
   - temporality
+- id: ce38
+  title: 一次善举自动证明主角完全正义
+  type: counter-example
+  source_chapter: 第34章 机缘
+  source_locator: Text/chapter40.html
+  source_quote: 日后绝不能再干
+  summary: 只保留赠鞋与受助者感激，却删掉赠与对主角时间、成本和对私人目标的影响，让复杂人物被“好人标签”取代。
+  task_ids:
+  - TX-T03
+  - TX-T08
+  - TX-T13
+  tags:
+  - counter-example
+  - character
+  failure_mode: 将具体善举写成主角美德证明，取消社会细节和后续代价
+  mechanism: 受益者有自己的羞怯和家庭义务，主角仍关心进度和收益
+  warning_signs:
+  - 受益人只有感恩台词
+  - 主角做善事没有任何成本或后续冲突
+  bound_to:
+  - f55
+  - p56
+- id: ce39
+  title: 一次堂议后全体地方士绅自动同意
+  type: counter-example
+  source_chapter: 第43章 汇集
+  source_locator: Text/chapter49.html
+  source_quote: 一场会议不欢而散
+  summary: 若把一次公开堂议的多数决定写成地方士绅利益完全一致，会丢失台前言论、台下准备与对第三方风险的分歧。
+  task_ids:
+  - TX-T04
+  - TX-T14
+  - TX-T15
+  tags:
+  - counter-example
+  - multi-interest
+  failure_mode: 用一场会议覆盖各方独立利益和行动
+  mechanism: 公开会议只能形成有限决定，席间冲突与会后私下行为可继续独立发生
+  warning_signs:
+  - 角色会议结束后没有独立行动
+  - 不同立场人物立即统一成一个群体意志
+  bound_to:
+  - f54
+  - f54
