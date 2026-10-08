@@ -936,3 +936,80 @@
   tags:
   - case
   - fictional-scene
+- id: c55
+  title: 药铺亏损时父亲不售损坏药材
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第2章 桐城
+  source_locator: Text/chapter8.html
+  source_quote: 泡过的药材给人家，好点是治不好病
+  summary: 药铺遭灾、家中现金短缺；父亲仍决定重新进货而不是以受损药材交付，母亲焦虑吃饭钱，主角有另一套逐利思考。
+  bound_to:
+  - f50
+  - p52
+  outcome: 家庭的现金压力没有消失，父亲的职业信誉有了可见成本。
+  task_ids:
+  - TX-T03
+  - TX-T08
+  - TX-T13
+  tags:
+  - case
+  - ethics
+  - family
+- id: c56
+  title: 婚约争执中现代励志台词当场失效
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第3章 退婚
+  source_locator: Text/chapter9.html
+  source_quote: 少年穷个屁，咱老庞家比他刘家有钱多了
+  summary: 主角以期待中的标准豪言加入双方长辈谈判，却被本地财力事实和亲属关系立即反驳，两家照旧争辩多年往来。
+  bound_to:
+  - f51
+  - p53
+  outcome: 宣言没有改变交涉，反而形成双方口气、身份和时代预期的错位喜剧。
+  task_ids:
+  - TX-T03
+  - TX-T13
+  tags:
+  - case
+  - dialogue
+  - humor
+- id: c57
+  title: 妇人会茶的不同传闻和当事人回应
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第15章 家奴
+  source_locator: Text/chapter21.html
+  source_quote: 她们正跟这儿办十日一次的会茶
+  summary: 在独立社交场景中，人们分别按目击、转述、好恶说同一桩婚约和药铺新闻，随后当事家属当场表达不同版本，产生新的羞辱和同情。
+  bound_to:
+  - f53
+  outcome: 公共名声不受主角控制，家属对社会评价有自己的需要。
+  task_ids:
+  - TX-T12
+  - TX-T13
+  tags:
+  - case
+  - social-life
+  - multi-voice
+- id: c58
+  title: 当众颂扬县丞改变班头差事安排
+  type: case
+  example_kind: fictional_narrative_scene
+  source_chapter: 第17章 站队
+  source_locator: Text/chapter23.html
+  source_quote: 先饶你几天
+  summary: 班头原拟借分派差事报复主角。主角当众高调支持临时代行职权的上官，班头担忧继续打压会被解释为不敬上级，临时改派较可得利的差事。
+  bound_to:
+  - f52
+  - p54
+  outcome: 当日安排改变，报复意愿未消失，政治效果受传播渠道约束。
+  task_ids:
+  - TX-T02
+  - TX-T06
+  - TX-T14
+  tags:
+  - case
+  - speech
+  - office-politics
