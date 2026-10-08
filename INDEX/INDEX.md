@@ -83,5 +83,8 @@
 - `RESEARCH/CANGJIE/TIEXUECANMING/SOURCE_AUDIT.md` — EPUB 1–534 章节范围、版本与缺口
 - `RESEARCH/CANGJIE/TIEXUECANMING/BOOK_OVERVIEW.md` — Stage 0 整书理解（六层结构与 18 个关键任务）
 - `RESEARCH/CANGJIE/TIEXUECANMING/PIPELINE_STATE.md` — 恢复断点
+- `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_SUMMARY.md` — 五提取器154条原始候选
+- `RESEARCH/CANGJIE/TIEXUECANMING/STAGE1_COVERAGE_AUDIT.md` — 18个关键任务与来源覆盖缺口
+- `RESEARCH/CANGJIE/TIEXUECANMING/candidates/` — frameworks/principles/cases/counter-examples/glossary 五份源绑定提取文件
 
-当前：**Stage 0 已完成，尚待用户确认；Stage 1–5 未开始。**
+当前：**Stage 0 用户已确认；Stage 1 已保存154条原始候选但全量语义覆盖待补；Stage 1.5–5 未开始。**
