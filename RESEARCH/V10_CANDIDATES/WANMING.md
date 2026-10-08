@@ -277,3 +277,33 @@ Cangjie 已提供：
 - 合并强化原条目；
 - 留在工具/reference 层；
 - 淘汰。
+
+
+---
+
+## Test progress
+
+### Cluster A — 1639–1640 组织成长
+
+Status: **COMPLETE — OPEN_SCENE_PASS / READY_FOR_BLIND**
+
+Covered:
+- V10-WM-C01
+- V10-WM-C02
+- V10-WM-C03
+- V10-WM-C04
+- V10-WM-S01
+- V10-WM-S02
+
+Evidence:
+- `TESTS/WANMING_CLUSTER_A_PLAN.md`
+- `TESTS/WANMING_CLUSTER_A_POSITIVE_SCENES.md`
+- `TESTS/WANMING_CLUSTER_A_BOUNDARY_RESULTS.md`
+- `TESTS/WANMING_CLUSTER_A_REPAIR_AP3.md`
+- `TESTS/WANMING_CLUSTER_A_RESULTS.md`
+
+Result:
+- positive scenes: 3 / 3 pass after one narrative repair
+- boundary tests: 6 / 6 pass
+- management-report stress: pass
+- Runtime promotions: 0
