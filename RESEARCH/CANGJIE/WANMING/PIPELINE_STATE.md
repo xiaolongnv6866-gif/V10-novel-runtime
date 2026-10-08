@@ -233,3 +233,15 @@ Current versions:
 
 Formal evaluation:
 `TESTS/results/2026-10-08-wanming-candidate-ab-blind-evaluation.md`
+
+
+## Source-coverage parity audit — 2026-10-08
+
+**Correction to the historical Stage 1 COMPLETE declaration:**
+
+- Stage 1 five-extractor candidate files were **delivered** (73 raw candidates), and 20 extracted units have recorded V1/V2/V3 tests.
+- However, after cross-checking against the original Cangjie requirement for **full natural-block semantic scanning** by the framework and principle extractors, the repository lacks an auditable scan ledger sufficient to establish this hard gate.
+- Thus **SOURCE-COVERAGE COMPLETENESS: NOT YET VERIFIED / RETROSPECTIVE AUDIT REQUIRED**.
+- This does not reverse the successful Stage 5 compile/validator nor the V10 three-item A/B promotion. It limits what “entire source fully distilled” may mean until the missing coverage audit is performed.
+- Cross-book criteria and repair plan: `../CROSS_BOOK_STAGE1_PARITY_AUDIT_2026-10-08.md`.
+- V10 Runtime / Canon: unchanged by this audit.
