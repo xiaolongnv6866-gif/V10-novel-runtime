@@ -3,7 +3,7 @@
 - Stage 0 source audit: **COMPLETE**
 - Stage 0 Adler whole-book (available EPUB 1–534): **COMPLETE / USER CONFIRMED**
 - Stage 0 user confirmation: **CONFIRMED (user replied “继续”)**
-- Stage 1 five-extractor candidates: **154 RAW SAVED (35/35/35/23/26); SOURCE-COVERAGE GATE OPEN — NOT FULLY COMPLETE**
+- Stage 1 five-extractor candidates: **197 RAW SAVED (44/45/47/31/30); SOURCE-COVERAGE GATE OPEN — NOT FULLY COMPLETE**
 - Stage 1.5 triple verification: NOT STARTED
 - Stage 1.6 promotion gate: NOT STARTED
 - Stage 2 RIA++: NOT STARTED
@@ -20,7 +20,7 @@ Checkpoint policy: upload after each finished verifiable stage/sub-stage and ver
 
 - `SOURCE_AUDIT.md` — EPUB scope, source hash, chapter numbering faults, paratext boundaries
 - `BOOK_OVERVIEW.md` — 6-part structural reading, 12 provisional interpretive claims, critical/limitations, 18 independent tasks
-- Next strict action: **complete full semantic coverage for framework/principle + TX-T17**, then verify Stage 1 coverage; do not prematurely enter Stage 1.5.
+- Next strict action: **complete full semantic coverage for framework/principle and adjudicate remaining gaps**, then verify Stage 1 coverage; do not prematurely enter Stage 1.5.
 - EPUB remains a partial snapshot; no author's final-ending claims
 - V10 Runtime/Canon changes: none
 
@@ -28,14 +28,14 @@ Checkpoint policy: upload after each finished verifiable stage/sub-stage and ver
 
 - Stage 0 confirmed by user's “继续”.
 - Five raw candidate files uploaded, back-read and matched on content/IDs:
-  - frameworks 35
-  - principles 35
-  - cases 35
-  - counter-examples 23
-  - glossary 26
-- total: 154 raw items (NOT tri-verified).
-- candidate chapter anchors: 42 distinct physical EPUB chapter records.
-- 18 Stage 0 tasks have raw membership, but TX-T17 is substantively under-evidenced (one indirect record).
+  - frameworks 44
+  - principles 45
+  - cases 47
+  - counter-examples 31
+  - glossary 30
+- total: 197 raw items (NOT tri-verified).
+- candidate chapter anchors: 53 distinct physical EPUB chapter records (+ 1 attached reader timeline).
+- 18 Stage 0 tasks have raw membership; TX-T17 now has multiple independently locatable appendix/annotation examples, but historical provenance is still not externally corroborated.
 - Scope caveat: mechanical full-text indexing + focused source close-reads `!=` complete semantic full-scan required by framework/principle extractors.
 - stage documents:
   - `STAGE1_SUMMARY.md`
@@ -45,3 +45,14 @@ Checkpoint policy: upload after each finished verifiable stage/sub-stage and ver
 - Runtime/Canon modifications: NONE.
 
 Next: close the Stage 1 semantic-coverage gap or mark unresolved source tasks honestly before Stage 1.5.
+
+## 2026-10-08 Stage 1 expansion
+
+- Added 43 new source-anchored raw items: now 197 total.
+- 197 / 197 raw IDs unique, source locators present, quotes literal in same EPUB physical record, task IDs nonempty.
+- Repaired 61 old quotes that normalized across line breaks but were not verbatim contiguous.
+- `STAGE1_T17_PROVENANCE_REVIEW.md`: 84 annotated EPUB physical records (83 in chapters + 1 reader-prepared timeline), with type classification and 7 examples.
+- `STAGE1_CHAPTER_SCAN_MATRIX.tsv`: 532 physical story chapter headings (including duplicates and missing numbers), machine topic scan / review state; **not 532 semantic close-reads**.
+- `STAGE1_COVERAGE_UPDATE_2026-10-08.md`: newest coverage audit and remaining hard-gate limits.
+- Full semantic framework/principle scanning is still **incomplete**, Stage 1.5 is **NOT STARTED**.
+- V10 Runtime / Canon: NOT MODIFIED.
