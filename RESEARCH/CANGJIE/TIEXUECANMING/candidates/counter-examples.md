@@ -442,3 +442,85 @@
   tags:
   - narrative
   - boundary
+- id: ce24
+  title: 把读者整理的时间线冒充作者叙事证据
+  type: counter-example
+  source_chapter: 年表
+  source_locator: Text/Section0011.html
+  source_quote: 时间线系贴吧吧友
+  failure_mode: 把读者整理的时间线冒充作者叙事证据
+  mechanism: 来源层级混淆会让附编内容绕过正文验证。
+  warning_signs:
+  - - TX-T17
+    - TX-T18
+  bound_to: 只凭 EPUB 年表断言作者亲笔规划了该情节。
+  task_ids: 只凭 EPUB 年表断言作者亲笔规划了该情节。
+  evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
+  tags:
+  - boundary
+  - inferred-failure
+- id: ce25
+  title: 把书末注的选用设定称作公认历史事实
+  type: counter-example
+  source_chapter: 第459章 连坐
+  source_locator: Text/chapter465.html
+  source_quote: 最终采信的设定
+  failure_mode: 把书末注的选用设定称作公认历史事实
+  mechanism: 作者侧文学设定基于不一致资料作出取舍；“采信”不等于史学确定。
+  warning_signs:
+  - - TX-T17
+  bound_to: 注释承认冲突但分析者删掉冲突，只输出唯一版本。
+  task_ids: 注释承认冲突但分析者删掉冲突，只输出唯一版本。
+  evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
+  tags:
+  - boundary
+  - inferred-failure
+- id: ce26
+  title: 把注释里的推断当成记录的直接陈述
+  type: counter-example
+  source_chapter: 第504章 塘马
+  source_locator: Text/chapter511.html
+  source_quote: 由此可以推断
+  failure_mode: 把注释里的推断当成记录的直接陈述
+  mechanism: 来源记录不能单独证明作者推导的结论，二者需要分别记录。
+  warning_signs:
+  - - TX-T17
+  bound_to: 后续 Canon 把“推断”升级为“明确史载”。
+  task_ids: 后续 Canon 把“推断”升级为“明确史载”。
+  evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
+  tags:
+  - boundary
+  - inferred-failure
+- id: ce27
+  title: 大战完毕立即清零行政与人员后果
+  type: counter-example
+  source_chapter: 第358章 善后
+  source_locator: Text/chapter365.html
+  source_quote: 善后擦屁股几个月都办不完
+  failure_mode: 大战完毕立即清零行政与人员后果
+  mechanism: 高潮之后存在跨岗位、跨时间的履约与处理工作；全略容易损坏组织可信度。
+  warning_signs:
+  - - TX-T05
+    - TX-T16
+  bound_to: 下一章没有任何人继续处理尚未结清的状态。
+  task_ids: 下一章没有任何人继续处理尚未结清的状态。
+  evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
+  tags:
+  - boundary
+  - inferred-failure
+- id: ce28
+  title: 把机构持有存银误写为无偿资金
+  type: counter-example
+  source_chapter: 第409章 讨价
+  source_locator: Text/chapter415.html
+  source_quote: 这些都是银庄的负债
+  failure_mode: 把机构持有存银误写为无偿资金
+  mechanism: 小说财务角色明确关注负债和付息，不能当成可无限拨用的款项。
+  warning_signs:
+  - - TX-T11
+  bound_to: 只列大额存银而完全不写利益义务与成本。
+  task_ids: 只列大额存银而完全不写利益义务与成本。
+  evidence_status: 作者章末注或虚构事件支持的推导风险；并非原文直接要求读者遵守的写作禁令
+  tags:
+  - boundary
+  - inferred-failure
