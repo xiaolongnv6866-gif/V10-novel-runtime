@@ -152,3 +152,13 @@ Run Cangjie Stage 5 using the original `methodology/07-stage5-deliver.md`: gener
 - 按推荐
 - 改成 single
 - 改成 pack
+
+
+## Stage 5 delivery progress
+
+- user output choice: **single / confirmed**
+- DIGEST.md: COMPLETE (~9100 chars)
+- formal compile: PENDING
+- validate_skill_pack.py: PENDING
+- repository delivery: PENDING
+- host skill installation: not requested; repository delivery is current target
