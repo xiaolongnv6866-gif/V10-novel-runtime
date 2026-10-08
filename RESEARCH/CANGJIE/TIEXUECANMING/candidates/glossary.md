@@ -366,3 +366,60 @@
   tags:
   - term
   - historical-narrative
+- id: g27
+  term: 吧友年表
+  type: term
+  source_chapter: 年表
+  source_locator: Text/Section0011.html
+  source_quote: 时间线系贴吧吧友
+  author_definition: 当前 EPUB 前置时间线由读者整理的附载材料。
+  key_distinction:
+  - TX-T17
+  - TX-T18
+  why_it_matters: 防止不同来源证据等级混合，支持 TX-T17/T18 的研究边界
+  task_ids: 提供检索线索，但不是作者叙事或史籍一手证据。
+  tags:
+  - term
+  - source-provenance
+- id: g28
+  term: 章末注
+  type: term
+  source_chapter: 第43章 汇集
+  source_locator: Text/chapter49.html
+  source_quote: 注：《桐城耆旧传》
+  author_definition: 当前版本在章节尾部提供来源引用、背景补充和文学设定判断的附加文本。
+  key_distinction:
+  - TX-T17
+  why_it_matters: 防止不同来源证据等级混合，支持 TX-T17/T18 的研究边界
+  task_ids: 作者侧/编者侧注释与故事角色在场发言、被引史料不是同一证据层。
+  tags:
+  - term
+  - source-provenance
+- id: g29
+  term: 采信的设定
+  type: term
+  source_chapter: 第459章 连坐
+  source_locator: Text/chapter465.html
+  source_quote: 所以最终采信的设定
+  author_definition: 章末注在材料冲突时说明该小说采用的叙事实定。
+  key_distinction:
+  - TX-T17
+  why_it_matters: 防止不同来源证据等级混合，支持 TX-T17/T18 的研究边界
+  task_ids: 不等于历史唯一可证明版本。
+  tags:
+  - term
+  - source-provenance
+- id: g30
+  term: 推断
+  type: term
+  source_chapter: 第504章 塘马
+  source_locator: Text/chapter511.html
+  source_quote: 由此可以推断
+  author_definition: 章末注从历史记录或事件条件作出的分析结论。
+  key_distinction:
+  - TX-T17
+  why_it_matters: 防止不同来源证据等级混合，支持 TX-T17/T18 的研究边界
+  task_ids: 不同于来源明文直接记载；不确定性应保留。
+  tags:
+  - term
+  - source-provenance
