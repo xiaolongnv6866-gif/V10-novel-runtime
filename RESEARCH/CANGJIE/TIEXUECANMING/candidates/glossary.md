@@ -373,11 +373,11 @@
   source_locator: Text/Section0011.html
   source_quote: 时间线系贴吧吧友
   author_definition: 当前 EPUB 前置时间线由读者整理的附载材料。
-  key_distinction:
+  key_distinction: 提供检索线索，但不是作者叙事或史籍一手证据。
+  why_it_matters: 防止不同来源证据等级混合，支持 TX-T17/T18 的研究边界
+  task_ids:
   - TX-T17
   - TX-T18
-  why_it_matters: 防止不同来源证据等级混合，支持 TX-T17/T18 的研究边界
-  task_ids: 提供检索线索，但不是作者叙事或史籍一手证据。
   tags:
   - term
   - source-provenance
@@ -388,10 +388,10 @@
   source_locator: Text/chapter49.html
   source_quote: 注：《桐城耆旧传》
   author_definition: 当前版本在章节尾部提供来源引用、背景补充和文学设定判断的附加文本。
-  key_distinction:
-  - TX-T17
+  key_distinction: 作者侧/编者侧注释与故事角色在场发言、被引史料不是同一证据层。
   why_it_matters: 防止不同来源证据等级混合，支持 TX-T17/T18 的研究边界
-  task_ids: 作者侧/编者侧注释与故事角色在场发言、被引史料不是同一证据层。
+  task_ids:
+  - TX-T17
   tags:
   - term
   - source-provenance
@@ -402,10 +402,10 @@
   source_locator: Text/chapter465.html
   source_quote: 所以最终采信的设定
   author_definition: 章末注在材料冲突时说明该小说采用的叙事实定。
-  key_distinction:
-  - TX-T17
+  key_distinction: 不等于历史唯一可证明版本。
   why_it_matters: 防止不同来源证据等级混合，支持 TX-T17/T18 的研究边界
-  task_ids: 不等于历史唯一可证明版本。
+  task_ids:
+  - TX-T17
   tags:
   - term
   - source-provenance
@@ -416,10 +416,10 @@
   source_locator: Text/chapter511.html
   source_quote: 由此可以推断
   author_definition: 章末注从历史记录或事件条件作出的分析结论。
-  key_distinction:
-  - TX-T17
+  key_distinction: 不同于来源明文直接记载；不确定性应保留。
   why_it_matters: 防止不同来源证据等级混合，支持 TX-T17/T18 的研究边界
-  task_ids: 不同于来源明文直接记载；不确定性应保留。
+  task_ids:
+  - TX-T17
   tags:
   - term
   - source-provenance
@@ -468,3 +468,18 @@
   tags:
   - term
   - historical-narrative
+- id: g34
+  term: 会茶
+  type: term
+  source_chapter: 第15章 家奴
+  source_locator: Text/chapter21.html
+  source_quote: 她们正跟这儿办十日一次的会茶
+  author_definition: 小说中桐城女子按固定间隔聚集饮茶、交际与交换家常消息的场合。
+  key_distinction: 不只是室内生活装饰，还可成为主角不在场的声誉传播场；不能据单处小说描写断言全社会通用制度。
+  why_it_matters: 帮助 V10 通过普通人聚会建立独立的消息网络与阶层语气，而不把社会舆论仅归于告示和官府。
+  task_ids:
+  - TX-T12
+  - TX-T13
+  tags:
+  - term
+  - social-life
